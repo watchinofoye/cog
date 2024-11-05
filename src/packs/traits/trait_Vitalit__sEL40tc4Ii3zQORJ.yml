@@ -2,7 +2,7 @@ _id: sEL40tc4Ii3zQORJ
 name: Vitalité
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.1_12.png
+img: systems/cog/ui/icons/Icon.1_12.png
 effects: []
 _stats:
   coreVersion: '12.324'

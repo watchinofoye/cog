@@ -4,7 +4,7 @@ type: item
 flags:
   core:
     sourceId: Item.fmxhvTy7noImrrxE
-img: systems/coc/ui/icons/svg/machete.svg
+img: systems/cog/ui/icons/svg/machete.svg
 effects: []
 _stats:
   coreVersion: '12.324'

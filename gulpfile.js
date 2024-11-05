@@ -7,7 +7,7 @@ const less = require('gulp-less');
 
 const SIMPLE_LESS = ["styles/**/*.less"];
 function compileLESS() {
-    return gulp.src("styles/coc.less")
+    return gulp.src("styles/cog.less")
         .pipe(less())
         .pipe(gulp.dest("./css"))
 }

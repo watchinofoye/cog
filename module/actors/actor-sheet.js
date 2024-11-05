@@ -10,8 +10,8 @@ export class CoCActorSheet extends CoCBaseSheet {
     /** @override */
     static get defaultOptions() {
         return foundry.utils.mergeObject(super.defaultOptions, {
-            classes: ["coc", "base", "sheet", "actor", "character"],
-            template: "/systems/coc/templates/actors/actor-sheet.hbs",
+            classes: ["cog", "base", "sheet", "actor", "character"],
+            template: "/systems/cog/templates/actors/actor-sheet.hbs",
             width: 970,
             height: 750,
             tabs: [{navSelector: ".sheet-navigation", contentSelector: ".sheet-body", initial: "stats"}],
@@ -85,10 +85,10 @@ export class CoCActorSheet extends CoCBaseSheet {
             count: data.items.filter(i => i.type === "item").length,
             categories: []
         };
-        for (const category of Object.keys(game.coc.config.itemCategories)) {
+        for (const category of Object.keys(game.cog.config.itemCategories)) {
             data.combat.categories.push({
                 id: category,
-                label: game.coc.config.itemCategories[category],
+                label: game.cog.config.itemCategories[category],
                 items: Object.values(data.items).filter(item => item.type === "item" && item.system.subtype === category && item.system.worn && (item.system.properties.weapon || item.system.properties.protection)).sort((a, b) => (a.name > b.name) ? 1 : -1)
             });
             data.inventory.categories.push({

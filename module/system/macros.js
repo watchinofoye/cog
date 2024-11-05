@@ -14,7 +14,7 @@ export class Macros {
       const actor = item.actor;
 
       const macroName = item.name + " (" + game.actors.get(actor.id).name + ")";
-      const command = `let onlyDamage = false;\nlet customLabel = "";\nlet skillDescription = "";\nlet dmgDescription = "";\n\nif (event) {\n  if (event.shiftKey) onlyDamage = true;\n}\n\ngame.coc.macros.rollItemMacro("${item._id}", "${item.name}", "${item.type}", 0, 0, 0, onlyDamage, customLabel, skillDescription, dmgDescription);`;
+      const command = `let onlyDamage = false;\nlet customLabel = "";\nlet skillDescription = "";\nlet dmgDescription = "";\n\nif (event) {\n  if (event.shiftKey) onlyDamage = true;\n}\n\ngame.cog.macros.rollItemMacro("${item._id}", "${item.name}", "${item.type}", 0, 0, 0, onlyDamage, customLabel, skillDescription, dmgDescription);`;
       this.createMacro(slot, macroName, command, item.img);
     }
     // Create a macro to open the actor sheet of the actor dropped on the hotbar
@@ -47,7 +47,7 @@ export class Macros {
           type: "script",
           img: img,
           command: command,
-          flags: { "coc.macro": true },
+          flags: { "cog.macro": true },
         },
         { displaySheet: false }
       );

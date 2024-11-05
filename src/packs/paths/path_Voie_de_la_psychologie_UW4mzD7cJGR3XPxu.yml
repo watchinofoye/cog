@@ -1,7 +1,7 @@
 _id: UW4mzD7cJGR3XPxu
 name: Voie de la psychologie
 type: path
-img: systems/coc/ui/icons/Icon.6_55.png
+img: systems/cog/ui/icons/Icon.6_55.png
 effects: []
 folder: null
 sort: 0
@@ -30,28 +30,28 @@ system:
     - name: A l'écoute
       type: capacity
       _id: KAX125HdxHZiuVJb
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.KAX125HdxHZiuVJb
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.KAX125HdxHZiuVJb
     - name: Analyse personnelle
       type: capacity
       _id: IHr04zgo4FRWrFhl
-      img: systems/coc/ui/icons/Icon.6_55.png
-      sourceId: Compendium.coc.capacities.IHr04zgo4FRWrFhl
+      img: systems/cog/ui/icons/Icon.6_55.png
+      sourceId: Compendium.cog.capacities.IHr04zgo4FRWrFhl
     - name: Aide psychologique
       type: capacity
       _id: MbYOlB55qpZWAPpd
-      img: systems/coc/ui/icons/Icon.6_55.png
-      sourceId: Compendium.coc.capacities.MbYOlB55qpZWAPpd
+      img: systems/cog/ui/icons/Icon.6_55.png
+      sourceId: Compendium.cog.capacities.MbYOlB55qpZWAPpd
     - name: Examen psychologique
       type: capacity
       _id: yzpnfRsWFlzV2T2T
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.yzpnfRsWFlzV2T2T
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.yzpnfRsWFlzV2T2T
     - name: Intuition héroïque
       type: capacity
       _id: 5UlzP5VDwtaHkymr
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.5UlzP5VDwtaHkymr
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.5UlzP5VDwtaHkymr
   properties:
     profile: false
     prestige: false

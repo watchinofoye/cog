@@ -2,7 +2,7 @@ _id: oTuuljYPx6la5PTi
 name: Esotériste
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.7_20.png
+img: systems/cog/ui/icons/Icon.7_20.png
 effects: []
 _stats:
   coreVersion: '12.324'

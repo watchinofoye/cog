@@ -111,7 +111,7 @@ export const registerHandlebarsHelpers = function () {
     });
 
     Handlebars.registerHelper('isEnabled', function (configKey) {
-        return game.settings.get("coc", configKey);
+        return game.settings.get("cog", configKey);
     });
 
     Handlebars.registerHelper('split', function (str, separator, keep) {
@@ -162,14 +162,14 @@ export const registerHandlebarsHelpers = function () {
     });
 
     Handlebars.registerHelper('getFpLabel', function(){
-        if (game.settings.get("coc", "settingCyberpunk")) {
+        if (game.settings.get("cog", "settingCyberpunk")) {
             return game.i18n.localize("COC.attributes.cp.label");
         }
         else return game.i18n.localize("COC.attributes.fp.label");
     });
 
     Handlebars.registerHelper('getFpAbbrev', function(){
-        if (game.settings.get("coc", "settingCyberpunk")) {
+        if (game.settings.get("cog", "settingCyberpunk")) {
             return game.i18n.localize("COC.attributes.cp.abbrev");
         }
         else return game.i18n.localize("COC.attributes.fp.abbrev");

@@ -99,7 +99,7 @@ export const EffectsModifications = {
         label:"COC.CustomStatus.weak",
 		changes:[
 			{
-				key: "flags.coc.weakened",
+				key: "flags.cog.weakened",
 				mode: 5,
 				value: "true"
 			}
@@ -109,7 +109,7 @@ export const EffectsModifications = {
         label:"COC.CustomStatus.restrain",
 		changes:[
 			{
-				key: "flags.coc.weakened",
+				key: "flags.cog.weakened",
 				mode: 5,
 				value: "true"
 			}

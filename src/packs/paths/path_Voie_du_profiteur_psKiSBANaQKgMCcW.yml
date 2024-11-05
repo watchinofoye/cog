@@ -1,7 +1,7 @@
 _id: psKiSBANaQKgMCcW
 name: Voie du profiteur
 type: path
-img: systems/coc/ui/icons/Icons8_89.png
+img: systems/cog/ui/icons/Icons8_89.png
 effects: []
 folder: null
 sort: 0
@@ -37,28 +37,28 @@ system:
     - name: Réserve personnelle
       type: capacity
       _id: oB4YTgzE43iM2Jll
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.oB4YTgzE43iM2Jll
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.oB4YTgzE43iM2Jll
     - name: Débrouillard
       type: capacity
       _id: YjFGgjowNZeHC7nm
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.YjFGgjowNZeHC7nm
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.YjFGgjowNZeHC7nm
     - name: La part du lion
       type: capacity
       _id: UXtqMBLhGwvgQTix
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.UXtqMBLhGwvgQTix
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.UXtqMBLhGwvgQTix
     - name: Ca c'est du matos !
       type: capacity
       _id: Ccdhp1lZl6X6kWqt
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.Ccdhp1lZl6X6kWqt
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.Ccdhp1lZl6X6kWqt
     - name: Négoce et prospérité
       type: capacity
       _id: E9xmaIb8ymaShL10
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.E9xmaIb8ymaShL10
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.E9xmaIb8ymaShL10
   properties:
     profile: true
     prestige: false

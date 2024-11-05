@@ -46,7 +46,7 @@
     </div>
 {{/if}}
 
-{{> "systems/coc/templates/actors/parts/capacities/actor-capacities.hbs"}}
+{{> "systems/cog/templates/actors/parts/capacities/actor-capacities.hbs"}}
 
 {{!--{{#if (isEmpty (getPaths actor.items))}}--}}
 {{!--    <!--    <p class="empty">Aucune voie n'a été ajoutée pour le moment.</p>-->--}}
@@ -62,13 +62,13 @@
 {{!--                <div class="gridcell gridcell-sm">5</div>--}}
 {{!--            </div>--}}
 {{!--            {{#each paths as |path id|}}--}}
-{{!--                <div class="gridrow grid-6col-150 item" data-item-id="{{path._id}}" data-item-type="item" data-pack="coc.paths">--}}
+{{!--                <div class="gridrow grid-6col-150 item" data-item-id="{{path._id}}" data-item-type="item" data-pack="cog.paths">--}}
 {{!--                    <div class="gridcell left gridheader no-border">--}}
 {{!--                        <a class="item-edit ellipsis" style="width: 100%; text-align: left" title="{{path.name}}">{{path.name}}</a>&nbsp;--}}
 {{!--                        <span class="path-controls item" data-item-id="{{path._id}}" style="padding-right:5px;"><a class="item-control item-delete" title='{{localize "COC.ui.deleteItem"}}'><i class="fas fa-times"></i></a></span>--}}
 {{!--                    </div>--}}
 {{!--                    {{#each path.capacities as |capacity id|}}--}}
-{{!--                        <div class="gridcell gridcell-sm item capacity left" data-item-id="{{capacity._id}}" data-item-type="item" data-pack="coc.capacities" data-path-id="{{path._id}}">--}}
+{{!--                        <div class="gridcell gridcell-sm item capacity left" data-item-id="{{capacity._id}}" data-item-type="item" data-pack="cog.capacities" data-path-id="{{path._id}}">--}}
 {{!--                            {{#if capacity.checked}}--}}
 {{!--                                <a class="capacity-control capacity-checked" title="{{capacity.name}}"><i class="fas fa-square"></i></a>&nbsp;--}}
 {{!--                                <a class="capacity-control item-edit ellipsis">{{capacity.name}}</a>--}}

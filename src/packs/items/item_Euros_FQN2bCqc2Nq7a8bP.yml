@@ -4,7 +4,7 @@ type: item
 flags:
   core:
     sourceId: Item.5hz57WMYXdspWUM8
-img: systems/coc/ui/icons/svg/money-stack.svg
+img: systems/cog/ui/icons/svg/money-stack.svg
 effects: []
 _stats:
   coreVersion: '12.324'

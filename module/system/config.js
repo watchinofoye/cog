@@ -1,7 +1,7 @@
 export const System = {};
 
 System.label = "Chroniques Oubliées Contemporain";
-System.name = "coc";
+System.name = "cog";
 System.rootPath = "/systems/" + System.name;
 System.dataPath = System.rootPath + "/data";
 System.templatesPath = System.rootPath + "/templates";

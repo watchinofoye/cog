@@ -30,7 +30,7 @@ Hooks.once("init", function () {
     /**
      * Set an initiative formula for the system
      */
-    if(game.settings.get("coc", "useVarInit")){
+    if(game.settings.get("cog", "useVarInit")){
       CONFIG.Combat.initiative = {
         formula: "1d6x + @attributes.init.value + @stats.wis.value/100",
         decimals: 2
@@ -54,7 +54,7 @@ Hooks.once("init", function () {
     CONFIG.Combat.documentClass = CocCombat;
 
     // Create a namespace within the game global
-    game.coc = {
+    game.cog = {
         macros : Macros,
         config: COC
     };
@@ -64,12 +64,12 @@ Hooks.once("init", function () {
     Items.unregisterSheet("core", ItemSheet, { makeDefault: true });
 
     // Register actor sheets
-    Actors.registerSheet("coc", CoCActorSheet, {types: ["character"], makeDefault: false, label: "COC.sheet.actor"});
-    Actors.registerSheet("coc", CoCNpcSheet, {types: ["npc"], makeDefault: false, label: "COC.sheet.npc"});
-    Actors.registerSheet("coc", CoCEncounterSheet, {types: ["encounter"], makeDefault: false, label: "COC.sheet.encounter"});
+    Actors.registerSheet("cog", CoCActorSheet, {types: ["character"], makeDefault: false, label: "COC.sheet.actor"});
+    Actors.registerSheet("cog", CoCNpcSheet, {types: ["npc"], makeDefault: false, label: "COC.sheet.npc"});
+    Actors.registerSheet("cog", CoCEncounterSheet, {types: ["encounter"], makeDefault: false, label: "COC.sheet.encounter"});
 
     // Register item sheets
-    Items.registerSheet("coc", CoCItemSheet, {types: ["item", "trait", "capacity", "profile", "path", "encounterWeapon"], makeDefault: false, label: "COC.sheet.item"});
+    Items.registerSheet("cog", CoCItemSheet, {types: ["item", "trait", "capacity", "profile", "path", "encounterWeapon"], makeDefault: false, label: "COC.sheet.item"});
 
     // Preload Handlebars Templates
     preloadHandlebarsTemplates();
@@ -138,7 +138,7 @@ function registerWorldCount(registerKey) {
 
 Hooks.once("ready", async () => {
     if (!System.DEV_MODE) {
-      registerWorldCount('coc');
+      registerWorldCount('cog');
     }
     console.info("COC | " + System.label + " | System ready.");
 });

@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.8Td0egXpJ0IMmN48
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'

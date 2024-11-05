@@ -1,7 +1,7 @@
 _id: TKGK6QnfKFmnMQ4j
 name: Inventeur
 type: profile
-img: systems/coc/ui/icons/Icon.3_65.png
+img: systems/cog/ui/icons/Icon.3_65.png
 effects: []
 folder: null
 sort: 0
@@ -39,17 +39,17 @@ system:
     - name: Voie du danger
       type: path
       _id: cRhwmsQ6fmZBe5ML
-      img: systems/coc/ui/icons/Icon.6_84.png
-      sourceId: Compendium.coc.paths.cRhwmsQ6fmZBe5ML
+      img: systems/cog/ui/icons/Icon.6_84.png
+      sourceId: Compendium.cog.paths.cRhwmsQ6fmZBe5ML
     - name: Voie de la mécanique
       type: path
       _id: OUV8YE0BqDMldsO2
-      img: systems/coc/ui/icons/Icon.7_55.png
-      sourceId: Compendium.coc.paths.OUV8YE0BqDMldsO2
+      img: systems/cog/ui/icons/Icon.7_55.png
+      sourceId: Compendium.cog.paths.OUV8YE0BqDMldsO2
     - name: Voie des sciences
       type: path
       _id: DHEkGr1FuPmogTWp
-      img: systems/coc/ui/icons/Icon.4_92.png
-      sourceId: Compendium.coc.paths.DHEkGr1FuPmogTWp
+      img: systems/cog/ui/icons/Icon.4_92.png
+      sourceId: Compendium.cog.paths.DHEkGr1FuPmogTWp
 _key: '!items!TKGK6QnfKFmnMQ4j'
 

@@ -3,7 +3,7 @@ type: item
 flags:
   core:
     sourceId: Item.pelnv4QPJEKYEnIi
-img: systems/coc/ui/icons/svg/colt-m1911.svg
+img: systems/cog/ui/icons/svg/colt-m1911.svg
 effects: []
 _id: gAKS5ouL63kgCDW8
 _stats:

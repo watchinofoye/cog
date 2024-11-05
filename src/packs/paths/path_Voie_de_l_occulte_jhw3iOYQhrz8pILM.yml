@@ -1,7 +1,7 @@
 _id: jhw3iOYQhrz8pILM
 name: Voie de l'occulte
 type: path
-img: systems/coc/ui/icons/Icon.6_55.png
+img: systems/cog/ui/icons/Icon.6_55.png
 effects: []
 folder: null
 sort: 0
@@ -85,28 +85,28 @@ system:
     - name: Sciences occultes
       type: capacity
       _id: VHVynZT3oUV4Vylt
-      img: systems/coc/ui/icons/Icon.6_55.png
-      sourceId: Compendium.coc.capacities.VHVynZT3oUV4Vylt
+      img: systems/cog/ui/icons/Icon.6_55.png
+      sourceId: Compendium.cog.capacities.VHVynZT3oUV4Vylt
     - name: Résistance occulte
       type: capacity
       _id: CtPRmiHTFrbU1QVH
-      img: systems/coc/ui/icons/Icon.6_55.png
-      sourceId: Compendium.coc.capacities.CtPRmiHTFrbU1QVH
+      img: systems/cog/ui/icons/Icon.6_55.png
+      sourceId: Compendium.cog.capacities.CtPRmiHTFrbU1QVH
     - name: Etoiles propices
       type: capacity
       _id: IKmqehMvbqqaChyk
-      img: systems/coc/ui/icons/Icon.6_55.png
-      sourceId: Compendium.coc.capacities.IKmqehMvbqqaChyk
+      img: systems/cog/ui/icons/Icon.6_55.png
+      sourceId: Compendium.cog.capacities.IKmqehMvbqqaChyk
     - name: Force d'âme
       type: capacity
       _id: Ujv9Rfsqnui8TWGN
-      img: systems/coc/ui/icons/Icon.6_55.png
-      sourceId: Compendium.coc.capacities.Ujv9Rfsqnui8TWGN
+      img: systems/cog/ui/icons/Icon.6_55.png
+      sourceId: Compendium.cog.capacities.Ujv9Rfsqnui8TWGN
     - name: Pouvoir d'outre-monde
       type: capacity
       _id: WiyCrjEe0ZRc4Gzm
-      img: systems/coc/ui/icons/Icon.6_55.png
-      sourceId: Compendium.coc.capacities.WiyCrjEe0ZRc4Gzm
+      img: systems/cog/ui/icons/Icon.6_55.png
+      sourceId: Compendium.cog.capacities.WiyCrjEe0ZRc4Gzm
   properties:
     profile: true
     prestige: true

@@ -11,8 +11,8 @@ export class CoCItemSheet extends ItemSheet {
     /** @override */
     static get defaultOptions() {
         return foundry.utils.mergeObject(super.defaultOptions, {
-            classes: ["coc", "base", "sheet", "item", this.type],
-            template: "/systems/coc/templates/items/item-sheet.hbs",
+            classes: ["cog", "base", "sheet", "item", this.type],
+            template: "/systems/cog/templates/items/item-sheet.hbs",
             width: 600,
             height: 600,
             tabs: [{navSelector: ".sheet-navigation", contentSelector: ".sheet-body", initial: "description"}],
@@ -48,7 +48,7 @@ export class CoCItemSheet extends ItemSheet {
         });
 
         // Click to open
-        html.find('.coc-compendium-pack').click(ev => {
+        html.find('.cog-compendium-pack').click(ev => {
             ev.preventDefault();
             let li = $(ev.currentTarget), pack = game.packs.get(li.data("pack"));
             if ( li.attr("data-open") === "1" ) {
@@ -73,7 +73,7 @@ export class CoCItemSheet extends ItemSheet {
             const elt = $(ev.currentTarget).parents(".effect");
             if (!elt || elt.length === 0) this._onEditItem(ev);
             else {
-                let lockItems = game.settings.get("coc", "lockItems");
+                let lockItems = game.settings.get("cog", "lockItems");
                 if ((!game.user.isGM && lockItems) || this.item.actor) return;    // Si l'item est verrouillé ou appartient à un actor, l'effet n'est pas modifiable
                 if (this.item.actor) return;    // Si l'item appartient à un actor, l'effet n'est pas modifiable
                 const effectId = elt.data("itemId");
@@ -255,12 +255,12 @@ export class CoCItemSheet extends ItemSheet {
     async getData(options) {
         const data = super.getData(options);
 
-        let lockItems = game.settings.get("coc", "lockItems");
+        let lockItems = game.settings.get("cog", "lockItems");
         options.editable &= (game.user.isGM || !lockItems);
 
         const itemData = data.data;
         data.labels = this.item.labels;
-        data.config = game.coc.config;
+        data.config = game.cog.config;
         data.itemType = data.item.type.titleCase();
         data.itemProperties = this._getItemProperties(data.item);
         data.effects = data.item.effects;
@@ -289,7 +289,7 @@ export class CoCItemSheet extends ItemSheet {
         if ( item.type === "item" ) {
             const entries = Object.entries(item.system.properties)
             props.push(...entries.filter(e => e[1] === true).map(e => {
-                return game.coc.config.itemProperties[e[0]]
+                return game.cog.config.itemProperties[e[0]]
             }));
         }
         return props.filter(p => !!p);

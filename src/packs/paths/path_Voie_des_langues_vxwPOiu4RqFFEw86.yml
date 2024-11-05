@@ -1,7 +1,7 @@
 _id: vxwPOiu4RqFFEw86
 name: Voie des langues
 type: path
-img: systems/coc/ui/icons/Icons8_50.png
+img: systems/cog/ui/icons/Icons8_50.png
 effects: []
 folder: null
 sort: 0
@@ -39,28 +39,28 @@ system:
     - name: Langues étrangères
       type: capacity
       _id: uQdESUHxpAOkNzZx
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.uQdESUHxpAOkNzZx
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.uQdESUHxpAOkNzZx
     - name: Histoire et culture
       type: capacity
       _id: UCoDcRA3wfbZRUmq
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.UCoDcRA3wfbZRUmq
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.UCoDcRA3wfbZRUmq
     - name: Langues mortes
       type: capacity
       _id: 2FGEPkDqSKqafFUM
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.2FGEPkDqSKqafFUM
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.2FGEPkDqSKqafFUM
     - name: Oreille fantastique
       type: capacity
       _id: 4YSqFaqpodNTX1Cc
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.4YSqFaqpodNTX1Cc
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.4YSqFaqpodNTX1Cc
     - name: Perception supérieure
       type: capacity
       _id: 4eHQoheCysCDMrDW
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.4eHQoheCysCDMrDW
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.4eHQoheCysCDMrDW
   properties:
     profile: true
     prestige: false

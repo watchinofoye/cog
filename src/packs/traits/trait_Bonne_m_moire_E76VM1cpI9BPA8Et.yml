@@ -2,7 +2,7 @@ _id: E76VM1cpI9BPA8Et
 name: Bonne mémoire
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.7_20.png
+img: systems/cog/ui/icons/Icon.7_20.png
 effects: []
 _stats:
   coreVersion: '12.324'

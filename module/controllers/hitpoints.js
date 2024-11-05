@@ -9,7 +9,7 @@ export class Hitpoints {
             for(let target of targets){
                 let data = foundry.utils.duplicate(target.actor);
                 let hp = data.system.attributes.hp;
-                // Application de la RD si c'est cochée
+                // Application de la RD si c'est coghée
                 const finalAmount = amount + (dr ? target.actor.system.attributes.dr.value : 0);
                 hp.value += finalAmount;
 

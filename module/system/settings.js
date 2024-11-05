@@ -3,7 +3,7 @@ export const registerSystemSettings = function() {
 
     const reload = foundry.utils.debounce(() => window.location.reload(), 250);
 
-    game.settings.register("coc", "useRecovery", {
+    game.settings.register("cog", "useRecovery", {
         name: "SETTINGS.useRecovery.name",
         hint: "SETTINGS.useRecovery.hint",
         scope: "world",
@@ -12,7 +12,7 @@ export const registerSystemSettings = function() {
         type: Boolean
     });
 
-    game.settings.register("coc", "useFortune", {
+    game.settings.register("cog", "useFortune", {
         name: "SETTINGS.useFortune.name",
         hint: "SETTINGS.useFortune.hint",
         scope: "world",
@@ -21,7 +21,7 @@ export const registerSystemSettings = function() {
         type: Boolean
     });
 
-    game.settings.register("coc", "useMadness", {
+    game.settings.register("cog", "useMadness", {
         name: "SETTINGS.useMadness.name",
         hint: "SETTINGS.useMadness.hint",
         scope: "world",
@@ -30,7 +30,7 @@ export const registerSystemSettings = function() {
         type: Boolean
     });
 
-    game.settings.register("coc", "useMana", {
+    game.settings.register("cog", "useMana", {
         name: "SETTINGS.useMana.name",
         hint: "SETTINGS.useMana.hint",
         scope: "world",
@@ -39,7 +39,7 @@ export const registerSystemSettings = function() {
         type: Boolean
     });
 
-    game.settings.register("coc", "settingCyberpunk",{
+    game.settings.register("cog", "settingCyberpunk",{
         name: "SETTINGS.settingCyberpunk.name",
         hint: "SETTINGS.settingCyberpunk.hint",
         scope: "world",
@@ -49,7 +49,7 @@ export const registerSystemSettings = function() {
         onChange: reload
     });    
 
-    game.settings.register("coc", "useDamageResistance", {
+    game.settings.register("cog", "useDamageResistance", {
         name: "SETTINGS.useDamageResistance.name",
         hint: "SETTINGS.useDamageResistance.hint",
         scope: "world",
@@ -58,7 +58,7 @@ export const registerSystemSettings = function() {
         type: Boolean
     });
 
-    game.settings.register("coc", "useVarInit", {
+    game.settings.register("cog", "useVarInit", {
         name: "SETTINGS.useVarInit.name",
         hint: "SETTINGS.useVarInit.hint",
         scope: "world",
@@ -68,7 +68,7 @@ export const registerSystemSettings = function() {
         onChange: reload
     });
 
-    game.settings.register("coc", "displayDifficulty", {
+    game.settings.register("cog", "displayDifficulty", {
         name: "SETTINGS.displayDifficulty.name",
         hint: "SETTINGS.displayDifficulty.hint",
         scope: "world",
@@ -82,7 +82,7 @@ export const registerSystemSettings = function() {
         }
     });
 
-    game.settings.register("coc", "useComboRolls", {
+    game.settings.register("cog", "useComboRolls", {
         name: "SETTINGS.useComboRolls.name",
         hint: "SETTINGS.useComboRolls.hint",
         scope: "world",
@@ -91,7 +91,7 @@ export const registerSystemSettings = function() {
         type: Boolean
     });
 
-    game.settings.register("coc", "explosiveDice",{
+    game.settings.register("cog", "explosiveDice",{
         name: "SETTINGS.explosiveDice.name",
         hint: "SETTINGS.explosiveDice.hint",
         scope: "world",
@@ -100,7 +100,7 @@ export const registerSystemSettings = function() {
         type: Boolean
     });
 
-    game.settings.register("coc", "displayChatDamageButtonsToAll", {
+    game.settings.register("cog", "displayChatDamageButtonsToAll", {
         name: "SETTINGS.displayChatDamageButtonsToAll.name",
         hint: "SETTINGS.displayChatDamageButtonsToAll.hint",
         scope: "world",
@@ -109,7 +109,7 @@ export const registerSystemSettings = function() {
         type: Boolean
     });
 
-    game.settings.register("coc", "moveItem", {
+    game.settings.register("cog", "moveItem", {
         name: "Mode de déplacement des items",
         hint: "Comportement du drag & drop d'un item sur une fiche de personnage (Maintenir MAJ lors du drop pour inverser)",
         scope: "world",
@@ -122,7 +122,7 @@ export const registerSystemSettings = function() {
         config: true
     });
 
-    game.settings.register("coc", "lockItems",{
+    game.settings.register("cog", "lockItems",{
         name: "SETTINGS.lockItems.name",
         hint: "SETTINGS.lockItems.hint",
         scope: "world",
@@ -131,7 +131,7 @@ export const registerSystemSettings = function() {
         type: Boolean
     });
 
-    game.settings.register("coc", "checkFreeHandsBeforeEquip", {
+    game.settings.register("cog", "checkFreeHandsBeforeEquip", {
         name: "SETTINGS.checkFreeHandsBeforeEquip.name",
         hint: "SETTINGS.checkFreeHandsBeforeEquip.hint",
         scope: "world",
@@ -145,7 +145,7 @@ export const registerSystemSettings = function() {
         }
     });
 
-    game.settings.register("coc", "checkArmorSlotAvailability", {
+    game.settings.register("cog", "checkArmorSlotAvailability", {
         name: "SETTINGS.checkArmorSlotAvailability.name",
         hint: "SETTINGS.checkArmorSlotAvailability.hint",
         scope: "world",
@@ -159,7 +159,7 @@ export const registerSystemSettings = function() {
         }
     });
 
-    game.settings.register("coc", "useActionSound",{
+    game.settings.register("cog", "useActionSound",{
         name: "SETTINGS.useActionSound.name",
         hint: "SETTINGS.useActionSound.hint",
         scope: "world",
@@ -168,7 +168,7 @@ export const registerSystemSettings = function() {
         type: Boolean
     });
 
-    game.settings.register('coc', 'worldKey', {
+    game.settings.register('cog', 'worldKey', {
         name: "Unique world key",
         scope: "world",
         config: false,

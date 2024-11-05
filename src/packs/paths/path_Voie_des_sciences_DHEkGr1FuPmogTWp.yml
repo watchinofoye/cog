@@ -1,7 +1,7 @@
 _id: DHEkGr1FuPmogTWp
 name: Voie des sciences
 type: path
-img: systems/coc/ui/icons/Icon.4_92.png
+img: systems/cog/ui/icons/Icon.4_92.png
 effects: []
 folder: null
 sort: 0
@@ -39,28 +39,28 @@ system:
     - name: Formation scientifique
       type: capacity
       _id: 9NZj3bmchhmYH6Tc
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.9NZj3bmchhmYH6Tc
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.9NZj3bmchhmYH6Tc
     - name: Grosse tête
       type: capacity
       _id: IcoUyq3RPZJ6icMi
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.IcoUyq3RPZJ6icMi
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.IcoUyq3RPZJ6icMi
     - name: Tacticien
       type: capacity
       _id: gx0ZpBC3pl09HfHm
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.gx0ZpBC3pl09HfHm
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.gx0ZpBC3pl09HfHm
     - name: Violon d'Ingres
       type: capacity
       _id: Mql910Kry8DrpZey
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.Mql910Kry8DrpZey
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.Mql910Kry8DrpZey
     - name: Intelligence héroïque
       type: capacity
       _id: WT9YIahYezOCjbOW
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.WT9YIahYezOCjbOW
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.WT9YIahYezOCjbOW
   properties:
     profile: true
     prestige: false

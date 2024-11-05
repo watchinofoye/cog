@@ -94,16 +94,16 @@ Hooks.on("chatMessage", (html, content, msg) => {
   let commands = content.match(regExp);
   let command = commands.length > 0 && commands[0].split("/").length > 0 ? commands[0].split("/")[1].trim() : null;
   let arg1 = commands.length > 1 ? commands[1].trim() : null;
-  const actor = game.coc.macros.getSpeakersActor();
+  const actor = game.cog.macros.getSpeakersActor();
 
   const validCommands = ["for", "str", "dex", "con", "int", "sag", "wis", "cha", "atc", "melee", "atd", "ranged", "atm", "magic"];
 
   if (command && validCommands.includes(command)) {
-    game.coc.macros.rollStatMacro(actor, command, 0, 0, null);
+    game.cog.macros.rollStatMacro(actor, command, 0, 0, null);
     return false;
   } else if (command && command === "skill") {
     if (arg1 && validCommands.includes(arg1)) {
-      game.coc.macros.rollStatMacro(actor, arg1, 0, 0, null);
+      game.cog.macros.rollStatMacro(actor, arg1, 0, 0, null);
     } else {
       ui.notifications.error('Vous devez préciser la caractéristique à tester, par exemple "/skill str".');
     }
@@ -116,7 +116,7 @@ Hooks.on("chatMessage", (html, content, msg) => {
 
 Hooks.on("renderChatMessage", (message, html, data) => {
   // Affiche ou non les boutons d'application des dommages
-  if (game.settings.get("coc", "displayChatDamageButtonsToAll")) {
+  if (game.settings.get("cog", "displayChatDamageButtonsToAll")) {
     html.find(".apply-dmg").click((ev) => Hitpoints.onClickChatMessageApplyButton(ev, html, data));
   } else {
     if (game.user.isGM) {
@@ -131,7 +131,7 @@ Hooks.on("renderChatMessage", (message, html, data) => {
     }
   }
   // Affiche ou non la difficulté
-  const displayDifficulty = game.settings.get("coc", "displayDifficulty");
+  const displayDifficulty = game.settings.get("cog", "displayDifficulty");
   if (displayDifficulty === "none" || (displayDifficulty === "gm" && !game.user.isGM)) {
     html.find(".display-difficulty").each((i, elt) => {
       elt.remove();

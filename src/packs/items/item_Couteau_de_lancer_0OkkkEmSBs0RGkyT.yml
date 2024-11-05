@@ -4,7 +4,7 @@ type: item
 flags:
   core:
     sourceId: Item.A4yrcYf5IjDCXu1c
-img: systems/coc/ui/icons/svg/thrown-knife.svg
+img: systems/cog/ui/icons/svg/thrown-knife.svg
 effects: []
 _stats:
   coreVersion: '12.324'

@@ -1,7 +1,7 @@
 _id: Y6kcUSrng0ltsEZy
 name: Commando
 type: profile
-img: systems/coc/ui/icons/Icons8_04.png
+img: systems/cog/ui/icons/Icons8_04.png
 effects: []
 folder: null
 sort: 0
@@ -39,17 +39,17 @@ system:
     - name: Voie des armes à feu
       type: path
       _id: 13GSUeNUrDugwt4W
-      img: systems/coc/ui/icons/Icon.3_32.png
-      sourceId: Compendium.coc.paths.13GSUeNUrDugwt4W
+      img: systems/cog/ui/icons/Icon.3_32.png
+      sourceId: Compendium.cog.paths.13GSUeNUrDugwt4W
     - name: Voie du corps-à-corps
       type: path
       _id: dTc4MdgNZscB1T08
-      img: systems/coc/ui/icons/Icons8_28.png
-      sourceId: Compendium.coc.paths.dTc4MdgNZscB1T08
+      img: systems/cog/ui/icons/Icons8_28.png
+      sourceId: Compendium.cog.paths.dTc4MdgNZscB1T08
     - name: Voie de la survie
       type: path
       _id: 415P4oWcA5Mzwhca
-      img: systems/coc/ui/icons/Icon.5_64.png
-      sourceId: Compendium.coc.paths.415P4oWcA5Mzwhca
+      img: systems/cog/ui/icons/Icon.5_64.png
+      sourceId: Compendium.cog.paths.415P4oWcA5Mzwhca
 _key: '!items!Y6kcUSrng0ltsEZy'
 

@@ -1,7 +1,7 @@
 _id: 4tC9JCuewfgvWd45
 name: Voie du fossoyeur
 type: path
-img: systems/coc/ui/icons/Icon.1_38.png
+img: systems/cog/ui/icons/Icon.1_38.png
 effects: []
 folder: null
 sort: 0
@@ -34,28 +34,28 @@ system:
     - name: Prend ça !
       type: capacity
       _id: rYyQIZgGM8L5noBk
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.rYyQIZgGM8L5noBk
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.rYyQIZgGM8L5noBk
     - name: Plus de munitions
       type: capacity
       _id: fHvaTx4LoWyWJJsm
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.fHvaTx4LoWyWJJsm
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.fHvaTx4LoWyWJJsm
     - name: Dans ta face
       type: capacity
       _id: GM8bqxeQXOvntMrt
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.GM8bqxeQXOvntMrt
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.GM8bqxeQXOvntMrt
     - name: Et encore ça !
       type: capacity
       _id: Vq6i5J17W6RTGq15
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.Vq6i5J17W6RTGq15
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.Vq6i5J17W6RTGq15
     - name: Show time
       type: capacity
       _id: GCJaylQY9511k48D
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.GCJaylQY9511k48D
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.GCJaylQY9511k48D
   properties:
     profile: true
     prestige: false

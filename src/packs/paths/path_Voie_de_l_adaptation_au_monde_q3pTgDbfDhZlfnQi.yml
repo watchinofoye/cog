@@ -4,7 +4,7 @@ type: path
 flags:
   core:
     sourceId: Item.3RJBdPkRIPVA4Hp2
-img: systems/coc/ui/icons/Icon.5_78.png
+img: systems/cog/ui/icons/Icon.5_78.png
 effects: []
 _stats:
   coreVersion: '12.324'

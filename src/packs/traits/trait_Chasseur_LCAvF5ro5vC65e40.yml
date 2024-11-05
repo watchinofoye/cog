@@ -2,7 +2,7 @@ _id: LCAvF5ro5vC65e40
 name: Chasseur
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.1_12.png
+img: systems/cog/ui/icons/Icon.1_12.png
 effects: []
 _stats:
   coreVersion: '12.324'

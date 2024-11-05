@@ -4,7 +4,7 @@ type: item
 flags:
   core:
     sourceId: Item.dOyu6Ub0ICwO940d
-img: systems/coc/ui/icons/svg/flash-grenade.svg
+img: systems/cog/ui/icons/svg/flash-grenade.svg
 effects: []
 _stats:
   coreVersion: '12.324'

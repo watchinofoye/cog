@@ -6,8 +6,8 @@ export class CoCEncounterSheet extends CoCBaseSheet {
     /** @override */
     static get defaultOptions() {
         return foundry.utils.mergeObject(super.defaultOptions, {
-            classes: ["coc", "base", "sheet", "actor", "encounter"],
-            template: "/systems/coc/templates/actors/actor-sheet.hbs",
+            classes: ["cog", "base", "sheet", "actor", "encounter"],
+            template: "/systems/cog/templates/actors/actor-sheet.hbs",
             width: 970,
             height: 750,
             tabs: [{navSelector: ".sheet-navigation", contentSelector: ".sheet-body", initial: "stats"}],

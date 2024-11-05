@@ -23,7 +23,7 @@ export class CocHealingRoll {
     }
 
     _buildHealingRollMessage() {
-        const rollMessageTpl = 'systems/coc/templates/chat/healing-roll-card.hbs';
+        const rollMessageTpl = 'systems/cog/templates/chat/healing-roll-card.hbs';
         const tplData = {
             label : this._label,
             isCritical : this._isCritical,

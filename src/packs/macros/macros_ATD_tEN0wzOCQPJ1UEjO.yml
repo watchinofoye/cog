@@ -5,10 +5,10 @@ flags:
     sourceId: Macro.pl3o7QOh7llDJCcY
 scope: global
 command: |-
-  const actor = game.coc.macros.getSpeakersActor();
-  game.coc.macros.rollStatMacro(actor, "ranged");
+  const actor = game.cog.macros.getSpeakersActor();
+  game.cog.macros.rollStatMacro(actor, "ranged");
 author: 9RNwlVuBKg8gXYwl
-img: systems/coc/ui/macros/icons/ATD.png
+img: systems/cog/ui/macros/icons/ATD.png
 _id: tEN0wzOCQPJ1UEjO
 _stats:
   coreVersion: '12.324'

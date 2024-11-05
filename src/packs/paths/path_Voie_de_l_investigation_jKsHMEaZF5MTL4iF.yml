@@ -1,7 +1,7 @@
 _id: jKsHMEaZF5MTL4iF
 name: Voie de l'investigation
 type: path
-img: systems/coc/ui/icons/Icon.4_68.png
+img: systems/cog/ui/icons/Icon.4_68.png
 effects: []
 folder: null
 sort: 0
@@ -39,28 +39,28 @@ system:
     - name: Esprit d'analyse
       type: capacity
       _id: kbWLe2MbN7UzDgZf
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.kbWLe2MbN7UzDgZf
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.kbWLe2MbN7UzDgZf
     - name: Expertise
       type: capacity
       _id: YwMxkQhWzJU4mqS3
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.YwMxkQhWzJU4mqS3
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.YwMxkQhWzJU4mqS3
     - name: Recherche rapide
       type: capacity
       _id: 78hIYpsooajL7CNk
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.78hIYpsooajL7CNk
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.78hIYpsooajL7CNk
     - name: Mémoire eidétique
       type: capacity
       _id: CwdyJdHCMUdWdOBD
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.CwdyJdHCMUdWdOBD
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.CwdyJdHCMUdWdOBD
     - name: Flair infaillible
       type: capacity
       _id: XyIvD4CsBmTlV3ky
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.XyIvD4CsBmTlV3ky
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.XyIvD4CsBmTlV3ky
   properties:
     profile: true
     prestige: false

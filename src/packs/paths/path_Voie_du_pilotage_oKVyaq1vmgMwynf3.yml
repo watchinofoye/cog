@@ -1,7 +1,7 @@
 _id: oKVyaq1vmgMwynf3
 name: Voie du pilotage
 type: path
-img: systems/coc/ui/icons/Icon.3_95.png
+img: systems/cog/ui/icons/Icon.3_95.png
 effects: []
 folder: null
 sort: 0
@@ -50,28 +50,28 @@ system:
     - name: Pilote émérite
       type: capacity
       _id: e3JK6uDfI3rigULz
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.e3JK6uDfI3rigULz
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.e3JK6uDfI3rigULz
     - name: Manoeuvre d'évitement
       type: capacity
       _id: bA5ITtjr0QbnVKiG
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.bA5ITtjr0QbnVKiG
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.bA5ITtjr0QbnVKiG
     - name: Polyvalent
       type: capacity
       _id: sncHffEcGmsDAcSX
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.sncHffEcGmsDAcSX
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.sncHffEcGmsDAcSX
     - name: En un seul morceau
       type: capacity
       _id: isHaGbnKCATqBSjt
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.isHaGbnKCATqBSjt
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.isHaGbnKCATqBSjt
     - name: As des as
       type: capacity
       _id: ImLgdQ2kvWLeE0FX
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.ImLgdQ2kvWLeE0FX
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.ImLgdQ2kvWLeE0FX
   properties:
     profile: true
     prestige: false

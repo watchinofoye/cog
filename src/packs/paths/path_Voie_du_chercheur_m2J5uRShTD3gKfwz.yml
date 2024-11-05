@@ -1,7 +1,7 @@
 _id: m2J5uRShTD3gKfwz
 name: Voie du chercheur
 type: path
-img: systems/coc/ui/icons/Icon.4_92.png
+img: systems/cog/ui/icons/Icon.4_92.png
 effects: []
 folder: null
 sort: 0
@@ -37,28 +37,28 @@ system:
     - name: Spécialiste des zombies
       type: capacity
       _id: tJVpo026LpybWmTY
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.tJVpo026LpybWmTY
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.tJVpo026LpybWmTY
     - name: Les gestes qui sauvent
       type: capacity
       _id: x8dtY9dkB0ND1IR4
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.x8dtY9dkB0ND1IR4
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.x8dtY9dkB0ND1IR4
     - name: Comprend tes ennemis
       type: capacity
       _id: xG3NMGHbCQRZWgkN
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.xG3NMGHbCQRZWgkN
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.xG3NMGHbCQRZWgkN
     - name: Traitement expérimental
       type: capacity
       _id: QI0S2i397U3H9liG
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.QI0S2i397U3H9liG
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.QI0S2i397U3H9liG
     - name: Les idées claires
       type: capacity
       _id: tVb8PAj2Fsn9Grsw
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.tVb8PAj2Fsn9Grsw
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.tVb8PAj2Fsn9Grsw
   properties:
     profile: true
     prestige: false
