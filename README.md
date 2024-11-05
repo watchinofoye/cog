@@ -1,6 +1,6 @@
 # Système de jeu Chroniques Oubliées Galactiques pour Foundry VTT
 
-<img src="https://github.com/watchinofoye/cog/raw/master/ui/cog/logo.png" width="50%">
+<img src="https://github.com/watchinofoye/cog/blob/coc_to_cog/ui/cog/logo.png" width="50%">
 
 Ce système est fait pour être exécuté dans le moteur [Foundry VTT](https://foundryvtt.com/).
 
