@@ -1,13 +1,10 @@
 # Système de jeu Chroniques Oubliées Galactiques pour Foundry VTT
 
-<img src="https://github.com/watchinofoye/cog/blob/coc_to_cog/ui/cog/logo.png" width="50%">
+<img src="https://github.com/watchinofoye/cog/blob/master/ui/cog/logo.png" width="50%">
 
 Ce système est fait pour être exécuté dans le moteur [Foundry VTT](https://foundryvtt.com/).
 
 Le système comporte les règles et le design du jeu de base, les settings spécifiques sont dans des modules séparés.
-
-Modules disponibles :
-* Cthulhu
 
 ### Installation automatique
 * Allez dans la page d'accueil de Foundry (Configuration and Setup), cliquer sur Game Systems.
