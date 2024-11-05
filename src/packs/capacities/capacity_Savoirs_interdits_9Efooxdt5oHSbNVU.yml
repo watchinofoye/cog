@@ -3,7 +3,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.jpILyrexoDxJZo5I
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _id: 9Efooxdt5oHSbNVU
 _stats:
@@ -25,7 +25,7 @@ system:
     l&rsquo;apparition de cr&eacute;atures surnaturelles. De plus, il obtient un
     bonus de +5 aux tests pour r&eacute;sister &agrave; leurs pouvoirs et +2 en
     DEF contre leurs attaques.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-savoirs-interdits
   setting: base
   moduleData: {}

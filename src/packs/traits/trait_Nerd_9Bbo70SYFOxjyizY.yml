@@ -2,7 +2,7 @@ _id: 9Bbo70SYFOxjyizY
 name: Nerd
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.7_20.png
+img: systems/cog/ui/icons/Icon.7_20.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -21,7 +21,7 @@ system:
     <p><span style="color: #191813; background-color: #d3d3d3;">Le personnage
     obtient un bonus de +5 &agrave; tous les tests concernant les technologies
     de pointe et les sciences.</span></p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: trait-nerd
   setting: base
   moduleData: {}

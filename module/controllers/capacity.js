@@ -37,7 +37,7 @@ export class Capacity {
             capacities.push(EntitySummary.create(capacity));
             return item.update({ 'system.capacities': capacities });
         }
-        else ui.notifications.error(game.i18n.localize("COC.notification.CapacityAlreadyOnItem"));
+        else ui.notifications.error(game.i18n.localize("COG.notification.CapacityAlreadyOnItem"));
     }
 
     /**
@@ -45,7 +45,7 @@ export class Capacity {
      * @param {*} actor 
      * @param {*} capId Id de la capacité sur laquelle a eu lieu le clic
      * @param {*} pathId
-     * @param {*} isUncheck True si l'action a été de décocher la capacité
+     * @param {*} isUncheck True si l'action a été de décogher la capacité
      * 
      */
     static async toggleCheck(actor, capId, pathId, isUncheck) {
@@ -75,7 +75,7 @@ export class Capacity {
         if (isUncheck) {
             const uncheckedKeys = capacities.filter(c => !c.data.checked).map(c => c.data.key);
             const itemsKeys = items.map(i => i.system.key);
-            // Liste des capacités déjà cochées
+            // Liste des capacités déjà coghées
             let inter = ArrayUtils.intersection(uncheckedKeys, itemsKeys);
             let toRemove = items.filter(i => inter.includes(i.system.key)).map(i => i.id);
             return actor.deleteEmbeddedDocuments("Item", toRemove);
@@ -84,7 +84,7 @@ export class Capacity {
             const checked = capacities.filter(c => c.data.checked);
             const checkedIds = checked.map(c => c.sourceId.split('.').pop());
 
-            // Différence entre les capacités déjà cochées et les capacités cochées
+            // Différence entre les capacités déjà coghées et les capacités coghées
             let diff = ArrayUtils.difference(checkedIds, itemsIds);
             let checkedFiltered = checked.filter(c => diff.includes(c.sourceId.split('.').pop()));
 

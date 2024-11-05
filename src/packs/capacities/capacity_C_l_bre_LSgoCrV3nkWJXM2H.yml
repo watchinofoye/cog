@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.suk2Wq4LZe6Ch5Mu
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -27,7 +27,7 @@ system:
     ses tests de CHA et, une fois par aventure, le MJ peut accorder au
     personnage l&rsquo;intervention d&rsquo;un personnage puissant en sa
     faveur.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-celebre
   setting: base
   moduleData: {}

@@ -2,7 +2,7 @@ _id: ozrLsAuPfDTnGvMi
 name: Double nationalité
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.7_20.png
+img: systems/cog/ui/icons/Icon.7_20.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -22,7 +22,7 @@ system:
     ma&icirc;trise deux langues natales, aussi bien &agrave;
     l&rsquo;&eacute;crit qu&rsquo;&agrave; l&rsquo;oral. Il dispose de deux
     passeports.</span></p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: trait-double-nationalite
   setting: base
   moduleData: {}

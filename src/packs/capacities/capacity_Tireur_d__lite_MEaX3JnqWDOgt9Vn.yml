@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.5feLiRhr8N3YxmQ2
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -24,7 +24,7 @@ system:
     distance au lieu du d20 habituel (il ajoute normalement son score
     d&rsquo;attaque). Si une telle attaque est r&eacute;ussie, il ajoute +2d6
     aux DM.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-tireur-delite
   setting: base
   moduleData: {}

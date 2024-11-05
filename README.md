@@ -1,6 +1,6 @@
-# Système de jeu Chroniques Oubliées Contemporain pour Foundry VTT
+# Système de jeu Chroniques Oubliées Galactiques pour Foundry VTT
 
-<img src="https://github.com/ZigmundKreud/coc/raw/master/ui/coc/logo.png" width="50%">
+<img src="https://github.com/watchinofoye/cog/raw/master/ui/cog/logo.png" width="50%">
 
 Ce système est fait pour être exécuté dans le moteur [Foundry VTT](https://foundryvtt.com/).
 
@@ -16,14 +16,14 @@ Modules disponibles :
 ### Installation manuelle
 
 * Allez dans la page d'accueil de Foundry (Configuration and Setup), cliquer sur Game Systems.
-* Cliquez sur "Install System" et coller le lien vers le [manifest](https://raw.githubusercontent.com/ZigmundKreud/coc/master/system.json) dans le champ "Manifest URL" en bas de la fenêtre. 
+* Cliquez sur "Install System" et coller le lien vers le [manifest](https://raw.githubusercontent.com/watchinofoye/cog/master/system.json) dans le champ "Manifest URL" en bas de la fenêtre. 
 * Cliquez sur "Install"
 
 ### Fonctionnalités
-Le détail des fonctionnalités par version est dans le [changelog](https://github.com/ZigmundKreud/coc/blob/master/CHANGELOG).
+Le détail des fonctionnalités par version est dans le [changelog](https://github.com/watchinofoye/cog/blob/master/CHANGELOG).
 ### Mentions Légales
 
-CHRONIQUES OUBLIÉES™ FANTASY/CONTEMPORAIN est un jeu de Black Book Éditions/Casus Belli. Tous droits réservés.
+CHRONIQUES OUBLIÉES™ FANTASY/CONTEMPORAIN/GALACTIQUES est un jeu de Black Book Éditions/Casus Belli. Tous droits réservés.
 
 Identité du produit (Product Identity) : Les éléments suivants sont identifiés comme l’Identité du Produit (Product Identity) et sont donc considérés comme du closed content tel que défini dans la version 1.0a section 1(e) de l’Open Game License (OGL) : les noms et gammes de produits, les logos et marques d’identification y compris la présentation commerciale ; les noms propres, les voies et capacités, les profils, les règles ( exemple : magie, gestion de domaine etc), les objets magiques, les scénarios, personnages et histoires, les symboles, illustrations et dessins, les représentations graphiques ; et plus généralement toutes les descriptions, les marques commerciales ou déposées clairement identifiées comme Identité du Produit (Product Identity) par le propriétaire et qui exclut spécifiquement l’Open Game Content.  
 Le contenu libre de ce livre (Open Content) comprend uniquement le matériel extrait du Document Relatif au Système (SRD). Toute utilisation du contenu libre doit être réalisée dans les conditions de l’Open Game Licence version 1.0a.  
@@ -115,7 +115,7 @@ Chroniques Oubliées™ DRS. Auteurs : Benjamin Lupu, Benjamin « xben » Thibau
 ### Conditions d’utilisation Black Book Editions
 Ce système est publié avec l'aimable autorisation exceptionnelle de Black Book Éditions.  
 Ce système utilise des marques déposées et/ou des droits d’auteurs qui sont la propriété de Black Book Éditions.  
-CHRONIQUES OUBLIÉES™ FANTASY/CONTEMPORAIN est un jeu de Black Book Éditions/Casus Belli. Tous droits réservés.  
+CHRONIQUES OUBLIÉES™ FANTASY/CONTEMPORAIN/GALACTIQUES est un jeu de Black Book Éditions/Casus Belli. Tous droits réservés.  
 
 ---
 

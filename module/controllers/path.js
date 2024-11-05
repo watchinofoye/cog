@@ -76,7 +76,7 @@ export class Path {
         if (pathsIds && !pathsIds.includes(pathData._id)) {
             paths.push(EntitySummary.create(pathData));
             return entity.update({ "system.paths": paths });
-        } else ui.notifications.error(game.i18n.localize("COC.notification.PathAlreadyOnItem"));
+        } else ui.notifications.error(game.i18n.localize("COG.notification.PathAlreadyOnItem"));
     }
 
     /**
@@ -86,8 +86,8 @@ export class Path {
      */
     static removeFromActor(actor, path) {
         Dialog.confirm({
-            title: game.i18n.format("COC.dialog.deletePath.title"),
-            content: game.i18n.format("COC.dialog.deletePath.confirm", { name: actor.name }),
+            title: game.i18n.format("COG.dialog.deletePath.title"),
+            content: game.i18n.format("COG.dialog.deletePath.confirm", { name: actor.name }),
             yes: () => {
                 let items = actor.items.filter((item) => item.type === "capacity" && item.system.path._id === path._id).map((c) => c._id);
                 items.push(path.id);

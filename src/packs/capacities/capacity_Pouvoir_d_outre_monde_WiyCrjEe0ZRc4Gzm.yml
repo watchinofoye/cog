@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.er7exg7XS7foqCzn
-img: systems/coc/ui/icons/Icon.6_55.png
+img: systems/cog/ui/icons/Icon.6_55.png
 effects: []
 _stats:
   coreVersion: '12.324'

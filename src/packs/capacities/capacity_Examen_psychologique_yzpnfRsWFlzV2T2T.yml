@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.kjN8wZumOY2Zvkz0
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -27,7 +27,7 @@ system:
     mentir ou de lui cacher des choses (sans pouvoir d&eacute;terminer lequel
     des deux). En cas d&rsquo;&eacute;chec, le personnage ne peut plus tenter
     cette capacit&eacute; sur la m&ecirc;me cible pendant 24 heures.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-examen-psychologique
   setting: base
   moduleData: {}

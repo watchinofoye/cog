@@ -2,7 +2,7 @@ _id: Gv0WGcPgsCtMkZUO
 name: Riche
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.7_20.png
+img: systems/cog/ui/icons/Icon.7_20.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -21,7 +21,7 @@ system:
     <p><span style="color: #191813; background-color: #d3d3d3;">Le personnage
     b&eacute;n&eacute;icie du niveau de vie &laquo; tr&egrave;s fortun&eacute;
     &raquo;.</span></p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: trait-riche
   setting: base
   moduleData: {}

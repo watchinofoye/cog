@@ -3,7 +3,7 @@ type: item
 flags:
   core:
     sourceId: Item.f4CeL9p7REAwtesJ
-img: systems/coc/ui/icons/svg/lightning-frequency.svg
+img: systems/cog/ui/icons/svg/lightning-frequency.svg
 effects: []
 _id: N3IUTTWyGTAxD4vb
 _stats:

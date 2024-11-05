@@ -1,6 +1,6 @@
 <h3 class="form-header">Propriétés d'armes à distance</h3>
 <div class="form-group">
-    <label>{{localize "COC.ui.range"}}</label>
+    <label>{{localize "COG.ui.range"}}</label>
     <div class="form-fields">
         <input name="system.range" type="text" value="{{item.system.range}}" placeholder="Range" data-dtype="Number">
     </div>
@@ -9,25 +9,25 @@
     <label>Propriétés</label>
     <div class="form-fields">
         <label class="checkbox">
-            <input type="checkbox" name="system.properties.reloadable" {{checked item.system.properties.reloadable}}> {{localize "COC.properties.reloadable"}}
+            <input type="checkbox" name="system.properties.reloadable" {{checked item.system.properties.reloadable}}> {{localize "COG.properties.reloadable"}}
         </label>
         <label class="checkbox">
-            <input type="checkbox" name="system.properties.salve" {{checked item.system.properties.salve}}> {{localize "COC.properties.salve"}}
+            <input type="checkbox" name="system.properties.salve" {{checked item.system.properties.salve}}> {{localize "COG.properties.salve"}}
         </label>
         <label class="checkbox">
-            <input type="checkbox" name="system.properties.proneshot" {{checked item.system.properties.proneshot}}> {{localize "COC.properties.proneshot"}}
+            <input type="checkbox" name="system.properties.proneshot" {{checked item.system.properties.proneshot}}> {{localize "COG.properties.proneshot"}}
         </label>
         <label class="checkbox">
-            <input type="checkbox" name="system.properties.explosive" {{checked item.system.properties.explosive}}> {{localize "COC.properties.explosive"}}
+            <input type="checkbox" name="system.properties.explosive" {{checked item.system.properties.explosive}}> {{localize "COG.properties.explosive"}}
         </label>
     </div>
 </div>
 {{#if system.properties.reloadable}}
     <div class="form-group">
-        <label>{{localize "COC.ui.reload"}}</label>
+        <label>{{localize "COG.ui.reload"}}</label>
         <div class="form-fields">
             <select name="system.reload" data-type="String" style="width:100%">
-                {{selectOptions config.RELOAD selected=system.reload localize=true blank="COC.ui.noAction"}}                
+                {{selectOptions config.RELOAD selected=system.reload localize=true blank="COG.ui.noAction"}}                
             </select>            
         </div>
     </div>

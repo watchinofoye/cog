@@ -2,7 +2,7 @@ _id: OON2p5LRjuie8wvS
 name: Bagarreur
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.1_12.png
+img: systems/cog/ui/icons/Icon.1_12.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -20,7 +20,7 @@ system:
   description: >-
     <p>Le personnage gagne un bonus +1 aux DM &agrave; mains nues et en attaque
     au contact.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: trait-bagarreur
   setting: base
   moduleData: {}

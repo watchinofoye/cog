@@ -7,7 +7,7 @@ import { Capacity } from "../controllers/capacity.js";
 import { Path } from "../controllers/path.js";
 import { Profile } from "../controllers/profile.js";
 import { ArrayUtils } from "../utils/array-utils.js";
-import { COC } from "../system/config.js";
+import { COG } from "../system/config.js";
 
 export class CoCBaseSheet extends ActorSheet {
   /** @override */
@@ -18,7 +18,7 @@ export class CoCBaseSheet extends ActorSheet {
     if (!this.options.editable) return;
 
     // Right click to open
-    html.find(".coc-compendium-pack").contextmenu((ev) => {
+    html.find(".cog-compendium-pack").contextmenu((ev) => {
       ev.preventDefault();
       const li = $(ev.currentTarget);
 
@@ -45,10 +45,10 @@ export class CoCBaseSheet extends ActorSheet {
     });
 
     // Click to open
-    html.find(".item-create.coc-compendium-pack").click((ev) => {
+    html.find(".item-create.cog-compendium-pack").click((ev) => {
       ev.preventDefault();
       let li = $(ev.currentTarget);
-      let packName = li.data("pack").startsWith("coc.") ? li.data("pack") : `coc.${li.data("pack")}`;
+      let packName = li.data("pack").startsWith("cog.") ? li.data("pack") : `cog.${li.data("pack")}`;
       let pack = game.packs.get(packName);
       if (li.attr("data-open") === "1") {
         li.attr("data-open", "0");
@@ -137,7 +137,7 @@ export class CoCBaseSheet extends ActorSheet {
       ev.preventDefault();
       return this.actor.createEmbeddedDocuments("ActiveEffect", [
         {
-          name: game.i18n.localize("COC.ui.newEffect"),
+          name: game.i18n.localize("COG.ui.newEffect"),
           img: "icons/svg/aura.svg",
           origin: this.actor.uuid,
           "duration.rounds": undefined,
@@ -157,10 +157,10 @@ export class CoCBaseSheet extends ActorSheet {
 
   /**
    * @name _onCheckedCapacity
-   * @description Evènement sur la case à cocher d'une capacité dans la partie voie
+   * @description Evènement sur la case à cogher d'une capacité dans la partie voie
    * @param {CofActor} actor l'acteur
    * @param {Event} event l'évènement
-   * @param {boolean} isUncheck la capacité est décochée
+   * @param {boolean} isUncheck la capacité est décoghée
    * @returns l'acteur modifié
    * @private
    */
@@ -253,7 +253,7 @@ export class CoCBaseSheet extends ActorSheet {
       activable: item.system.properties.activable,
     };
 
-    const html = await renderTemplate("systems/coc/templates/chat/item-card.hbs", templateData);
+    const html = await renderTemplate("systems/cog/templates/chat/item-card.hbs", templateData);
     let chatData = {
       speaker: ChatMessage.getSpeaker(),
       content: html,
@@ -359,7 +359,7 @@ export class CoCBaseSheet extends ActorSheet {
     if (!this.actor.isOwner) return false;
 
     const item = await Item.fromDropData(data);
-    if (!COC.actorsAllowedItems[this.actor.type]?.includes(item.type)) return;
+    if (!COG.actorsAllowedItems[this.actor.type]?.includes(item.type)) return;
 
     const itemData = foundry.utils.duplicate(item);
     switch (itemData.type) {
@@ -383,7 +383,7 @@ export class CoCBaseSheet extends ActorSheet {
           if (!item.actor) return item;
 
           // Si l'item doit être "move", on le supprime de l'actor précédent
-          let moveItem = game.settings.get("coc", "moveItem");
+          let moveItem = game.settings.get("cog", "moveItem");
           if (moveItem ^ event.shiftKey) {
             const originalActor = (await fromUuid(data.uuid)).actor;
             originalActor.deleteEmbeddedDocuments("Item", [item.id]);
@@ -447,7 +447,7 @@ export class CoCBaseSheet extends ActorSheet {
     data.limited = this.actor.limited;
     data.options = this.options;
     data.editable = this.isEditable;
-    data.config = game.coc.config;
+    data.config = game.cog.config;
     data.cssClass = isOwner ? "editable" : "locked";
     data.isCharacter = this.actor.type === "character";
     data.isNPC = this.actor.type === "npc";

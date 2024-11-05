@@ -3,7 +3,7 @@
  * @extends {ItemSheet}
  */
 import { CocHealingRoll } from "../controllers/healing-roll.js";
-import { COC } from "../system/config.js";
+import { COG } from "../system/config.js";
 export class CoCItem extends Item {
 
     /* -------------------------------------------- */
@@ -13,7 +13,7 @@ export class CoCItem extends Item {
     /* -------------------------------------------- */
     constructor(...args) {
         let data = args[0];
-        if (!data.img && COC.itemIcons[data.type]) data.img = COC.itemIcons[data.type];
+        if (!data.img && COG.itemIcons[data.type]) data.img = COG.itemIcons[data.type];
 
         super(...args);
     }

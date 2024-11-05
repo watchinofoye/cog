@@ -51,14 +51,14 @@ export class SkillRoll {
    async weaponRoll(actor, dmgFormula, dmgDescr){
         await this.roll(actor);
         if (this._difficulty) {
-            if(this._isSuccess && game.settings.get("coc", "useComboRolls")){
+            if(this._isSuccess && game.settings.get("cog", "useComboRolls")){
                 let r = new DamageRoll(this._label, dmgFormula, this._isCritical, dmgDescr);
                 await r.roll(actor);
                 return r;
             }
         }
         else {
-            if(game.settings.get("coc", "useComboRolls")){
+            if(game.settings.get("cog", "useComboRolls")){
                 let r = new DamageRoll(this._label, dmgFormula, this._isCritical, dmgDescr);
                 await r.roll(actor);
                 return r;
@@ -67,7 +67,7 @@ export class SkillRoll {
     }
 
     _buildRollMessage() {
-        const rollMessageTpl = 'systems/coc/templates/chat/skill-roll-card.hbs';
+        const rollMessageTpl = 'systems/cog/templates/chat/skill-roll-card.hbs';
         const tplData = {
             label : this._label,
             difficulty : this._difficulty,

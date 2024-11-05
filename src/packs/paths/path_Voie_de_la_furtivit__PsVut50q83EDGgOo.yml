@@ -1,7 +1,7 @@
 _id: PsVut50q83EDGgOo
 name: Voie de la furtivité
 type: path
-img: systems/coc/ui/icons/Icon.6_10.png
+img: systems/cog/ui/icons/Icon.6_10.png
 effects: []
 folder: null
 sort: 0
@@ -31,7 +31,7 @@ system:
     </div>
     </div>
     </div>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-voie-de-la-furtivite
   setting: base
   moduleData: {}
@@ -39,28 +39,28 @@ system:
     - name: Discrétion
       type: capacity
       _id: 25LUNNagFJnWwHRq
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.25LUNNagFJnWwHRq
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.25LUNNagFJnWwHRq
     - name: Sens affutés
       type: capacity
       _id: BbZD0c5waw8QR03i
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.BbZD0c5waw8QR03i
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.BbZD0c5waw8QR03i
     - name: Attaque déloyale
       type: capacity
       _id: 9j9GaLmp0LMnUfZ0
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.9j9GaLmp0LMnUfZ0
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.9j9GaLmp0LMnUfZ0
     - name: Embuscade
       type: capacity
       _id: pvSh1lGs3I4NV1Xe
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.pvSh1lGs3I4NV1Xe
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.pvSh1lGs3I4NV1Xe
     - name: Perception héroïque
       type: capacity
       _id: mExl5tZZQnLj7q38
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.mExl5tZZQnLj7q38
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.mExl5tZZQnLj7q38
   properties:
     profile: true
     prestige: false

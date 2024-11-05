@@ -2,7 +2,7 @@ _id: dJhLKSWIgK52n5UN
 name: Rambo
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.1_12.png
+img: systems/cog/ui/icons/Icon.1_12.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -22,7 +22,7 @@ system:
     retranche 2 points &agrave; la FOR minimum n&eacute;cessaire pour utiliser
     les armes &agrave; feu (ou, si vous n&rsquo;utilisez pas cette r&egrave;gle,
     il gagne un bonus de +1 aux DM avec les armes &agrave; feu).</span></p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: trait-rambo
   setting: base
   moduleData: {}

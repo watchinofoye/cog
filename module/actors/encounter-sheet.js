@@ -1,13 +1,13 @@
 import { CoCBaseSheet } from "./base-sheet.js";
-import { COC } from "../system/config.js";
+import { COG } from "../system/config.js";
 
 export class CoCEncounterSheet extends CoCBaseSheet {
 
     /** @override */
     static get defaultOptions() {
         return foundry.utils.mergeObject(super.defaultOptions, {
-            classes: ["coc", "base", "sheet", "actor", "encounter"],
-            template: "/systems/coc/templates/actors/actor-sheet.hbs",
+            classes: ["cog", "base", "sheet", "actor", "encounter"],
+            template: "/systems/cog/templates/actors/actor-sheet.hbs",
             width: 970,
             height: 750,
             tabs: [{navSelector: ".sheet-navigation", contentSelector: ".sheet-body", initial: "stats"}],
@@ -31,7 +31,7 @@ export class CoCEncounterSheet extends CoCBaseSheet {
     /** @override */
     async getData(options) {
         const data = await super.getData(options);
-        if (COC.debug) console.log("COC | EncounterSheet getData", data);
+        if (COG.debug) console.log("COG | EncounterSheet getData", data);
 
         // Combat and Inventory
         data.inventory = data.items.filter(i => i.type === "item");
@@ -49,7 +49,7 @@ export class CoCEncounterSheet extends CoCBaseSheet {
 
         data.enrichedDescription = await TextEditor.enrichHTML(this.object.system.description, {async: true});
 
-        if (COC.debug) console.log("COC | EncounterSheet getData", data);
+        if (COG.debug) console.log("COG | EncounterSheet getData", data);
         return data;
     }
 }

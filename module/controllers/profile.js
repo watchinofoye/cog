@@ -4,7 +4,7 @@ export class Profile {
 
     static async addToActor(actor, itemData) {
         if (actor.items.filter(item => item.type === "profile").length > 0) {
-            ui.notifications.error(game.i18n.localize("COC.notification.ProfileAlreadyOwned"));
+            ui.notifications.error(game.i18n.localize("COG.notification.ProfileAlreadyOwned"));
             return false;
         } else {
             itemData = itemData instanceof Array ? itemData : [itemData];
@@ -46,13 +46,13 @@ export class Profile {
     static removeFromActor(actor, profile) {
         const paths = actor.items.filter(item => item.type === "path" && item.system.profile?._id === profile.id);
         return Dialog.confirm({
-            title: game.i18n.localize("COC.dialog.deleteProfile.title"),
-            content: game.i18n.format('COC.dialog.deleteProfile.confirm', {name:actor.name}),
+            title: game.i18n.localize("COG.dialog.deleteProfile.title"),
+            content: game.i18n.format('COG.dialog.deleteProfile.confirm', {name:actor.name}),
             yes: () => {
                 Path.removePathsFromActor(actor, paths).then(() => {
-                    ui.notifications.info(paths.length == 1 ? game.i18n.localize("COC.dialog.deletePath.confirmOnePath") : game.i18n.format("COC.dialog.deletePath.confirmSeveralPaths", {nb: paths.length}));
+                    ui.notifications.info(paths.length == 1 ? game.i18n.localize("COG.dialog.deletePath.confirmOnePath") : game.i18n.format("COG.dialog.deletePath.confirmSeveralPaths", {nb: paths.length}));
                 });
-                ui.notifications.info(game.i18n.localize("COC.dialog.deleteProfile.confirmDelete"));
+                ui.notifications.info(game.i18n.localize("COG.dialog.deleteProfile.confirmDelete"));
                 return actor.deleteEmbeddedDocuments("Item", [profile.id]);
             },
             defaultYes: false

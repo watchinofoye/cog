@@ -4,7 +4,7 @@ type: item
 flags:
   core:
     sourceId: Item.huQfUjtfNCtARH1A
-img: systems/coc/ui/icons/svg/punch.svg
+img: systems/cog/ui/icons/svg/punch.svg
 effects: []
 _stats:
   coreVersion: '12.324'

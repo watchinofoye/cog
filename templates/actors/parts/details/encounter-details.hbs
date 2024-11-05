@@ -3,10 +3,10 @@
         <!-- NAME -->
         <div class="row flexrow">
             <div class="flex1 center bg-header">
-                <span class="field-label">{{ localize 'COC.details.name' }}</span>
+                <span class="field-label">{{ localize 'COG.details.name' }}</span>
             </div>
             <div class="flex2 center cell">
-                <input class="name" name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'COC.details.name' }}" data-dtype="String"/>
+                <input class="name" name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'COG.details.name' }}" data-dtype="String"/>
             </div>
         </div>
         <!-- /NAME -->
@@ -14,10 +14,10 @@
         {{#if (isNotLimited @root)}}
             <div class="row flexrow">
                 <div class="flex1 center bg-header">
-                    <span class="field-label">{{ localize 'COC.attributes.nc.abbrev' }}</span>
+                    <span class="field-label">{{ localize 'COG.attributes.nc.abbrev' }}</span>
                 </div>
                 <div class="flex2 center cell">
-                    <input class="level" name="system.nc.value" type="text" value="{{actor.system.nc.value}}" placeholder="{{ localize 'COC.attributes.nc.label' }}" data-dtype="Number"/>
+                    <input class="level" name="system.nc.value" type="text" value="{{actor.system.nc.value}}" placeholder="{{ localize 'COG.attributes.nc.label' }}" data-dtype="Number"/>
                 </div>
             </div>
         {{/if}}
@@ -25,7 +25,7 @@
         <!-- SIZE -->
         <div class="row flexrow">
             <div class="flex1 center bg-header">
-                <span class="field-label">{{ localize 'COC.details.size' }}</span>
+                <span class="field-label">{{ localize 'COG.details.size' }}</span>
             </div>
             <div class="flex2 center cell">
              <select name="system.details.size" data-type="String" style="width:100%">
@@ -40,11 +40,11 @@
         <!-- ARCHETYPE -->
             <div class="row flexrow">
                 <div class="flex1 center bg-header">
-                    <span class="field-label">{{ localize 'COC.ui.archetype' }}</span>
+                    <span class="field-label">{{ localize 'COG.ui.archetype' }}</span>
                 </div>
                 <div class="flex2 center cell">
                     <select name="system.archetype" data-type="String" style="width:100%">
-                        {{selectOptions config.encounterArchetypes selected=system.archetype localize=true blank="COC.None"}}
+                        {{selectOptions config.encounterArchetypes selected=system.archetype localize=true blank="COG.None"}}
                     </select>
                 </div>
             </div>
@@ -52,11 +52,11 @@
             <!-- CATEGORY -->
             <div class="row flexrow">
                 <div class="flex1 center bg-header">
-                    <span class="field-label">{{ localize 'COC.ui.category' }}</span>
+                    <span class="field-label">{{ localize 'COG.ui.category' }}</span>
                 </div>
                 <div class="flex2 center cell">
                     <select name="system.category" data-type="String" style="width:100%">
-                        {{selectOptions config.encounterCategories selected=system.category localize=true blank="COC.None"}}
+                        {{selectOptions config.encounterCategories selected=system.category localize=true blank="COG.None"}}
                     </select>
                 </div>
             </div>
@@ -64,11 +64,11 @@
             <!-- BOSS RANK -->
             <div class="row flexrow">
                 <div class="flex1 center bg-header">
-                    <span class="field-label">{{ localize 'COC.ui.boss' }}</span>
+                    <span class="field-label">{{ localize 'COG.ui.boss' }}</span>
                 </div>
                 <div class="flex2 center cell">
                   <select name="system.boss.rank" data-type="String" style="width:100%">
-                        {{selectOptions config.encounterBossRanks selected=system.boss.rank localize=true blank="COC.None"}}
+                        {{selectOptions config.encounterBossRanks selected=system.boss.rank localize=true blank="COG.None"}}
                     </select>
                 </div>
             </div>

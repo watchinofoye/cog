@@ -9,7 +9,7 @@ export class DamageRoll {
     async roll(actor){
         const r = new Roll(this._formula);
         // Manage explosive dice
-        if (game.settings.get("coc","explosiveDice")) {
+        if (game.settings.get("cog","explosiveDice")) {
             r.dice.forEach((die)=>{
                 if (!die.modifiers.includes("x")) die.modifiers.push("x");
             });
@@ -27,7 +27,7 @@ export class DamageRoll {
     }
 
     _buildDamageRollMessage() {
-        const rollMessageTpl = 'systems/coc/templates/chat/dmg-roll-card.hbs';
+        const rollMessageTpl = 'systems/cog/templates/chat/dmg-roll-card.hbs';
         const tplData = {
             label : this._label,
             isCritical : this._isCritical,

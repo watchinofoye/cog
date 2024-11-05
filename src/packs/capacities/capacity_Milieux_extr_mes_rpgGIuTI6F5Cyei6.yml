@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.F2dYAbmveDzHAYxn
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -26,7 +26,7 @@ system:
     +5 &agrave; tous les tests dans ces milieux, pour l&rsquo;utilisation de
     mat&eacute;riel sp&eacute;cifique ainsi que pour les proc&eacute;dures de
     s&eacute;curit&eacute;.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-milieux-extremes
   setting: base
   moduleData: {}

@@ -3,7 +3,7 @@ type: path
 flags:
   core:
     sourceId: Item.BhIvQVDKCqsqeBpf
-img: systems/coc/ui/icons/Icon.6_38.png
+img: systems/cog/ui/icons/Icon.6_38.png
 effects: []
 _id: JF3C30LfiLf4ii3L
 _stats:
@@ -20,7 +20,7 @@ ownership:
   9RNwlVuBKg8gXYwl: 3
 system:
   description: ''
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: pulp-voie-du-mechant-recurrent
   setting: pulp
   moduleData: {}

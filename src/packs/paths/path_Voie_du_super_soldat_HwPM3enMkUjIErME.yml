@@ -3,7 +3,7 @@ type: path
 flags:
   core:
     sourceId: Item.rtVuzHS8AyPZgyyf
-img: systems/coc/ui/icons/Icon.1_10.png
+img: systems/cog/ui/icons/Icon.1_10.png
 effects: []
 _id: HwPM3enMkUjIErME
 _stats:
@@ -20,7 +20,7 @@ ownership:
   9RNwlVuBKg8gXYwl: 3
 system:
   description: ''
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: espionnage-voie-du-super-soldat
   setting: espionnage
   moduleData: {}

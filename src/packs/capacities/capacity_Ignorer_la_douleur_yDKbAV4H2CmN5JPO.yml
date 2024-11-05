@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.jbwJHNCzwB6OAZkI
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -23,7 +23,7 @@ system:
     <p>Une fois par combat, le personnage peut ignorer les DM d&rsquo;une
     attaque qu&rsquo;il vient juste de subir. Il ne perdra les PV
     concern&eacute;s qu&rsquo;une fois le combat termin&eacute;.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-ignorer-la-douleur
   setting: base
   moduleData: {}

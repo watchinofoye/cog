@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.R9KnlPJS7TquGM4d
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -26,7 +26,7 @@ system:
     capacit&eacute; de rang 1 &agrave; 3 dans une autre voie de son choix (si
     celle-ci fait appel &agrave; un rang, utilisez le rang atteint dans la Voie
     des sciences).</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-violon-dingres
   setting: base
   moduleData: {}

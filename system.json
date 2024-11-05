@@ -1,7 +1,7 @@
 {
-  "id": "coc",
-  "title": "Chroniques Oubliées Contemporain",
-  "description": "<p>Système Foundry VTT pour <a href='https://www.black-book-editions.fr/catalogue.php?id=477'>Chroniques Oubliées Contemporain</a>.</p><p> *** Rejoignez la communauté Discord FR :<a href='https://discord.gg/pPSDNJk'>https://discord.gg/pPSDNJk</a></p>",
+  "id": "cog",
+  "title": "Chroniques Oubliées Galactiques",
+  "description": "<p>Système Foundry VTT pour <a href='https://www.black-book-editions.fr/catalogue.php?id=477'>Chroniques Oubliées Galactiques</a>.</p><p> *** Rejoignez la communauté Discord FR :<a href='https://discord.gg/pPSDNJk'>https://discord.gg/pPSDNJk</a></p>",
   "version": "#{VERSION}#",
   "compatibility": {
     "minimum": "12",
@@ -10,18 +10,15 @@
   },
   "authors": [
     {
-      "name": "Zigmund"
-    },
-    {
-      "name": "Kristov"
+      "name": "Watchinofoye"
     }
   ],
   "scripts": [],
   "esmodules": [
-    "module/coc.js"
+    "module/cog.js"
   ],
   "styles": [
-    "./css/coc.css"
+    "./css/cog.css"
   ],
   "languages": [
     {
@@ -39,7 +36,7 @@
     {
       "name": "capacities",
       "label": "Capacités",
-      "system": "coc",
+      "system": "cog",
       "path": "./packs/capacities.db",
       "type": "Item",
       "tag": "capacity"
@@ -47,7 +44,7 @@
     {
       "name": "items",
       "label": "Equipement",
-      "system": "coc",
+      "system": "cog",
       "path": "./packs/items.db",
       "type": "Item",
       "tag": "item"
@@ -55,7 +52,7 @@
     {
       "name": "paths",
       "label": "Voies",
-      "system": "coc",
+      "system": "cog",
       "path": "./packs/paths.db",
       "type": "Item",
       "tag": "path"
@@ -63,7 +60,7 @@
     {
       "name": "profiles",
       "label": "Profils",
-      "system": "coc",
+      "system": "cog",
       "path": "./packs/profiles.db",
       "type": "Item",
       "tag": "profile"
@@ -71,7 +68,7 @@
     {
       "name": "traits",
       "label": "Traits",
-      "system": "coc",
+      "system": "cog",
       "path": "./packs/traits.db",
       "type": "Item",
       "tag": "trait"
@@ -79,7 +76,7 @@
     {
       "name": "tables",
       "label": "Tables",
-      "system": "coc",
+      "system": "cog",
       "path": "./packs/tables.db",
       "type": "RollTable",
       "tag": "table"
@@ -87,7 +84,7 @@
     {
       "name": "macros",
       "label": "Macros",
-      "system": "coc",
+      "system": "cog",
       "path": "./packs/macros.db",
       "type": "Macro",
       "tag": "macro"

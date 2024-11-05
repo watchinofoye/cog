@@ -3,7 +3,7 @@ type: item
 flags:
   core:
     sourceId: Item.HtJLD5YNVavn8c66
-img: systems/coc/ui/icons/svg/minigun.svg
+img: systems/cog/ui/icons/svg/minigun.svg
 effects: []
 _id: Sg3I0wAkXb14cQ2N
 _stats:

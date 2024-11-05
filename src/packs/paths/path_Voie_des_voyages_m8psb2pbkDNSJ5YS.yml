@@ -1,7 +1,7 @@
 _id: m8psb2pbkDNSJ5YS
 name: Voie des voyages
 type: path
-img: systems/coc/ui/icons/Icon.6_43.png
+img: systems/cog/ui/icons/Icon.6_43.png
 effects: []
 folder: null
 sort: 0
@@ -40,7 +40,7 @@ system:
     </div>
 
     </div>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-voie-des-voyages
   setting: base
   moduleData: {}
@@ -48,28 +48,28 @@ system:
     - name: Débrouillardise
       type: capacity
       _id: zMFTBbUJx4pUwwK5
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.zMFTBbUJx4pUwwK5
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.zMFTBbUJx4pUwwK5
     - name: Par monts et par vaux
       type: capacity
       _id: IjkqXsy0X531ijXH
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.IjkqXsy0X531ijXH
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.IjkqXsy0X531ijXH
     - name: Sens du danger
       type: capacity
       _id: Mbd8AJg8urWh2b9s
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.Mbd8AJg8urWh2b9s
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.Mbd8AJg8urWh2b9s
     - name: Résistance
       type: capacity
       _id: oFGlB3n7PuYPvYWr
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.oFGlB3n7PuYPvYWr
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.oFGlB3n7PuYPvYWr
     - name: Adaptation héroïque
       type: capacity
       _id: ZYMaJ8BgIDq53j8i
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.ZYMaJ8BgIDq53j8i
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.ZYMaJ8BgIDq53j8i
   properties:
     profile: true
     prestige: false

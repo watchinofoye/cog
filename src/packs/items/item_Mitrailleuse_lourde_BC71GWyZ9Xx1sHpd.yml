@@ -3,7 +3,7 @@ type: item
 flags:
   core:
     sourceId: Item.ETV6TGuHAtvKkpf6
-img: systems/coc/ui/icons/svg/turret.svg
+img: systems/cog/ui/icons/svg/turret.svg
 effects: []
 _id: BC71GWyZ9Xx1sHpd
 _stats:

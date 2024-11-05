@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.j3NkMZ0KatSZd6LI
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -23,7 +23,7 @@ system:
     <p>Le personnage obtient un bonus de +5 &agrave; tous les tests de
     g&eacute;ographie, histoire et culture g&eacute;n&eacute;rale concernant un
     pays dont il parle la langue (langue maternelle comprise).</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-histoire-et-culture
   setting: base
   moduleData: {}

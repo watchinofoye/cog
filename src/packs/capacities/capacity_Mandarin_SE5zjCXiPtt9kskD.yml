@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.tAqLDexD06vaP7e9
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -23,7 +23,7 @@ system:
     <p>Le personnage a acquis un statut important au sein de sa corporation. Ses
     connaissances et sa prestance sont exceptionnelles. Le personnage augmente
     de +2 les valeurs de CHA et d&rsquo;INT.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-mandarin
   setting: base
   moduleData: {}

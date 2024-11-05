@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.5N7SGL9xzXq0JTjx
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -28,7 +28,7 @@ system:
     difficult&eacute; 15 est n&eacute;cessaire et le personnage peut le calmer
     pendant seulement 1d6 tours, ensuite l&rsquo;adversaire reprend le combat
     (ou d&egrave;s qu&rsquo;il est attaqu&eacute;).</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-intervention-psychologique
   setting: base
   moduleData: {}

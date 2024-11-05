@@ -2,7 +2,7 @@ _id: DbhPKjEadPAoK9Jw
 name: Marin
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.1_12.png
+img: systems/cog/ui/icons/Icon.1_12.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -21,7 +21,7 @@ system:
     <p><span style="color: #191813; background-color: #d3d3d3;">Le personnage
     obtient un bonus de +5 &agrave; tous les tests d&rsquo;orientation et de
     navigation.</span></p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: trait-marin
   setting: base
   moduleData: {}

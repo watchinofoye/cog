@@ -23,11 +23,11 @@ export class CocHealingRoll {
     }
 
     _buildHealingRollMessage() {
-        const rollMessageTpl = 'systems/coc/templates/chat/healing-roll-card.hbs';
+        const rollMessageTpl = 'systems/cog/templates/chat/healing-roll-card.hbs';
         const tplData = {
             label : this._label,
             isCritical : this._isCritical,
-            title : this._title ? this._title : this._isCritical ? game.i18n.localize("COC.roll.criticalHeal") : game.i18n.localize("COC.roll.heal"),
+            title : this._title ? this._title : this._isCritical ? game.i18n.localize("COG.roll.criticalHeal") : game.i18n.localize("COG.roll.heal"),
             showButtons : this._showButtons
         };
         return renderTemplate(rollMessageTpl, tplData);

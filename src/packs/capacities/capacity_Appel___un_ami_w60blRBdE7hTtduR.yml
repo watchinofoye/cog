@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.inZyMteMsVwQ1lux
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -26,7 +26,7 @@ system:
     le service est difficile ou s&rsquo;il peut pr&eacute;senter un risque, et
     de 20 si le service fait appel &agrave; une information secr&egrave;te ou
     s&rsquo;il met ouvertement l&rsquo;alli&eacute; en danger.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-appel-a-un-ami
   setting: base
   moduleData: {}

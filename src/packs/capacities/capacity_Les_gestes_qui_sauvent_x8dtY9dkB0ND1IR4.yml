@@ -3,7 +3,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.SE4Ka87YXTHP1Lnw
-img: systems/coc/ui/icons/Icon.3_37.png
+img: systems/cog/ui/icons/Icon.3_37.png
 effects: []
 _id: x8dtY9dkB0ND1IR4
 _stats:
@@ -26,7 +26,7 @@ system:
     lui-m&ecirc;me). La cible b&eacute;n&eacute;ficie d&rsquo;un bonus de +5
     &agrave; son test de contagion. Si vous jouez en mode contagion automatique,
     autorisez alors un test difficult&eacute; 20.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: zombis-les-gestes-qui-sauvent
   setting: zombis
   moduleData: {}

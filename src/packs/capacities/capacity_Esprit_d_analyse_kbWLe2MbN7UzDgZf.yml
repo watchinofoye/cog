@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.I1QY12J00RYMDLU2
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -23,7 +23,7 @@ system:
     <p>Le personnage obtient un bonus de +1 par rang atteint dans cette voie
     pour chaque test de recherche d&rsquo;indices (voir les r&egrave;gles
     &agrave; ce sujet p. 37).</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-esprit-danalyse
   setting: base
   moduleData: {}

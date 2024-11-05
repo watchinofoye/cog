@@ -1,7 +1,7 @@
 
 <ol class="inventory-list">
     <li class="inventory-header flexrow">
-        <h3 class="item-name flexrow">{{localize "COC.category.effects"}}</h3>
+        <h3 class="item-name flexrow">{{localize "COG.category.effects"}}</h3>
         <div class="item-detail">Durée</div>
         {{#if isEffectsEditable}}
             <div class="item-detail">Action</div>
@@ -12,7 +12,7 @@
     </li>
         <ol class="item-list">
         {{#each effects as |effect id|}}
-            {{> "systems/coc/templates/effects/effects-item.hbs" effect}}
+            {{> "systems/cog/templates/effects/effects-item.hbs" effect}}
         {{/each}}
         </ol>           
 </ol>

@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.pUsz8trb4a5MlJ2f
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -22,7 +22,7 @@ system:
   description: >-
     <p>Le personnage ajoute son Mod. de CHA en initiative et d&eacute;sormais il
     peut utiliser son inspiration sur ses tests d&rsquo;attaque et de DM.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-imprevisible
   setting: base
   moduleData: {}

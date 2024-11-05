@@ -3,7 +3,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.5s1whOWaHQ9NBOzM
-img: systems/coc/ui/icons/Icon.3_37.png
+img: systems/cog/ui/icons/Icon.3_37.png
 effects: []
 _id: xG3NMGHbCQRZWgkN
 _stats:
@@ -27,7 +27,7 @@ system:
     &eacute;gal &agrave; +2 &agrave; tous les tests effectu&eacute;s contre les
     zombies (discr&eacute;tion, d&eacute;tection, test oppos&eacute; de course
     et m&ecirc;me aux tests d&rsquo;attaque).</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: zombis-comprend-tes-ennemis
   setting: zombis
   moduleData: {}

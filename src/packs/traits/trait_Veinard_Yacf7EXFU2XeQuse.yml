@@ -2,7 +2,7 @@ _id: Yacf7EXFU2XeQuse
 name: Veinard
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.7_20.png
+img: systems/cog/ui/icons/Icon.7_20.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -21,7 +21,7 @@ system:
     <p><span style="color: #191813; background-color: #d3d3d3;">Le personnage
     gagne 1 point de chance suppl&eacute;mentaire (si vous n&rsquo;utilisez pas
     cette r&egrave;gle, il peut relancer un d20 par session de jeu).</span></p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: trait-veinard
   setting: base
   moduleData: {}

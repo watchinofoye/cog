@@ -14,16 +14,16 @@
         <div class="content flex3">
             <header class="sheet-header flexrow header-background no-wrap">
                 {{#if (equals actor.type "encounter")}}
-                    {{> "systems/coc/templates/actors/parts/details/encounter-details.hbs"}}
+                    {{> "systems/cog/templates/actors/parts/details/encounter-details.hbs"}}
                 {{else}}
-                    {{> "systems/coc/templates/actors/parts/details/actor-details.hbs"}}
+                    {{> "systems/cog/templates/actors/parts/details/actor-details.hbs"}}
                 {{/if}}
             </header>
             {{!-- Sheet Tab Navigation --}}
             {{#if (equals actor.type "encounter")}}
-                    {{> "systems/coc/templates/actors/parts/encounter-tabs.hbs"}}
+                    {{> "systems/cog/templates/actors/parts/encounter-tabs.hbs"}}
                 {{else}}
-                    {{> "systems/coc/templates/actors/parts/actor-tabs.hbs"}}
+                    {{> "systems/cog/templates/actors/parts/actor-tabs.hbs"}}
             {{/if}}
         </div>
     </div>

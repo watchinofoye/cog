@@ -14,7 +14,7 @@ export class Macros {
       const actor = item.actor;
 
       const macroName = item.name + " (" + game.actors.get(actor.id).name + ")";
-      const command = `let onlyDamage = false;\nlet customLabel = "";\nlet skillDescription = "";\nlet dmgDescription = "";\n\nif (event) {\n  if (event.shiftKey) onlyDamage = true;\n}\n\ngame.coc.macros.rollItemMacro("${item._id}", "${item.name}", "${item.type}", 0, 0, 0, onlyDamage, customLabel, skillDescription, dmgDescription);`;
+      const command = `let onlyDamage = false;\nlet customLabel = "";\nlet skillDescription = "";\nlet dmgDescription = "";\n\nif (event) {\n  if (event.shiftKey) onlyDamage = true;\n}\n\ngame.cog.macros.rollItemMacro("${item._id}", "${item.name}", "${item.type}", 0, 0, 0, onlyDamage, customLabel, skillDescription, dmgDescription);`;
       this.createMacro(slot, macroName, command, item.img);
     }
     // Create a macro to open the actor sheet of the actor dropped on the hotbar
@@ -47,7 +47,7 @@ export class Macros {
           type: "script",
           img: img,
           command: command,
-          flags: { "coc.macro": true },
+          flags: { "cog.macro": true },
         },
         { displaySheet: false }
       );
@@ -65,7 +65,7 @@ export class Macros {
     // Vérifie qu'un seul token est sélectionné
     const tokens = canvas.tokens.controlled;
     if (tokens.length > 1) {
-      ui.notifications.warn(game.i18n.localize("COC.notification.MacroMultipleTokensSelected"));
+      ui.notifications.warn(game.i18n.localize("COG.notification.MacroMultipleTokensSelected"));
       return null;
     }
 
@@ -98,7 +98,7 @@ export class Macros {
     // Plusieurs tokens sélectionnés
     if (actor === null) return;
     // Aucun acteur cible
-    if (actor === undefined) return ui.notifications.error(game.i18n.localize("COC.notification.MacroNoActorAvailable"));
+    if (actor === undefined) return ui.notifications.error(game.i18n.localize("COG.notification.MacroNoActorAvailable"));
 
     let statObj;
     switch (stat) {
@@ -135,7 +135,7 @@ export class Macros {
         statObj = eval(`actor.system.attacks.magic`);
         break;
       default:
-        ui.notifications.error(game.i18n.localize("COC.notification.MacroUnknownStat"));
+        ui.notifications.error(game.i18n.localize("COG.notification.MacroUnknownStat"));
         break;
     }
     let mod = statObj.mod;
@@ -180,17 +180,17 @@ export class Macros {
     // Several tokens selected
     if (actor === null) return;
     // Aucun acteur cible
-    if (actor === undefined) return ui.notifications.error(game.i18n.localize("COC.notification.MacroNoActorAvailable"));
+    if (actor === undefined) return ui.notifications.error(game.i18n.localize("COG.notification.MacroNoActorAvailable"));
 
     const item = actor.items.get(itemId);
-    if (!item) return ui.notifications.warn(game.i18n.format("COC.notification.MacroItemMissing", { item: itemName }));
+    if (!item) return ui.notifications.warn(game.i18n.format("COG.notification.MacroItemMissing", { item: itemName }));
 
     const itemData = item;
 
     if (itemData.system.properties.weapon || itemData.system.properties.heal) {
       if (itemData.system.properties.weapon) {
         if (itemData.system.properties.equipable && !itemData.system.worn) {
-          return ui.notifications.warn(game.i18n.format("COC.notification.MacroItemUnequiped", { item: itemName }));
+          return ui.notifications.warn(game.i18n.format("COG.notification.MacroItemUnequiped", { item: itemName }));
         }
         const label = customLabel && customLabel.length > 0 ? customLabel : itemData.name;
         const critrange = itemData.system.critrange;
@@ -237,7 +237,7 @@ export class Macros {
     // Several tokens selected
     if (actor === null) return;
     // No token selected
-    if (actor === undefined) return ui.notifications.error(game.i18n.localize("COC.notification.MacroNoTokenSelected"));
+    if (actor === undefined) return ui.notifications.error(game.i18n.localize("COG.notification.MacroNoTokenSelected"));
 
     new CocHealingRoll(label, healFormula, isCritical).roll(actor);
   };
@@ -248,7 +248,7 @@ export class Macros {
     // Several tokens selected
     if (actor === null) return;
     // Aucun acteur cible
-    if (actor === undefined) return ui.notifications.error(game.i18n.localize("COC.notification.MacroNoActorAvailable"));
+    if (actor === undefined) return ui.notifications.error(game.i18n.localize("COG.notification.MacroNoActorAvailable"));
 
     let crit = parseInt(critRange);
     crit = !isNaN(crit) ? crit : 20;
@@ -261,7 +261,7 @@ export class Macros {
     // Several tokens selected
     if (actor === null) return;
     // Aucun acteur cible
-    if (actor === undefined) return ui.notifications.error(game.i18n.localize("COC.notification.MacroNoActorAvailable"));
+    if (actor === undefined) return ui.notifications.error(game.i18n.localize("COG.notification.MacroNoActorAvailable"));
 
     CoCRoll.rollDamageDialog(actor, label, dmgFormula, dmgBonus, isCritical, "submit", dmgDescr);
   };

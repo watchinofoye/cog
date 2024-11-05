@@ -1,7 +1,7 @@
 _id: BZe1C8HYXa0l8GXn
 name: Inspecteur
 type: profile
-img: systems/coc/ui/icons/Icon.3_65.png
+img: systems/cog/ui/icons/Icon.3_65.png
 effects: []
 folder: null
 sort: 0
@@ -39,17 +39,17 @@ system:
     - name: Voie de l'investigation
       type: path
       _id: jKsHMEaZF5MTL4iF
-      img: systems/coc/ui/icons/Icon.4_68.png
-      sourceId: Compendium.coc.paths.jKsHMEaZF5MTL4iF
+      img: systems/cog/ui/icons/Icon.4_68.png
+      sourceId: Compendium.cog.paths.jKsHMEaZF5MTL4iF
     - name: Voie des corporations
       type: path
       _id: cK8TdXe1vm68uP4u
-      img: systems/coc/ui/icons/Icon.5_53.png
-      sourceId: Compendium.coc.paths.cK8TdXe1vm68uP4u
+      img: systems/cog/ui/icons/Icon.5_53.png
+      sourceId: Compendium.cog.paths.cK8TdXe1vm68uP4u
     - name: Voie des armes à feu
       type: path
       _id: 13GSUeNUrDugwt4W
-      img: systems/coc/ui/icons/Icon.3_32.png
-      sourceId: Compendium.coc.paths.13GSUeNUrDugwt4W
+      img: systems/cog/ui/icons/Icon.3_32.png
+      sourceId: Compendium.cog.paths.13GSUeNUrDugwt4W
 _key: '!items!BZe1C8HYXa0l8GXn'
 

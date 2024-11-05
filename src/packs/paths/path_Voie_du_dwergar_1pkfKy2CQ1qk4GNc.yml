@@ -3,7 +3,7 @@ type: path
 flags:
   core:
     sourceId: Item.atq2S58qWjAwMEAq
-img: systems/coc/ui/icons/Icon.5_78.png
+img: systems/cog/ui/icons/Icon.5_78.png
 effects: []
 _id: 1pkfKy2CQ1qk4GNc
 _stats:
@@ -20,7 +20,7 @@ ownership:
   9RNwlVuBKg8gXYwl: 3
 system:
   description: ''
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: surhumains-voie-du-dwergar
   setting: surhumains
   moduleData: {}

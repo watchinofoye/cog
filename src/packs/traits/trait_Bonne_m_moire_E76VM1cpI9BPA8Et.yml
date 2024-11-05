@@ -2,7 +2,7 @@ _id: E76VM1cpI9BPA8Et
 name: Bonne mémoire
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.7_20.png
+img: systems/cog/ui/icons/Icon.7_20.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -20,7 +20,7 @@ system:
   description: >-
     <p><span style="color: #191813; background-color: #d3d3d3;">Le personnage
     gagne un bonus de +5 pour se rappeler d&rsquo;un d&eacute;tail.</span></p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: trait-bonne-memoire
   setting: base
   moduleData: {}

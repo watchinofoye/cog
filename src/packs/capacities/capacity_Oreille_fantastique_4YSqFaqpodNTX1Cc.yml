@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.PMYztsgIRRQlJh5x
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -28,7 +28,7 @@ system:
     &agrave; un test de CHA de sa cible, et d&eacute;tecter les mensonges
     s&rsquo;il obtient une marge de r&eacute;ussite de 10 points par rapport au
     r&eacute;sultat de son adversaire.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-oreille-fantastique
   setting: base
   moduleData: {}

@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.dnZa0E15xdLQCcZy
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -24,7 +24,7 @@ system:
     &agrave; 0 PV avec une attaque au contact, il b&eacute;n&eacute;ficie
     d&rsquo;une action d&rsquo;attaque gratuite sur un autre adversaire &agrave;
     port&eacute;e.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-enchainement
   setting: base
   moduleData: {}

@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.Lf8OQMtKrbUd0fa5
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -31,7 +31,7 @@ system:
     l&rsquo;aventure, et ils ne peuvent &ecirc;tre d&eacute;pens&eacute;s que
     face &agrave; des interlocuteurs dont le niveau de vie est inf&eacute;rieur
     &agrave; celui du personnage.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-influence
   setting: base
   moduleData: {}

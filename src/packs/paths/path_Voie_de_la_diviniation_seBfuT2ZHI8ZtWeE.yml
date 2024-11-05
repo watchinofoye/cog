@@ -3,7 +3,7 @@ type: path
 flags:
   core:
     sourceId: Item.1OolVOJJqLg8bvmZ
-img: systems/coc/ui/icons/Icon.6_38.png
+img: systems/cog/ui/icons/Icon.6_38.png
 effects: []
 _id: seBfuT2ZHI8ZtWeE
 _stats:
@@ -20,7 +20,7 @@ ownership:
   9RNwlVuBKg8gXYwl: 3
 system:
   description: ''
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: pulp-voie-de-la-diviniation
   setting: pulp
   moduleData: {}

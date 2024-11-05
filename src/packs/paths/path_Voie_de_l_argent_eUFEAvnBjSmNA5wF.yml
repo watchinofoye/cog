@@ -1,7 +1,7 @@
 _id: eUFEAvnBjSmNA5wF
 name: Voie de l'argent
 type: path
-img: systems/coc/ui/icons/Icons8_78.png
+img: systems/cog/ui/icons/Icons8_78.png
 effects: []
 folder: null
 sort: 0
@@ -40,7 +40,7 @@ system:
     </div>
 
     </div>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-voie-de-largent
   setting: base
   moduleData: {}
@@ -48,28 +48,28 @@ system:
     - name: Niveau de vie
       type: capacity
       _id: F7DhN4HxoU08ZPNY
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.F7DhN4HxoU08ZPNY
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.F7DhN4HxoU08ZPNY
     - name: Influence
       type: capacity
       _id: fI74ggOtXZtZK5hP
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.fI74ggOtXZtZK5hP
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.fI74ggOtXZtZK5hP
     - name: Véhicule de luxe
       type: capacity
       _id: lVlUQ1dUTVemRiGb
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.lVlUQ1dUTVemRiGb
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.lVlUQ1dUTVemRiGb
     - name: Relations
       type: capacity
       _id: BdanytnWbuwur1MA
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.BdanytnWbuwur1MA
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.BdanytnWbuwur1MA
     - name: Pied-à-terre
       type: capacity
       _id: 14shEJsAT5xIFjws
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.14shEJsAT5xIFjws
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.14shEJsAT5xIFjws
   properties:
     profile: true
     prestige: false

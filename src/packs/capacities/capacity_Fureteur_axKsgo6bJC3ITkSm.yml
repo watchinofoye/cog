@@ -3,7 +3,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.W7T3fqAvl8kB86e6
-img: systems/coc/ui/icons/Icon.3_37.png
+img: systems/cog/ui/icons/Icon.3_37.png
 effects: []
 _id: axKsgo6bJC3ITkSm
 _stats:
@@ -24,7 +24,7 @@ system:
     ressource, ou il peut sacrifier ce bonus pour chercher deux fois plus vite
     et obliger le MJ &agrave; relancer le test de rencontre si celui-ci lui est
     d&eacute;favorable.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: zombis-fureteur
   setting: zombis
   moduleData: {}

@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.sjVxuB9NMNtEdXsq
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -26,7 +26,7 @@ system:
     accorde des soins &agrave; un personnage bless&eacute; avant une
     p&eacute;riode de repos, il lui permet de doubler le r&eacute;sultat du
     D&eacute; de vie utilis&eacute; (soit 2 DV + Niveau + Mod. de CON).</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-medecin
   setting: base
   moduleData: {}

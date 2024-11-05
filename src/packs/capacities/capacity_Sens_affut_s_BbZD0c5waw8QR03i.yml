@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.8XSpRI4n1ci6BOrg
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -23,7 +23,7 @@ system:
     <p>Pour chaque rang atteint dans cette voie, le personnage gagne un bonus de
     +1 &agrave; tous les tests de PER destin&eacute;s &agrave; simuler la
     perception (vue, ou&iuml;e, vigilance, etc.)</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-sens-affutes
   setting: base
   moduleData: {}

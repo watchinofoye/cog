@@ -1,39 +1,39 @@
 <div class="flexrow table-header vitality-header no-wrap">
     {{#if (equals actor.type "encounter")}}
     <div class="flex6 center" data-roll-type="hp">
-        <div class="field-label">{{ localize 'COC.attributes.vitality.label' }}</div>
+        <div class="field-label">{{ localize 'COG.attributes.vitality.label' }}</div>
     </div>
     {{else}}
     <div class="flex6 center rollable" data-rolling="system.attributes.hp" data-roll-type="hp">
-        <div class="field-label"><i class="fas fa-dice-d6"></i>&nbsp;{{ localize 'COC.attributes.vitality.label' }}</div>
+        <div class="field-label"><i class="fas fa-dice-d6"></i>&nbsp;{{ localize 'COG.attributes.vitality.label' }}</div>
     </div>
     {{/if}}
     {{#unless (equals actor.type "encounter")}}
     <div class="flex4 center">
-        <div class="field-label">{{ localize 'COC.ui.hd' }}</div>
+        <div class="field-label">{{ localize 'COG.ui.hd' }}</div>
     </div>
     {{/unless}}
     <div class="flex3 center">
-        <div class="field-label">{{ localize 'COC.ui.base' }}</div>
+        <div class="field-label">{{ localize 'COG.ui.base' }}</div>
     </div>
     <div class="flex3 center">
-        <div class="field-label">{{ localize 'COC.ui.bonus' }}</div>
+        <div class="field-label">{{ localize 'COG.ui.bonus' }}</div>
     </div>
     <div class="flex3 center">
-        <div class="field-label">{{ localize 'COC.ui.max' }}</div>
+        <div class="field-label">{{ localize 'COG.ui.max' }}</div>
     </div>
     <div class="flex3 center">
-        <div class="field-label">{{ localize 'COC.ui.current' }}</div>
+        <div class="field-label">{{ localize 'COG.ui.current' }}</div>
     </div>
 </div>
 <div class="flexrow no-wrap vitality">
     <div class="flex6 center cell-header">
-        <span class="field-label"><i class="fas fa-heart"></i>&nbsp;{{ localize 'COC.attributes.hp.abbrev' }}</span>
+        <span class="field-label"><i class="fas fa-heart"></i>&nbsp;{{ localize 'COG.attributes.hp.abbrev' }}</span>
     </div>
     {{#unless (equals actor.type "encounter")}}
     <div class="flex4 center cell readonly">
         <select name="system.attributes.hd.value" data-type="String" style="font-size:12px; width:100%">
-            {{selectOptions config.DICE_VALUES selected=actor.system.attributes.hd.value blank="COC.None" localize=true}}
+            {{selectOptions config.DICE_VALUES selected=actor.system.attributes.hd.value blank="COG.None" localize=true}}
         </select> 
     </div>
     {{/unless}}

@@ -15,7 +15,7 @@
 
 ### 11.308.1
 FONCTIONNALITES
-- Portage de la fonctionnalité COF des StatusEffects : changement de l'ordre, mise en couleur des icônes pris en comptes pour COC, prise en compte des modifications (malus ou d12)
+- Portage de la fonctionnalité COF des StatusEffects : changement de l'ordre, mise en couleur des icônes pris en comptes pour COG, prise en compte des modifications (malus ou d12)
 
 ### 11.302.1
 CORRECTIFS
@@ -163,7 +163,7 @@ Mise à jour pour supporter Foundry 0.8 et rattrapage des fonctionnalités déj�
 ### Version 0.1.0
 * Gestion de l'équipement dans l'onglet Combat
 * Prise des bonuses du profil dans la feuille de perso
-* Gestion du calcul de Points de Vie spécifiques à COC
+* Gestion du calcul de Points de Vie spécifiques à COG
 * Calcul auto des points de mana et des points de chance/choc
 * Gestion du malus d'armure au score d'init
 * Prise en compte des jets de dommages qui explosent

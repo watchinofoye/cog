@@ -3,7 +3,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.mIiuQpd3y5TwjZBH
-img: systems/coc/ui/icons/Icon.3_37.png
+img: systems/cog/ui/icons/Icon.3_37.png
 effects: []
 _id: EzVqFbNs3uTJDUIM
 _stats:
@@ -24,7 +24,7 @@ system:
     rencontre qu&rsquo;il est leur alli&eacute; et qu&rsquo;il peut leur
     apporter aide et protection. De plus, il peut d&eacute;penser un point de
     chance pour l&rsquo;appliquer au test d&rsquo;un alli&eacute; en vue.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: zombis-lhomme-providentiel
   setting: zombis
   moduleData: {}

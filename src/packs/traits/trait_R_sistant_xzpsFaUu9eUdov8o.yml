@@ -2,7 +2,7 @@ _id: xzpsFaUu9eUdov8o
 name: Résistant
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.1_12.png
+img: systems/cog/ui/icons/Icon.1_12.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -20,7 +20,7 @@ system:
   description: >-
     <p><span style="color: #191813; background-color: #d3d3d3;">Le personnage
     gagne 3 PV suppl&eacute;mentaire au niveau 1.</span></p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: trait-resistant
   setting: base
   moduleData: {}

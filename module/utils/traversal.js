@@ -1,4 +1,4 @@
-import {COC,System} from "../system/config.js";
+import {COG,System} from "../system/config.js";
 import {Compendia} from "./compendia.js";
 
 export class Traversal {
@@ -82,13 +82,13 @@ export class Traversal {
         let ingame = [];
         switch(type){
             case "path" :
-                // compendium = await game.packs.get("coc.paths").getContent().then(index => index.map(entity => entity));
-                compendium = COC.paths;
+                // compendium = await game.packs.get("cog.paths").getContent().then(index => index.map(entity => entity));
+                compendium = COG.paths;
                 ingame = game.items.filter(item => item.type === "path").map(entity => entity);
                 break;
             case "capacity" :
-                // compendium = await game.packs.get("coc.capacities").getContent().then(index => index.map(entity => entity));
-                compendium = COC.capacities;
+                // compendium = await game.packs.get("cog.capacities").getContent().then(index => index.map(entity => entity));
+                compendium = COG.capacities;
                 ingame = game.items.filter(item => item.type === "capacity").map(entity => entity);
                 break;
         }
@@ -104,19 +104,19 @@ export class Traversal {
     }
 
     static getAllCapacitiesData () {
-        const compendium = game.coc.config.capacities;
+        const compendium = game.cog.config.capacities;
         const ingame = this.getInGameEntitiesDataOfType("capacity");
         return ingame.concat(compendium);
     }
 
     static getAllPathsData () {
-        const compendium = game.coc.config.paths;
+        const compendium = game.cog.config.paths;
         const ingame = this.getInGameEntitiesDataOfType("path");
         return ingame.concat(compendium);
     }
 
     static getAllProfilesData () {
-        const compendium = game.coc.config.profiles;
+        const compendium = game.cog.config.profiles;
         const ingame = this.getInGameEntitiesDataOfType("profile");
         return ingame.concat(compendium);
     }

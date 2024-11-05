@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.HUBGkHb7UK3QMDPz
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -28,7 +28,7 @@ system:
     utilis&eacute;, etc. Le bonus est valable pendant 1 semaine, ensuite
     l&rsquo;objet se d&eacute;grade et n&eacute;cessite une nouvelle
     intervention du m&eacute;cano.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-customisation
   setting: base
   moduleData: {}

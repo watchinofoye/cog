@@ -1,12 +1,12 @@
-{{> "systems/coc/templates/items/parts/details/setting-details.hbs"}}
+{{> "systems/cog/templates/items/parts/details/setting-details.hbs"}}
 
-<h3 class="form-header">{{localize "COC.ui.properties"}}</h3>
-<input class="field-value" name="system.key" type="hidden" value="{{item.system.key}}" placeholder="{{ localize "COC.ui.key" }}" data-dtype="String">
+<h3 class="form-header">{{localize "COG.ui.properties"}}</h3>
+<input class="field-value" name="system.key" type="hidden" value="{{item.system.key}}" placeholder="{{ localize "COG.ui.key" }}" data-dtype="String">
 <div class="form-group">
-    <label>{{localize "COC.ui.hd"}}</label>
+    <label>{{localize "COG.ui.hd"}}</label>
     <div class="form-fields">
         <select name="system.dv" data-type="String" style="width:100%">
-            {{selectOptions config.DICE_VALUES selected=system.dv localize=true blank="COC.None"}}
+            {{selectOptions config.DICE_VALUES selected=system.dv localize=true blank="COG.None"}}
         </select>
     </div>
 </div>
@@ -15,16 +15,16 @@
     <label>Famille de profil</label>
     <div class="form-fields">
         <select name="system.family" data-type="String" style="width:100%">
-            {{selectOptions config.FAMILY selected=system.family localize=true blank="COC.None"}}
+            {{selectOptions config.FAMILY selected=system.family localize=true blank="COG.None"}}
         </select>        
     </div>
 </div>
 
 <div class="form-group">
-    <label>{{localize "COC.ui.spellcasting"}}</label>
+    <label>{{localize "COG.ui.spellcasting"}}</label>
     <div class="form-fields">
         <select name="system.spellcasting" data-type="String" style="width:100%">
-            {{selectOptions config.SPELLCASTING selected=system.spellcasting localize=true blank="COC.None"}}
+            {{selectOptions config.SPELLCASTING selected=system.spellcasting localize=true blank="COG.None"}}
         </select>
     </div>
 </div>
@@ -33,21 +33,21 @@
 <h3 class="form-header">Bonus</h3>
 
 <div class="form-group">
-    <label>{{localize "COC.attacks.melee.label"}}</label>
+    <label>{{localize "COG.attacks.melee.label"}}</label>
     <div class="form-fields">
-        <input class="field-value" name="system.bonuses.atc" type="text" value="{{numberFormat system.bonuses.atc decimals=0 sign=true}}" placeholder="{{localize "COC.attacks.melee.label"}}" data-dtype="Number">
+        <input class="field-value" name="system.bonuses.atc" type="text" value="{{numberFormat system.bonuses.atc decimals=0 sign=true}}" placeholder="{{localize "COG.attacks.melee.label"}}" data-dtype="Number">
     </div>
 </div>
 <div class="form-group">
-    <label>{{localize "COC.attacks.ranged.label"}}</label>
+    <label>{{localize "COG.attacks.ranged.label"}}</label>
     <div class="form-fields">
-        <input class="field-value" name="system.bonuses.atd" type="text" value="{{numberFormat system.bonuses.atd decimals=0 sign=true}}" placeholder="{{localize "COC.attacks.ranged.label"}}" data-dtype="Number">
+        <input class="field-value" name="system.bonuses.atd" type="text" value="{{numberFormat system.bonuses.atd decimals=0 sign=true}}" placeholder="{{localize "COG.attacks.ranged.label"}}" data-dtype="Number">
     </div>
 </div>
 <div class="form-group">
-    <label>{{localize "COC.attacks.magic.label"}}</label>
+    <label>{{localize "COG.attacks.magic.label"}}</label>
     <div class="form-fields">
-        <input class="field-value" name="system.bonuses.atm" type="text" value="{{numberFormat system.bonuses.atm decimals=0 sign=true}}" placeholder="{{localize "COC.attacks.magic.label"}}" data-dtype="Number">
+        <input class="field-value" name="system.bonuses.atm" type="text" value="{{numberFormat system.bonuses.atm decimals=0 sign=true}}" placeholder="{{localize "COG.attacks.magic.label"}}" data-dtype="Number">
     </div>
 </div>
 <div class="form-group">
@@ -57,9 +57,9 @@
     </div>
 </div>
 <div class="form-group">
-    <label>{{localize "COC.attributes.xp.label"}}</label>
+    <label>{{localize "COG.attributes.xp.label"}}</label>
     <div class="form-fields">
-        <input class="field-value" name="system.bonuses.xp" type="text" value="{{numberFormat system.bonuses.xp decimals=0 sign=true}}" placeholder="{{localize "COC.attributes.xp.label"}}" data-dtype="Number">
+        <input class="field-value" name="system.bonuses.xp" type="text" value="{{numberFormat system.bonuses.xp decimals=0 sign=true}}" placeholder="{{localize "COG.attributes.xp.label"}}" data-dtype="Number">
     </div>
 </div>
 
@@ -69,7 +69,7 @@
     <li class="inventory-header flexrow">
         <h3 class="item-name flexrow">Voies</h3>
         <div class="item-controls">
-            <a class="item-control item-create coc-compendium-pack" data-pack="coc.paths" data-open="0" title="Ajouter une voie"><i class="fas fa-plus"></i>&nbsp; Add</a>
+            <a class="item-control item-create cog-compendium-pack" data-pack="cog.paths" data-open="0" title="Ajouter une voie"><i class="fas fa-plus"></i>&nbsp; Add</a>
         </div>
     </li>
 {{#each system.paths}}
@@ -80,8 +80,8 @@
                 <h4>{{name}}</h4>
             </div>
             <div class="item-controls">
-                <a class="item-control item-edit" title='{{localize "COC.ui.editItem"}}'><i class="fas fa-edit"></i></a>
-                <a class="item-control item-delete" title='{{localize "COC.ui.deleteItem"}}'><i class="fas fa-trash"></i></a>
+                <a class="item-control item-edit" title='{{localize "COG.ui.editItem"}}'><i class="fas fa-edit"></i></a>
+                <a class="item-control item-delete" title='{{localize "COG.ui.deleteItem"}}'><i class="fas fa-trash"></i></a>
             </div>
         </li>
     </ol>

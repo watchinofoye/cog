@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.UYSta5F3WUllkyln
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -30,7 +30,7 @@ system:
     aux DM au contact. S&rsquo;il s&rsquo;agit d&rsquo;un sport de combat, le
     personnage peut &agrave; la place gagner un bonus de +1 en attaque au
     contact ou &agrave; distance, au choix du joueur.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-specialite
   setting: base
   moduleData: {}

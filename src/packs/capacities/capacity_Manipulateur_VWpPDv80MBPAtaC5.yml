@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.L6JMjOMnCtOtQLGJ
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -29,7 +29,7 @@ system:
     l&rsquo;&eacute;tat &eacute;motionnel actuel de la cible en sort
     renforc&eacute; et le personnage ne peut plus tenter de l&rsquo;inluencer
     pendant 24 heures.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-manipulateur
   setting: base
   moduleData: {}

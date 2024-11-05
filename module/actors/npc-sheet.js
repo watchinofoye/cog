@@ -1,13 +1,13 @@
 import { CoCBaseSheet } from "./base-sheet.js";
-import { COC } from "../system/config.js";
+import { COG } from "../system/config.js";
 
 export class CoCNpcSheet extends CoCBaseSheet {
 
     /** @override */
     static get defaultOptions() {
         return foundry.utils.mergeObject(super.defaultOptions, {
-            classes: ["coc", "base", "sheet", "actor", "npc"],
-            template: "/systems/coc/templates/actors/actor-sheet.hbs",
+            classes: ["cog", "base", "sheet", "actor", "npc"],
+            template: "/systems/cog/templates/actors/actor-sheet.hbs",
             width: 970,
             height: 750,
             tabs: [{navSelector: ".sheet-navigation", contentSelector: ".sheet-body", initial: "stats"}],
@@ -18,7 +18,7 @@ export class CoCNpcSheet extends CoCBaseSheet {
     /** @override */
     async getData(options) {
         const data = await super.getData(options);
-        if (COC.debug) console.log("COC | NpcSheet getData", data);
+        if (COG.debug) console.log("COG | NpcSheet getData", data);
 
         // The Actor's data
         const actorData = this.actor.toObject(false);
@@ -74,15 +74,15 @@ export class CoCNpcSheet extends CoCBaseSheet {
             count: data.items.filter(i => i.type === "item").length,
             categories: []
         };
-        for (const category of Object.keys(game.coc.config.itemCategories)) {
+        for (const category of Object.keys(game.cog.config.itemCategories)) {
             data.combat.categories.push({
                 id: category,
-                label: game.coc.config.itemCategories[category],
+                label: game.cog.config.itemCategories[category],
                 items: Object.values(data.items).filter(item => item.type === "item" && item.system.subtype === category && item.system.worn && (item.system.properties.weapon || item.system.properties.protection)).sort((a, b) => (a.name > b.name) ? 1 : -1)
             });
             data.inventory.categories.push({
                 id: category,
-                label: "COC.category." + category,
+                label: "COG.category." + category,
                 items: Object.values(data.items).filter(item => item.type === "item" && item.system.subtype === category).sort((a, b) => (a.name > b.name) ? 1 : -1)
             });
         }
@@ -113,7 +113,7 @@ export class CoCNpcSheet extends CoCBaseSheet {
 
         data.enrichedDescription = await TextEditor.enrichHTML(this.object.system.description, {async: true});
 
-        if (COC.debug) console.log("COC | NpcSheet getData", data);
+        if (COG.debug) console.log("COG | NpcSheet getData", data);
         return data;
     }
 }

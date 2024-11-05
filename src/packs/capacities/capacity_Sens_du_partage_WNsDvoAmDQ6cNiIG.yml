@@ -3,7 +3,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.c3OvFBikmUbjk2tN
-img: systems/coc/ui/icons/Icon.3_37.png
+img: systems/cog/ui/icons/Icon.3_37.png
 effects: []
 _id: WNsDvoAmDQ6cNiIG
 _stats:
@@ -24,7 +24,7 @@ system:
     peut en faire b&eacute;n&eacute;ficier un compagnon de son choix &agrave;
     son contact. &Agrave; partir du rang 5, il peut en faire profiter deux
     compagnons.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: zombis-sens-du-partage
   setting: zombis
   moduleData: {}

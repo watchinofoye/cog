@@ -30,7 +30,7 @@ export default class CocCombat extends Combat {
       await roll.evaluate({ async: true });
 
       // Maximum of Initiative = 2 * Base initiative
-      if (game.settings.get("coc", "useVarInit")) {
+      if (game.settings.get("cog", "useVarInit")) {
         if (Math.trunc(roll.total) > 2 * roll.data.attributes.init.value) {
           const decimalPart = roll.total - Math.trunc(roll.total);
           const init = 2 * roll.data.attributes.init.value + decimalPart;

@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.T2sOIU5G6Oinh1J2
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -25,7 +25,7 @@ system:
     encore le r&eacute;sultat du jet de d&eacute;. En sacrifiant 1d4 PV (pas de
     jet sans limite), il peut obtenir le m&ecirc;me bonus apr&egrave;s avoir
     pris connaissance du r&eacute;sultat.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-se-depasser
   setting: base
   moduleData: {}

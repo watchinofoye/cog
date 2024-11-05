@@ -1,7 +1,7 @@
 _id: aQssGvvhoImy6OyF
 name: Pilote
 type: profile
-img: systems/coc/ui/icons/Icons8_04.png
+img: systems/cog/ui/icons/Icons8_04.png
 effects: []
 folder: null
 sort: 0
@@ -39,17 +39,17 @@ system:
     - name: Voie du danger
       type: path
       _id: cRhwmsQ6fmZBe5ML
-      img: systems/coc/ui/icons/Icon.6_84.png
-      sourceId: Compendium.coc.paths.cRhwmsQ6fmZBe5ML
+      img: systems/cog/ui/icons/Icon.6_84.png
+      sourceId: Compendium.cog.paths.cRhwmsQ6fmZBe5ML
     - name: Voie de la mécanique
       type: path
       _id: OUV8YE0BqDMldsO2
-      img: systems/coc/ui/icons/Icon.7_55.png
-      sourceId: Compendium.coc.paths.OUV8YE0BqDMldsO2
+      img: systems/cog/ui/icons/Icon.7_55.png
+      sourceId: Compendium.cog.paths.OUV8YE0BqDMldsO2
     - name: Voie du pilotage
       type: path
       _id: oKVyaq1vmgMwynf3
-      img: systems/coc/ui/icons/Icon.3_95.png
-      sourceId: Compendium.coc.paths.oKVyaq1vmgMwynf3
+      img: systems/cog/ui/icons/Icon.3_95.png
+      sourceId: Compendium.cog.paths.oKVyaq1vmgMwynf3
 _key: '!items!aQssGvvhoImy6OyF'
 

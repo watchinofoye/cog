@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.kP7PfnlzQIipFw4F
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -27,7 +27,7 @@ system:
     nourriture locale comestible sans tomber malade, il est capable de manger ou
     de dormir deux fois moins que la normale et continue &agrave; gu&eacute;rir
     normalement, m&ecirc;me dans les pires conditions.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-resistance
   setting: base
   moduleData: {}

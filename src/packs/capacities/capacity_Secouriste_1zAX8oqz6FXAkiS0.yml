@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.1zUhpHcdF4Lv6JVF
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -24,7 +24,7 @@ system:
     m&eacute;decin lui permet de r&eacute;cup&eacute;rer 1d4 PV. Il accorde
     aussi un bonus de +5 &agrave; tous les tests de CON tent&eacute;s par son
     patient.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-secouriste
   setting: base
   moduleData: {}

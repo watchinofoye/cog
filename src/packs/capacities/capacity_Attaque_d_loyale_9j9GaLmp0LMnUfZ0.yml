@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.ceVaK6gFbNMc9Z5u
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -24,7 +24,7 @@ system:
     Surpris, le personnage inflige 1d6 points de DM suppl&eacute;mentaires (ces
     d&eacute;s ne sont pas multipli&eacute;s en cas de critique). Ce bonus passe
     &agrave; 2d6 au rang 5.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-attaque-deloyale
   setting: base
   moduleData: {}

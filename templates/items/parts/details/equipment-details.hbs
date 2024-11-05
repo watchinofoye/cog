@@ -1,23 +1,23 @@
-<h3 class="form-header">{{localize "COC.ui.equipment"}}</h3>
+<h3 class="form-header">{{localize "COG.ui.equipment"}}</h3>
 
 <div class="form-group">
-    <label>{{localize "COC.ui.properties"}}</label>
+    <label>{{localize "COG.ui.properties"}}</label>
     <div class="form-fields">
-        <label class="checkbox"> <input type="checkbox" name="system.properties.equipable" {{checked system.properties.equipable}}> {{localize "COC.ui.equipable"}}</label>
+        <label class="checkbox"> <input type="checkbox" name="system.properties.equipable" {{checked system.properties.equipable}}> {{localize "COG.ui.equipable"}}</label>
 {{#if (not system.properties.unique)}}
-        <label class="checkbox"> <input type="checkbox" name="system.properties.stackable" {{checked system.properties.stackable}}> {{localize "COC.ui.stackable"}}</label>
+        <label class="checkbox"> <input type="checkbox" name="system.properties.stackable" {{checked system.properties.stackable}}> {{localize "COG.ui.stackable"}}</label>
 {{/if}}
 {{#if (not system.properties.stackable)}}
-        <label class="checkbox"> <input type="checkbox" name="system.properties.unique"    {{checked system.properties.unique}}> {{localize "COC.properties.unique"}}</label>
+        <label class="checkbox"> <input type="checkbox" name="system.properties.unique"    {{checked system.properties.unique}}> {{localize "COG.properties.unique"}}</label>
 {{/if}}
-        <label class="checkbox"><input type="checkbox" name="system.properties.consumable" {{checked system.properties.consumable}}> {{localize "COC.properties.consumable"}}</label>
-        <label class="checkbox"> <input type="checkbox" name="system.properties.tailored"  {{checked system.properties.tailored}}> {{localize "COC.properties.tailored"}}</label>
-        <label class="checkbox"><input type="checkbox" name="system.properties.2H" {{checked system.properties.2H}}> {{localize "COC.ui.2H"}}</label>
+        <label class="checkbox"><input type="checkbox" name="system.properties.consumable" {{checked system.properties.consumable}}> {{localize "COG.properties.consumable"}}</label>
+        <label class="checkbox"> <input type="checkbox" name="system.properties.tailored"  {{checked system.properties.tailored}}> {{localize "COG.properties.tailored"}}</label>
+        <label class="checkbox"><input type="checkbox" name="system.properties.2H" {{checked system.properties.2H}}> {{localize "COG.ui.2H"}}</label>
     </div>
 </div>
 {{#if system.properties.equipable}}
     <div class="form-group">
-        <label>{{localize "COC.ui.slot"}}</label>
+        <label>{{localize "COG.ui.slot"}}</label>
         <div class="form-fields">
             <select name="system.slot" data-type="String" style="width:100%">
                 {{selectOptions config.itemSlots selected=system.slot localize=true}}
@@ -26,23 +26,23 @@
     </div>
 {{/if}}
 <div class="form-group">
-    <label>{{ localize "COC.ui.price" }}</label>&nbsp; <input type="number" name="system.price" value="{{system.price}}" data-dtype="Number"/>
+    <label>{{ localize "COG.ui.price" }}</label>&nbsp; <input type="number" name="system.price" value="{{system.price}}" data-dtype="Number"/>
 </div>
 <div class="form-group">
-    <label>{{ localize "COC.ui.strmin" }}</label>&nbsp; <input type="number" name="system.strmin" value="{{system.strmin}}" data-dtype="Number"/>
+    <label>{{ localize "COG.ui.strmin" }}</label>&nbsp; <input type="number" name="system.strmin" value="{{system.strmin}}" data-dtype="Number"/>
 </div>
 
 {{#if system.properties.stackable}}
     <div class="form-group">
-        <label>{{ localize "COC.ui.quantity" }}</label>
+        <label>{{ localize "COG.ui.quantity" }}</label>
         <div class="form-fields">
-            <input type="number" name="system.qty" value="{{system.qty}}" placeholder="{{localize "COC.ui.quantity"}}" data-dtype="Number"/>
+            <input type="number" name="system.qty" value="{{system.qty}}" placeholder="{{localize "COG.ui.quantity"}}" data-dtype="Number"/>
         </div>
     </div>
     <div class="form-group">
-        <label>{{localize "COC.ui.stacksize"}}</label>
+        <label>{{localize "COG.ui.stacksize"}}</label>
         <div class="form-fields">
-            <input name="system.stacksize" type="text" value="{{system.stacksize}}" placeholder="{{localize "COC.placeholders.stacksize"}}" data-dtype="Number">
+            <input name="system.stacksize" type="text" value="{{system.stacksize}}" placeholder="{{localize "COG.placeholders.stacksize"}}" data-dtype="Number">
         </div>
     </div>
 {{/if}}

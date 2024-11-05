@@ -1,44 +1,44 @@
 <div class="flexrow table-header init-header no-wrap">
     <div class="flex2 center">
-        <div class="field-label ellipsis">{{ localize 'COC.attributes.initiative.label' }}</div>
+        <div class="field-label ellipsis">{{ localize 'COG.attributes.initiative.label' }}</div>
     </div>
     <div class="flex1 center">
-        <div class="field-label">{{ localize 'COC.attributes.base.abbrev' }}</div>
+        <div class="field-label">{{ localize 'COG.attributes.base.abbrev' }}</div>
     </div>
     <div class="flex1 center">
-        <div class="field-label">{{ localize 'COC.attributes.bonus.abbrev' }}</div>
+        <div class="field-label">{{ localize 'COG.attributes.bonus.abbrev' }}</div>
     </div>
     {{#unless (equals actor.type "encounter")}}
     <div class="flex1 center">
-        <div class="field-label">{{ localize 'COC.attributes.penalty.abbrev' }}</div>
+        <div class="field-label">{{ localize 'COG.attributes.penalty.abbrev' }}</div>
     </div>
     {{/unless}}
     <div class="flex1 center">
-        <div class="field-label">{{ localize 'COC.attributes.value.abbrev' }}</div>
+        <div class="field-label">{{ localize 'COG.attributes.value.abbrev' }}</div>
     </div>
 </div>
 <div class="flexrow no-wrap init">
     <div class="flex2 center cell-header">
-        <span class="field-label ellipsis"><i class="fas fa-bolt"></i>&nbsp;{{ localize 'COC.attributes.init.abbrev' }}</span>
+        <span class="field-label ellipsis"><i class="fas fa-bolt"></i>&nbsp;{{ localize 'COG.attributes.init.abbrev' }}</span>
     </div>
     {{#if (equals actor.type "npc")}}
         <div class="flex1 center cell">
-            <input class="field-value" name="system.attributes.init.base" type="text" value="{{actor.system.attributes.init.base}}" placeholder="{{ localize 'COC.attributes.base.abbrev' }}" data-dtype="Number"/>
+            <input class="field-value" name="system.attributes.init.base" type="text" value="{{actor.system.attributes.init.base}}" placeholder="{{ localize 'COG.attributes.base.abbrev' }}" data-dtype="Number"/>
         </div>
     {{else}}
         <div class="flex1 center cell">
-            <input class="field-value" name="system.attributes.init.base" type="text" value="{{actor.system.attributes.init.base}}" placeholder="{{ localize 'COC.attributes.base.abbrev' }}" data-dtype="Number"/>
+            <input class="field-value" name="system.attributes.init.base" type="text" value="{{actor.system.attributes.init.base}}" placeholder="{{ localize 'COG.attributes.base.abbrev' }}" data-dtype="Number"/>
         </div>
     {{/if}}
     <div class="flex1 center cell">
-        <input class="field-value" name="system.attributes.init.bonus" type="text" value="{{actor.system.attributes.init.bonus}}" placeholder="{{ localize 'COC.attributes.bonus.abbrev' }}" data-dtype="Number"/>
+        <input class="field-value" name="system.attributes.init.bonus" type="text" value="{{actor.system.attributes.init.bonus}}" placeholder="{{ localize 'COG.attributes.bonus.abbrev' }}" data-dtype="Number"/>
     </div>
     {{#unless (equals actor.type "encounter")}}
     <div class="flex1 center cell readonly">
-        <input class="field-value" name="system.attributes.init.penalty" readonly="true" type="text" value="{{actor.system.attributes.init.penalty}}" placeholder="{{ localize 'COC.attributes.penalty.abbrev' }}" data-dtype="Number"/>
+        <input class="field-value" name="system.attributes.init.penalty" readonly="true" type="text" value="{{actor.system.attributes.init.penalty}}" placeholder="{{ localize 'COG.attributes.penalty.abbrev' }}" data-dtype="Number"/>
     </div>
     {{/unless}}
     <div class="flex1 center cell readonly">
-        <input class="field-value" name="system.attributes.init.value" readonly="true" type="text" value="{{actor.system.attributes.init.value}}" placeholder="{{ localize 'COC.attributes.value.abbrev' }}" data-dtype="Number"/>
+        <input class="field-value" name="system.attributes.init.value" readonly="true" type="text" value="{{actor.system.attributes.init.value}}" placeholder="{{ localize 'COG.attributes.value.abbrev' }}" data-dtype="Number"/>
     </div>
 </div>

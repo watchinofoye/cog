@@ -8,47 +8,47 @@
     </div>
 </div>
 
-{{> "systems/coc/templates/items/parts/details/setting-details.hbs"}}
+{{> "systems/cog/templates/items/parts/details/setting-details.hbs"}}
 
 <div class="form-group stacked">
     <label>Traits</label>
     <div class="form-fields">
         <label class="checkbox">
-            <input type="checkbox" name="system.properties.equipment" {{checked system.properties.equipment}}> {{localize "COC.properties.equipment"}}
+            <input type="checkbox" name="system.properties.equipment" {{checked system.properties.equipment}}> {{localize "COG.properties.equipment"}}
         </label>
         <label class="checkbox">
-            <input type="checkbox" name="system.properties.weapon" {{checked system.properties.weapon}}> {{localize "COC.properties.weapon"}}
+            <input type="checkbox" name="system.properties.weapon" {{checked system.properties.weapon}}> {{localize "COG.properties.weapon"}}
         </label>
         <label class="checkbox">
-            <input type="checkbox" name="system.properties.protection" {{checked system.properties.protection}}> {{localize "COC.properties.protection"}}
+            <input type="checkbox" name="system.properties.protection" {{checked system.properties.protection}}> {{localize "COG.properties.protection"}}
         </label>
         <label class="checkbox">
-            <input type="checkbox" name="system.properties.ranged" {{checked system.properties.ranged}}> {{localize "COC.properties.ranged"}}
+            <input type="checkbox" name="system.properties.ranged" {{checked system.properties.ranged}}> {{localize "COG.properties.ranged"}}
         </label>
         <label class="checkbox">
-            <input type="checkbox" name="system.properties.effects" {{checked system.properties.effects}}> {{localize "COC.properties.effects"}}
+            <input type="checkbox" name="system.properties.effects" {{checked system.properties.effects}}> {{localize "COG.properties.effects"}}
         </label>
     </div>
 </div>
 
 {{#if system.properties.equipment}}
-    {{> "systems/coc/templates/items/parts/details/equipment-details.hbs"}}
+    {{> "systems/cog/templates/items/parts/details/equipment-details.hbs"}}
 {{/if}}
 {{#if system.properties.weapon}}
-    {{> "systems/coc/templates/items/parts/details/weapon-details.hbs"}}
+    {{> "systems/cog/templates/items/parts/details/weapon-details.hbs"}}
 {{/if}}
 {{#if system.properties.protection}}
-    {{> "systems/coc/templates/items/parts/details/protection-details.hbs"}}
+    {{> "systems/cog/templates/items/parts/details/protection-details.hbs"}}
 {{/if}}
 {{#if system.properties.ranged}}
-    {{> "systems/coc/templates/items/parts/details/ranged-details.hbs"}}
+    {{> "systems/cog/templates/items/parts/details/ranged-details.hbs"}}
 {{/if}}
 {{#if system.properties.effects}}
-    {{> "systems/coc/templates/items/parts/details/effects-details.hbs"}}
+    {{> "systems/cog/templates/items/parts/details/effects-details.hbs"}}
 {{/if}}
 {{#if system.properties.spell}}
-    {{> "systems/coc/templates/items/parts/details/spell-details.hbs"}}
+    {{> "systems/cog/templates/items/parts/details/spell-details.hbs"}}
 {{/if}}
 {{#if actor}}
-    {{> "systems/coc/templates/items/parts/details/usage-details.hbs"}}
+    {{> "systems/cog/templates/items/parts/details/usage-details.hbs"}}
 {{/if}}

@@ -2,7 +2,7 @@ _id: 8ur7UAbZhB4tVdKr
 name: Endurant
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.1_12.png
+img: systems/cog/ui/icons/Icon.1_12.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -22,7 +22,7 @@ system:
     re&ccedil;oit un bonus de +5 &agrave; tous les tests de fatigue (course,
     marche, apn&eacute;e, etc.) et de r&eacute;sistance aux privations (sommeil,
     nourriture, etc.).</span></p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: trait-endurant
   setting: base
   moduleData: {}

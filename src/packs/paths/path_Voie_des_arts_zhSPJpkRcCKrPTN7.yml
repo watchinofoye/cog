@@ -1,7 +1,7 @@
 _id: zhSPJpkRcCKrPTN7
 name: Voie des arts
 type: path
-img: systems/coc/ui/icons/Icon.3_39.png
+img: systems/cog/ui/icons/Icon.3_39.png
 effects: []
 folder: null
 sort: 0
@@ -40,7 +40,7 @@ system:
     </div>
 
     </div>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-voie-des-arts
   setting: base
   moduleData: {}
@@ -48,28 +48,28 @@ system:
     - name: Formation artistique
       type: capacity
       _id: pRpt6lOT1a1GklZB
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.pRpt6lOT1a1GklZB
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.pRpt6lOT1a1GklZB
     - name: Inspiration
       type: capacity
       _id: IA5z0muhMZZFm44j
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.IA5z0muhMZZFm44j
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.IA5z0muhMZZFm44j
     - name: Imprévisible
       type: capacity
       _id: 4yMMErywDuPf1xf4
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.4yMMErywDuPf1xf4
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.4yMMErywDuPf1xf4
     - name: Riche
       type: capacity
       _id: Wjycfkda3Jk3gyHm
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.Wjycfkda3Jk3gyHm
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.Wjycfkda3Jk3gyHm
     - name: Célèbre
       type: capacity
       _id: LSgoCrV3nkWJXM2H
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.LSgoCrV3nkWJXM2H
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.LSgoCrV3nkWJXM2H
   properties:
     profile: true
     prestige: false

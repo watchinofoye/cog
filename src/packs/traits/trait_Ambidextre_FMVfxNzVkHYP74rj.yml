@@ -2,7 +2,7 @@ _id: FMVfxNzVkHYP74rj
 name: Ambidextre
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.1_12.png
+img: systems/cog/ui/icons/Icon.1_12.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -22,7 +22,7 @@ system:
     peut utiliser indiff&eacute;remment sa main gauche ou sa main droite sans
     p&eacute;nalit&eacute;. Lorsqu&rsquo;il utilise une arme dans chaque main,
     il re&ccedil;oit un bonus de +1 en attaque.</span></p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: trait-ambidextre
   setting: base
   moduleData: {}

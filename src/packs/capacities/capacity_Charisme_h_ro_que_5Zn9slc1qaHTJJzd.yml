@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.oGpwygIqk3ZBkugA
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -23,7 +23,7 @@ system:
     <p>Le personnage augmente sa valeur de CHA de +2 et il peut d&eacute;sormais
     lancer deux d20 &agrave; chaque fois qu&rsquo;un test de CHA lui est
     demand&eacute; et conserver le meilleur r&eacute;sultat.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-charisme-heroique
   setting: base
   moduleData: {}

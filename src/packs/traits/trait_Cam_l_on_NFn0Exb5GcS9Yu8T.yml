@@ -2,7 +2,7 @@ _id: NFn0Exb5GcS9Yu8T
 name: Caméléon
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.7_20.png
+img: systems/cog/ui/icons/Icon.7_20.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -23,7 +23,7 @@ system:
     faire passer pour quelqu&rsquo;un d&rsquo;autre (ou pour un
     repr&eacute;sentant d&rsquo;une autre profession), ainsi qu&rsquo;aux tests
     de discr&eacute;tion.</span></p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: trait-cameleon
   setting: base
   moduleData: {}

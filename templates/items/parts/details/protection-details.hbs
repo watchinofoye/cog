@@ -1,22 +1,22 @@
 <h3 class="form-header">Protection</h3>
 <div class="form-group">
-    <label>{{localize "COC.ui.defBase"}}</label>
+    <label>{{localize "COG.ui.defBase"}}</label>
     <div class="form-fields">
         {{#if (isNull system.defBase)}}
-            <input name="system.defBase" type="text" value="" placeholder="{{localize "COC.ui.defBase"}}" data-dtype="Number">
+            <input name="system.defBase" type="text" value="" placeholder="{{localize "COG.ui.defBase"}}" data-dtype="Number">
         {{else}}
-            <input name="system.defBase" type="text" value="{{numberFormat system.defBase decimals=0 sign=true}}" placeholder="{{localize "COC.ui.defBase"}}" data-dtype="Number">
+            <input name="system.defBase" type="text" value="{{numberFormat system.defBase decimals=0 sign=true}}" placeholder="{{localize "COG.ui.defBase"}}" data-dtype="Number">
         {{/if}}
     </div>
 </div>
 
 <div class="form-group">
-    <label>{{localize "COC.ui.defBonus"}}</label>
+    <label>{{localize "COG.ui.defBonus"}}</label>
     <div class="form-fields">
         {{#if (isNull system.defBonus)}}
-            <input name="system.defBonus" type="text" value="" placeholder="{{localize "COC.ui.defBonus"}}" data-dtype="Number">
+            <input name="system.defBonus" type="text" value="" placeholder="{{localize "COG.ui.defBonus"}}" data-dtype="Number">
         {{else}}
-            <input name="system.defBonus" type="text" value="{{numberFormat system.defBonus decimals=0 sign=true}}" placeholder="{{localize "COC.ui.defBonus"}}" data-dtype="Number">
+            <input name="system.defBonus" type="text" value="{{numberFormat system.defBonus decimals=0 sign=true}}" placeholder="{{localize "COG.ui.defBonus"}}" data-dtype="Number">
         {{/if}}
     </div>
 </div>
@@ -30,9 +30,9 @@
 </div>
 {{#if system.properties.dr}}
 <div class="form-group">
-    <label>{{localize "COC.attributes.dr.label"}}</label>
+    <label>{{localize "COG.attributes.dr.label"}}</label>
     <div class="form-fields">
-        <input name="system.dr" type="text" value="{{system.dr}}" placeholder="COC.attributes.dr.abbrev" data-dtype="Number">
+        <input name="system.dr" type="text" value="{{system.dr}}" placeholder="COG.attributes.dr.abbrev" data-dtype="Number">
     </div>
 </div>
 {{/if}}

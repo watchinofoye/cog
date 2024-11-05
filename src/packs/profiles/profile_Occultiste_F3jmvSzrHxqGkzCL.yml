@@ -1,7 +1,7 @@
 _id: F3jmvSzrHxqGkzCL
 name: Occultiste
 type: profile
-img: systems/coc/ui/icons/Icon.6_16.png
+img: systems/cog/ui/icons/Icon.6_16.png
 effects: []
 folder: null
 sort: 0
@@ -76,17 +76,17 @@ system:
     - name: Voie de l'investigation
       type: path
       _id: jKsHMEaZF5MTL4iF
-      img: systems/coc/ui/icons/Icon.4_68.png
-      sourceId: Compendium.coc.paths.jKsHMEaZF5MTL4iF
+      img: systems/cog/ui/icons/Icon.4_68.png
+      sourceId: Compendium.cog.paths.jKsHMEaZF5MTL4iF
     - name: Voie des voyages
       type: path
       _id: m8psb2pbkDNSJ5YS
-      img: systems/coc/ui/icons/Icon.6_43.png
-      sourceId: Compendium.coc.paths.m8psb2pbkDNSJ5YS
+      img: systems/cog/ui/icons/Icon.6_43.png
+      sourceId: Compendium.cog.paths.m8psb2pbkDNSJ5YS
     - name: Voie de l'occulte
       type: path
       _id: jhw3iOYQhrz8pILM
-      img: systems/coc/ui/icons/Icon.6_55.png
-      sourceId: Compendium.coc.paths.jhw3iOYQhrz8pILM
+      img: systems/cog/ui/icons/Icon.6_55.png
+      sourceId: Compendium.cog.paths.jhw3iOYQhrz8pILM
 _key: '!items!F3jmvSzrHxqGkzCL'
 

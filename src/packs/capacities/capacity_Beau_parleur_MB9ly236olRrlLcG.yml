@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.c3mdtNorJuWDu6is
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -23,7 +23,7 @@ system:
     <p>Le personnage sait convaincre, s&eacute;duire ou mentir. Il gagne un
     bonus de +1 par rang atteint dans cette voie aux tests de CHA ou d&rsquo;INT
     en rapport avec ce type d&rsquo;actions.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-beau-parleur
   setting: base
   moduleData: {}

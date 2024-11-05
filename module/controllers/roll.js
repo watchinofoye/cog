@@ -5,7 +5,7 @@ import { CocHealingRoll } from "./healing-roll.js";
 
 export class CoCRoll {
     static options() {
-        return { classes: ["coc", "dialog"] };
+        return { classes: ["cog", "dialog"] };
     }
 
     /**
@@ -93,7 +93,7 @@ export class CoCRoll {
         const actorData = actor;
 
         return Dialog.confirm({
-            title: game.i18n.format("COC.dialog.rollHitPoints.title"),
+            title: game.i18n.format("COG.dialog.rollHitPoints.title"),
             content: `<p>Êtes-vous sûr de vouloir remplacer les points de vie de <strong>${actor.name}</strong></p>`,
             yes: async () => {
                 if (actorData.system.attributes.hd && actorData.system.attributes.hd.value) {
@@ -212,9 +212,9 @@ export class CoCRoll {
     /* -------------------------------------------- */
 
     static async skillRollDialog(actor, label, mod, bonus, malus, critrange, superior = false, onEnter = "submit", description, weakened = false) {
-        const rollOptionTpl = 'systems/coc/templates/dialogs/skillroll-dialog.hbs';
+        const rollOptionTpl = 'systems/cog/templates/dialogs/skillroll-dialog.hbs';
         let diff = null;
-        const displayDifficulty = game.settings.get("coc", "displayDifficulty");
+        const displayDifficulty = game.settings.get("cog", "displayDifficulty");
         if ( displayDifficulty !== "none" && game.user.targets.size > 0) {
             diff = [...game.user.targets][0].actor.system.attributes.def.value;
         }
@@ -237,13 +237,13 @@ export class CoCRoll {
             buttons: {
                 cancel: {
                     icon: '<i class="fas fa-times"></i>',
-                    label: game.i18n.localize("COC.ui.cancel"),
+                    label: game.i18n.localize("COG.ui.cancel"),
                     callback: () => {
                     }
                 },
                 submit: {
                     icon: '<i class="fas fa-check"></i>',
-                    label: game.i18n.localize("COC.ui.submit"),
+                    label: game.i18n.localize("COG.ui.submit"),
                     callback: (html) => {
                         const dice = html.find("#dice").val();
                         const difficulty = html.find('#difficulty').val();
@@ -275,7 +275,7 @@ export class CoCRoll {
      * @returns 
      */
      static async rollWeaponDialog(actor, label, mod, bonus, malus, critrange, dmgFormula, dmgBonus, onEnter = "submit", skillDescr, dmgDescr, difficulty = null, weakened = false) {
-        const rollOptionTpl = 'systems/coc/templates/dialogs/roll-weapon-dialog.hbs';
+        const rollOptionTpl = 'systems/cog/templates/dialogs/roll-weapon-dialog.hbs';
         let diff = null;
         let isDifficultyDisplayed = true;
 
@@ -283,7 +283,7 @@ export class CoCRoll {
             diff = difficulty;
         }
         else {
-            const displayDifficulty = game.settings.get("coc", "displayDifficulty");
+            const displayDifficulty = game.settings.get("cog", "displayDifficulty");
             if ( displayDifficulty !== "none" && game.user.targets.size > 0) {
                 diff = [...game.user.targets][0].actor.system.attributes.def.value;
             }
@@ -307,18 +307,18 @@ export class CoCRoll {
         });
 
         let d = new Dialog({
-            title: label && label.length > 0 ? label : game.i18n.format("COC.dialog.rollWeapon.title"),
+            title: label && label.length > 0 ? label : game.i18n.format("COG.dialog.rollWeapon.title"),
             content: rollOptionContent,
             buttons: {
                 cancel: {
                     icon: '<i class="fas fa-times"></i>',
-                    label: game.i18n.localize("COC.ui.cancel"),
+                    label: game.i18n.localize("COG.ui.cancel"),
                     callback: () => {
                     }
                 },
                 submit: {
                     icon: '<i class="fas fa-check"></i>',
-                    label: game.i18n.localize("COC.ui.submit"),
+                    label: game.i18n.localize("COG.ui.submit"),
                     callback: (html) => {
                         const dice = html.find("#dice").val();
                         const diff = html.find('#difficulty').val();
@@ -329,7 +329,7 @@ export class CoCRoll {
                         if (!malus) malus = 0;
 
                         // Jet d'attaque uniquement
-                        if(!game.settings.get("coc", "useComboRolls")) {
+                        if(!game.settings.get("cog", "useComboRolls")) {
                             let r = new SkillRoll(label, dice, mod, bonus, malus, diff, critrange, skillDescr);
                             r.weaponRoll(actor, "", dmgDescr);
                         }
@@ -369,7 +369,7 @@ export class CoCRoll {
     }
 
     static async rollDamageDialog(actor, label, formula, bonus, critical = false, onEnter = "submit", dmgDescr) {
-        const rollOptionTpl = 'systems/coc/templates/dialogs/roll-dmg-dialog.hbs';
+        const rollOptionTpl = 'systems/cog/templates/dialogs/roll-dmg-dialog.hbs';
         const rollOptionContent = await renderTemplate(rollOptionTpl, {
             dmgFormula: formula,
             dmgBonus: bonus,
@@ -380,18 +380,18 @@ export class CoCRoll {
         });
 
         let d = new Dialog({
-            title: label && label.length > 0 ? label : game.i18n.format("COC.dialog.rollDamage.title"),
+            title: label && label.length > 0 ? label : game.i18n.format("COG.dialog.rollDamage.title"),
             content: rollOptionContent,
             buttons: {
                 cancel: {
                     icon: '<i class="fas fa-times"></i>',
-                    label: game.i18n.localize("COC.ui.cancel"),
+                    label: game.i18n.localize("COG.ui.cancel"),
                     callback: () => {
                     }
                 },
                 submit: {
                     icon: '<i class="fas fa-check"></i>',
-                    label: game.i18n.localize("COC.ui.submit"),
+                    label: game.i18n.localize("COG.ui.submit"),
                     callback: (html) => {
                         let dmgBonus = html.find("#dmgBonus").val();
                         let dmgCustomFormula = html.find("#dmgCustomFormula").val();
@@ -450,7 +450,7 @@ export class CoCRoll {
         else {
 
         Dialog.confirm({
-                title: game.i18n.format("COC.dialog.spendRecoveryPoint.title"),
+                title: game.i18n.format("COG.dialog.spendRecoveryPoint.title"),
                 content: `<p>Êtes-vous sûr de vouloir dépenser 1 point de récupération ?`,
                 yes: async () => {
                         hp.value = hp.max;

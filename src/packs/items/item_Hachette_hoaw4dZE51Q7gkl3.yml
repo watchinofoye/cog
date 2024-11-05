@@ -4,7 +4,7 @@ type: item
 flags:
   core:
     sourceId: Item.rgLEgQA79Yjd8i5o
-img: systems/coc/ui/icons/svg/fire-axe.svg
+img: systems/cog/ui/icons/svg/fire-axe.svg
 effects: []
 _stats:
   coreVersion: '12.324'

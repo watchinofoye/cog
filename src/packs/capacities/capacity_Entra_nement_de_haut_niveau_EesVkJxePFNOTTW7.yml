@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.0AiJNgCFthf5CG7a
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -24,7 +24,7 @@ system:
     caract&eacute;ristique choisie au rang 2. D&eacute;sormais, il lance deux
     d20 &agrave; tous les tests bas&eacute;s sur cette caract&eacute;ristique et
     conserve le meilleur r&eacute;sultat.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-entrainement-de-haut-niveau
   setting: base
   moduleData: {}

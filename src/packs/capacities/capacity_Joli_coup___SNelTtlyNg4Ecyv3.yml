@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.DlFm5KD5L94XAx5K
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -23,7 +23,7 @@ system:
     <p>Le personnage ignore les p&eacute;nalit&eacute;s normalement
     appliqu&eacute;es lorsque la cible est &agrave; couvert ou engag&eacute;e au
     corps-&agrave;-corps (g&eacute;n&eacute;ralement -2 &agrave; -5).</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-joli-coup-
   setting: base
   moduleData: {}

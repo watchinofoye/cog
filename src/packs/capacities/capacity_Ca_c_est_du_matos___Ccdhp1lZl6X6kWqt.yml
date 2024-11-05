@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.tEq73WRuWPL7Cnv9
-img: systems/coc/ui/icons/Icon.3_37.png
+img: systems/cog/ui/icons/Icon.3_37.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -26,7 +26,7 @@ system:
     r&eacute;cup&eacute;rer imm&eacute;diatement 2d6 PV. Enfin, il peut
     d&eacute;penser 1 point de transport pour obtenir une r&eacute;ussite
     critique sur un test de conduite une fois par poursuite.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: zombis-ca-cest-du-matos-
   setting: zombis
   moduleData: {}

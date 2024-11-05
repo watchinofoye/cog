@@ -2,7 +2,7 @@ _id: m5MVzB8Y7Pi2ApNm
 name: Énorme
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.1_12.png
+img: systems/cog/ui/icons/Icon.1_12.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -22,7 +22,7 @@ system:
     peut utiliser qu&rsquo;une seule action de mouvement pour se d&eacute;placer
     &agrave; chaque tour. En revanche, il obtient un bonus de +2 aux tests de
     FOR et aux DM au contact.</span></p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: trait-enorme
   setting: base
   moduleData: {}

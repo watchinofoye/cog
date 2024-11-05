@@ -3,7 +3,7 @@
         <!-- NAME -->
         <div class="flexrow">
             <div class="flex1 center cell-header">
-                <span class="field-label">{{ localize 'COC.details.name' }}</span>
+                <span class="field-label">{{ localize 'COG.details.name' }}</span>
             </div>
             <div class="flex2 center cell">
                 <input class="name" name="name" type="text" value="{{actor.name}}" placeholder="Name" data-dtype="String"/>
@@ -14,7 +14,7 @@
         {{#if (isNotLimited @root)}}
             <div class="flexrow">
                 <div class="flex1 center cell-header">
-                    <span class="field-label">{{ localize 'COC.attributes.level.label' }}</span>
+                    <span class="field-label">{{ localize 'COG.attributes.level.label' }}</span>
                 </div>
                 <div class="flex2 center cell">
                     <input class="level" name="system.level.value" type="text" value="{{actor.system.level.value}}" placeholder="Level" data-dtype="Number"/>
@@ -30,11 +30,11 @@
                 <div class="flex1 center cell-header">
                     <span class="field-label">Trait</span>
                 </div>
-                <div class="flex2 center cell drop-field coc-compendium-pack item" data-item-id="{{trait._id}}" data-pack="coc.traits" data-open="0" title="{{ localize 'COC.details.openTrait' }}">
+                <div class="flex2 center cell drop-field cog-compendium-pack item" data-item-id="{{trait._id}}" data-pack="cog.traits" data-open="0" title="{{ localize 'COG.details.openTrait' }}">
                     {{#with trait}}
                         <div class="flex5 drop-item item-name item trait item-edit" data-item-id="{{_id}}" style="background-image: url('{{img}}'); background-size: 26px 26px; background-repeat: no-repeat">{{name}}</div>
                         <div class="item" data-item-id="{{_id}}" style="padding-right:5px;">
-                            <a class="item-control item-delete" title='{{localize "COC.ui.deleteItem"}}'><i class="fas fa-times"></i></a>
+                            <a class="item-control item-delete" title='{{localize "COG.ui.deleteItem"}}'><i class="fas fa-times"></i></a>
                         </div>
                     {{/with}}
                 </div>
@@ -43,13 +43,13 @@
             <!-- PROFILE -->
             <div class="flexrow">
                 <div class="flex2 center cell-header">
-                    <span class="field-label">{{ localize 'COC.details.profile' }}</span>
+                    <span class="field-label">{{ localize 'COG.details.profile' }}</span>
                 </div>
-                <div class="flex4 center cell drop-field coc-compendium-pack item" data-item-id="{{profile._id}}" data-pack="coc.profiles" data-open="0" title="{{ localize 'COC.details.openProfile' }}">
+                <div class="flex4 center cell drop-field cog-compendium-pack item" data-item-id="{{profile._id}}" data-pack="cog.profiles" data-open="0" title="{{ localize 'COG.details.openProfile' }}">
                 {{#with profile}}
                     <div class="flex5 drop-item item-name item profile item-edit" data-item-id="{{_id}}" style="background-image: url('{{img}}'); background-size: 26px 26px; background-repeat: no-repeat">{{name}}</div>
                     <div class="item" data-item-id="{{_id}}" style="padding-right:5px;">
-                    <a class="item-control item-delete" title='{{localize "COC.ui.deleteItem"}}'><i class="fas fa-times"></i></a>
+                    <a class="item-control item-delete" title='{{localize "COG.ui.deleteItem"}}'><i class="fas fa-times"></i></a>
                 </div>
                 {{/with}}
                 </div>

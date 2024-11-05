@@ -1,7 +1,7 @@
 _id: 415P4oWcA5Mzwhca
 name: Voie de la survie
 type: path
-img: systems/coc/ui/icons/Icon.5_64.png
+img: systems/cog/ui/icons/Icon.5_64.png
 effects: []
 folder: null
 sort: 0
@@ -40,7 +40,7 @@ system:
     </div>
 
     </div>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-voie-de-la-survie
   setting: base
   moduleData: {}
@@ -48,28 +48,28 @@ system:
     - name: Ami de la nature
       type: capacity
       _id: ZrWNVPtQCum7FEzw
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.ZrWNVPtQCum7FEzw
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.ZrWNVPtQCum7FEzw
     - name: Endurant
       type: capacity
       _id: 0dh0PPnO5HlbajfW
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.0dh0PPnO5HlbajfW
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.0dh0PPnO5HlbajfW
     - name: Milieux extrêmes
       type: capacity
       _id: rpgGIuTI6F5Cyei6
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.rpgGIuTI6F5Cyei6
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.rpgGIuTI6F5Cyei6
     - name: Guide
       type: capacity
       _id: ci0qUUQGm8I8j8yP
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.ci0qUUQGm8I8j8yP
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.ci0qUUQGm8I8j8yP
     - name: Survivant
       type: capacity
       _id: ddi8g8gEAKQm2OXv
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.ddi8g8gEAKQm2OXv
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.ddi8g8gEAKQm2OXv
   properties:
     profile: true
     prestige: false

@@ -2,7 +2,7 @@ _id: JDquPPV1qHg6SLlz
 name: Oeil de lynx
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.1_12.png
+img: systems/cog/ui/icons/Icon.1_12.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -22,7 +22,7 @@ system:
     gagne un bonus de +5 aux tests d&rsquo;acuit&eacute; visuelle et la
     port&eacute;e des armes &agrave; feu qu&rsquo;il utilise est
     augment&eacute;e de 10 m&egrave;tres.</span></p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: trait-oeil-de-lynx
   setting: base
   moduleData: {}

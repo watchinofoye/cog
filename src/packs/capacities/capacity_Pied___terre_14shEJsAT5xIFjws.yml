@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.CpDQafa0tIy5igJE
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -28,7 +28,7 @@ system:
     tout l&rsquo;&eacute;quipement disponible dans ce type de local, y compris
     de l&rsquo;armement ou d&rsquo;autres produits &eacute;ventuellement
     ill&eacute;gaux (&agrave; la discr&eacute;tion du MJ).</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-pied-a-terre
   setting: base
   moduleData: {}

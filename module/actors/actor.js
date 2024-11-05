@@ -3,7 +3,7 @@
  * @extends {Actor}
  */
 import { Stats } from "../system/stats.js";
-import { COC } from "../system/config.js";
+import { COG } from "../system/config.js";
 import { Macros } from "../system/macros.js";
 
 export class CoCActor extends Actor {
@@ -16,10 +16,10 @@ export class CoCActor extends Actor {
     constructor(...args) {
         let data = args[0];
 
-        if (!data.img && COC.actorIcons[data.type]) {
-            data.img = COC.actorIcons[data.type];
+        if (!data.img && COG.actorIcons[data.type]) {
+            data.img = COG.actorIcons[data.type];
             if (!data.token) data.token = {};
-            if (!data.token.img) data.token.img = COC.actorIcons[data.type];
+            if (!data.token.img) data.token.img = COG.actorIcons[data.type];
         }
         super(...args);
     }
@@ -179,7 +179,7 @@ export class CoCActor extends Actor {
      * @returns true si l'active Effect Affaibli (radiation) et Immobilisé (restrain) est actif
      */
     get isWeakened() {
-        return this.getFlag("coc", "weakened");
+        return this.getFlag("cog", "weakened");
     }
 
     /**
@@ -402,7 +402,7 @@ export class CoCActor extends Actor {
             itemData.system.worn = !itemData.system.worn;
 
             return item.update(itemData).then((item) => {
-                if (game.settings.get("coc", "useActionSound")) foundry.utils.AudioHelper.play({ src: "/systems/coc/sounds/sword.mp3", volume: 0.8, autoplay: true, loop: false }, false);
+                if (game.settings.get("cog", "useActionSound")) foundry.utils.AudioHelper.play({ src: "/systems/cog/sounds/sword.mp3", volume: 0.8, autoplay: true, loop: false }, false);
                 if (!bypassChecks) this.syncItemActiveEffects(item);
             });
         }
@@ -415,21 +415,21 @@ export class CoCActor extends Actor {
      */
     canEquipItem(item, bypassChecks) {
         if (!this.items.some(it => it.id === item.id)) {
-            ui.notifications.warn(game.i18n.format('COC.notification.MacroItemMissing', { item: item.name }));
+            ui.notifications.warn(game.i18n.format('COG.notification.MacroItemMissing', { item: item.name }));
             return false;
         }
         let itemData = item.system;
         if (!itemData?.properties.equipment || !itemData?.properties.equipable) {
-            ui.notifications.warn(game.i18n.format("COC.notification.ItemNotEquipable", { itemName: item.name }));
+            ui.notifications.warn(game.i18n.format("COG.notification.ItemNotEquipable", { itemName: item.name }));
             return;
         }
 
         if (!this._hasEnoughFreeHands(item, bypassChecks)) {
-            ui.notifications.warn(game.i18n.localize("COC.notification.NotEnoughFreeHands"));
+            ui.notifications.warn(game.i18n.localize("COG.notification.NotEnoughFreeHands"));
             return false;
         }
         if (!this._isArmorSlotAvailable(item, bypassChecks)) {
-            ui.notifications.warn(game.i18n.localize("COC.notification.ArmorSlotNotAvailable"));
+            ui.notifications.warn(game.i18n.localize("COG.notification.ArmorSlotNotAvailable"));
             return false;
         }
 
@@ -444,7 +444,7 @@ export class CoCActor extends Actor {
       */
     _hasEnoughFreeHands(item, bypassChecks) {
         // Si le contrôle de mains libres n'est pas demandé, on renvoi Vrai
-        let checkFreehands = game.settings.get("coc", "checkFreeHandsBeforeEquip");
+        let checkFreehands = game.settings.get("cog", "checkFreeHandsBeforeEquip");
         if (!checkFreehands || checkFreehands === "none") return true;
 
         // Si le contrôle est ignoré ponctuellement avec la touche MAJ, on renvoi Vrai
@@ -475,7 +475,7 @@ export class CoCActor extends Actor {
      */
     _isArmorSlotAvailable(item, bypassChecks) {
         // Si le contrôle de disponibilité de l'emplacement d'armure n'est pas demandé, on renvoi Vrai
-        let checkArmorSlotAvailability = game.settings.get("coc", "checkArmorSlotAvailability");
+        let checkArmorSlotAvailability = game.settings.get("cog", "checkArmorSlotAvailability");
         if (!checkArmorSlotAvailability || checkArmorSlotAvailability === "none") return true;
 
         // Si le contrôle est ignoré ponctuellement avec la touche MAJ, on renvoi Vrai
@@ -512,10 +512,10 @@ export class CoCActor extends Actor {
         if (consumable && quantity > 0) {
             let itemData = foundry.utils.duplicate(item);
             itemData.system.qty = (itemData.system.qty > 0) ? itemData.system.qty - 1 : 0;
-            if (game.settings.get("coc", "useActionSound")) foundry.utils.AudioHelper.play({ src: "/systems/coc/sounds/gulp.mp3", volume: 0.8, autoplay: true, loop: false }, false);
+            if (game.settings.get("cog", "useActionSound")) foundry.utils.AudioHelper.play({ src: "/systems/cog/sounds/gulp.mp3", volume: 0.8, autoplay: true, loop: false }, false);
             return item.update(itemData).then(item => item.applyEffects(this));
         }
-        return ui.notifications.warn(game.i18n.localize("COC.notification.ConsumeEmptyObject"));
+        return ui.notifications.warn(game.i18n.localize("COG.notification.ConsumeEmptyObject"));
     }
 
     /**
@@ -528,7 +528,7 @@ export class CoCActor extends Actor {
      *
      */
     computeBaseFP(charismeMod, profile) {
-        if (game.settings.get("coc", "settingCyberpunk")) {
+        if (game.settings.get("cog", "settingCyberpunk")) {
             return 3 + charismeMod;
         }
         else {

@@ -5,10 +5,10 @@ flags:
     sourceId: Macro.syndOiDCJ4SfRQpL
 scope: global
 command: |-
-  const actor = game.coc.macros.getSpeakersActor();
-  game.coc.macros.rollStatMacro(actor, "dex");
+  const actor = game.cog.macros.getSpeakersActor();
+  game.cog.macros.rollStatMacro(actor, "dex");
 author: 9RNwlVuBKg8gXYwl
-img: systems/coc/ui/macros/icons/DEX.png
+img: systems/cog/ui/macros/icons/DEX.png
 _id: jJcFS5dSOXSYifjB
 _stats:
   coreVersion: '12.324'

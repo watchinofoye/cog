@@ -1,7 +1,7 @@
 _id: OAcjLfargsHguV26
 name: Voie du leader
 type: path
-img: systems/coc/ui/icons/Icon.3_51.png
+img: systems/cog/ui/icons/Icon.3_51.png
 effects: []
 folder: null
 sort: 0
@@ -34,7 +34,7 @@ system:
     leader peut &ecirc;tre un humaniste qui essaye de cr&eacute;er une
     soci&eacute;t&eacute; utopiste parfaite, tout comme il peut &ecirc;tre un
     tyran qui profite de son pouvoir pour asservir.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: zombis-voie-du-leader
   setting: zombis
   moduleData: {}
@@ -42,28 +42,28 @@ system:
     - name: L'homme providentiel
       type: capacity
       _id: EzVqFbNs3uTJDUIM
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.EzVqFbNs3uTJDUIM
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.EzVqFbNs3uTJDUIM
     - name: Chef de guerre
       type: capacity
       _id: R9eirN9Gm5L5BDfi
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.R9eirN9Gm5L5BDfi
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.R9eirN9Gm5L5BDfi
     - name: Quadriller le secteur
       type: capacity
       _id: 7b9Dqan8KckizLi9
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.7b9Dqan8KckizLi9
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.7b9Dqan8KckizLi9
     - name: À mon commandement
       type: capacity
       _id: U1SSIQ377ru92FFO
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.U1SSIQ377ru92FFO
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.U1SSIQ377ru92FFO
     - name: Gestionnaire avisé
       type: capacity
       _id: AWZdwbak1DNMwr7r
-      img: systems/coc/ui/icons/Icon.3_37.png
-      sourceId: Compendium.coc.capacities.AWZdwbak1DNMwr7r
+      img: systems/cog/ui/icons/Icon.3_37.png
+      sourceId: Compendium.cog.capacities.AWZdwbak1DNMwr7r
   properties:
     profile: true
     prestige: false

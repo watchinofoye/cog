@@ -2,7 +2,7 @@ _id: XISQ9rkEH7zoW8kY
 name: Teigneux
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.1_12.png
+img: systems/cog/ui/icons/Icon.1_12.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -21,7 +21,7 @@ system:
     <p><span style="color: #191813; background-color: #d3d3d3;">Le personnage
     re&ccedil;oit un bonus de +1 en attaque et aux DM lorsque ses PV tombent
     en-dessous de la moiti&eacute; de son score maximum.</span></p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: trait-teigneux
   setting: base
   moduleData: {}

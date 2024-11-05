@@ -1,7 +1,7 @@
 export const System = {};
 
-System.label = "Chroniques Oubliées Contemporain";
-System.name = "coc";
+System.label = "Chroniques Oubliées Galactiques";
+System.name = "cog";
 System.rootPath = "/systems/" + System.name;
 System.dataPath = System.rootPath + "/data";
 System.templatesPath = System.rootPath + "/templates";
@@ -18,116 +18,116 @@ System.ASCII = `
  //******  //*******   //******
   //////    ///////     ////// `;
 
-export const COC = {};
+export const COG = {};
 
-COC.stats = {
-    "str": "COC.stats.str.label",
-    "dex": "COC.stats.dex.label",
-    "con": "COC.stats.con.label",
-    "int": "COC.stats.int.label",
-    "wis": "COC.stats.wis.label",
-    "cha": "COC.stats.cha.label"
+COG.stats = {
+    "str": "COG.stats.str.label",
+    "dex": "COG.stats.dex.label",
+    "con": "COG.stats.con.label",
+    "int": "COG.stats.int.label",
+    "wis": "COG.stats.wis.label",
+    "cha": "COG.stats.cha.label"
 };
 
-COC.skills = {
-    "melee": "COC.attacks.melee.label",
-    "ranged": "COC.attacks.ranged.label",
-    "magic": "COC.attacks.magic.label"
+COG.skills = {
+    "melee": "COG.attacks.melee.label",
+    "ranged": "COG.attacks.ranged.label",
+    "magic": "COG.attacks.magic.label"
 };
 
-COC.statAbbreviations = {
-    "str": "COC.stats.str.abbrev",
-    "dex": "COC.stats.dex.abbrev",
-    "con": "COC.stats.con.abbrev",
-    "int": "COC.stats.int.abbrev",
-    "wis": "COC.stats.wis.abbrev",
-    "cha": "COC.stats.cha.abbrev"
+COG.statAbbreviations = {
+    "str": "COG.stats.str.abbrev",
+    "dex": "COG.stats.dex.abbrev",
+    "con": "COG.stats.con.abbrev",
+    "int": "COG.stats.int.abbrev",
+    "wis": "COG.stats.wis.abbrev",
+    "cha": "COG.stats.cha.abbrev"
 };
 
-COC.itemProperties = {
-    "equipable": "COC.properties.equipable",
-    "stackable": "COC.properties.stackable",
-    "unique": "COC.properties.unique",
-    "ranged": "COC.properties.ranged",
-    "proficient": "COC.properties.proficient",
-    "finesse": "COC.properties.finesse",
-    "two-handed": "COC.properties.two-handed",
-    "equipment": "COC.properties.equipment",
-    "weapon": "COC.properties.weapon",
-    "protection": "COC.properties.protection",
-    "reloadable": "COC.properties.reloadable",
-    "bow": "COC.properties.bow",
-    "crossbow": "COC.properties.crossbow",
-    "powder": "COC.properties.powder",
-    "throwing": "COC.properties.throwing",
-    "dr": "COC.properties.dr",
-    "sneak": "COC.properties.sneak",
-    "powerful": "COC.properties.powerful",
-    "critscience": "COC.properties.critscience",
-    "specialization": "COC.properties.specialization",
-    "effects": "COC.properties.effects",
-    "activable": "COC.properties.activable",
-    "2H": "COC.properties.2H",
-    "13strmin": "COC.properties.13strmin",
-    "bashing": "COC.properties.bashing",
-    "sling": "COC.properties.sling",
-    "spell": "COC.properties.spell",
-    "profile": "COC.properties.profile",
-    "prestige": "COC.properties.prestige",
-    "alternative": "COC.properties.alternative",
-    "racial": "COC.properties.racial",
-    "creature": "COC.properties.creature",
-    "proneshot": "COC.properties.proneshot",
-    "salve": "COC.properties.salve",
-    "explosive": "COC.properties.explosive"
+COG.itemProperties = {
+    "equipable": "COG.properties.equipable",
+    "stackable": "COG.properties.stackable",
+    "unique": "COG.properties.unique",
+    "ranged": "COG.properties.ranged",
+    "proficient": "COG.properties.proficient",
+    "finesse": "COG.properties.finesse",
+    "two-handed": "COG.properties.two-handed",
+    "equipment": "COG.properties.equipment",
+    "weapon": "COG.properties.weapon",
+    "protection": "COG.properties.protection",
+    "reloadable": "COG.properties.reloadable",
+    "bow": "COG.properties.bow",
+    "crossbow": "COG.properties.crossbow",
+    "powder": "COG.properties.powder",
+    "throwing": "COG.properties.throwing",
+    "dr": "COG.properties.dr",
+    "sneak": "COG.properties.sneak",
+    "powerful": "COG.properties.powerful",
+    "critscience": "COG.properties.critscience",
+    "specialization": "COG.properties.specialization",
+    "effects": "COG.properties.effects",
+    "activable": "COG.properties.activable",
+    "2H": "COG.properties.2H",
+    "13strmin": "COG.properties.13strmin",
+    "bashing": "COG.properties.bashing",
+    "sling": "COG.properties.sling",
+    "spell": "COG.properties.spell",
+    "profile": "COG.properties.profile",
+    "prestige": "COG.properties.prestige",
+    "alternative": "COG.properties.alternative",
+    "racial": "COG.properties.racial",
+    "creature": "COG.properties.creature",
+    "proneshot": "COG.properties.proneshot",
+    "salve": "COG.properties.salve",
+    "explosive": "COG.properties.explosive"
 };
 
-COC.itemSlots = {
-    hand: "COC.slot.hand",
-    head: "COC.slot.head",
-    ear: "COC.slot.ear",
-    neck: "COC.slot.neck",
-    shoulders: "COC.slot.shoulders",
-    chest: "COC.slot.chest",
-    back: "COC.slot.back",
-    arm: "COC.slot.arm",
-    finger: "COC.slot.finger",
-    wrist: "COC.slot.wrist",
-    waist: "COC.slot.waist",
-    legs: "COC.slot.legs",
-    feet: "COC.slot.feet",
-    belt: "COC.slot.belt",
-    backpack: "COC.slot.backpack",
-    quiver: "COC.slot.quiver"
+COG.itemSlots = {
+    hand: "COG.slot.hand",
+    head: "COG.slot.head",
+    ear: "COG.slot.ear",
+    neck: "COG.slot.neck",
+    shoulders: "COG.slot.shoulders",
+    chest: "COG.slot.chest",
+    back: "COG.slot.back",
+    arm: "COG.slot.arm",
+    finger: "COG.slot.finger",
+    wrist: "COG.slot.wrist",
+    waist: "COG.slot.waist",
+    legs: "COG.slot.legs",
+    feet: "COG.slot.feet",
+    belt: "COG.slot.belt",
+    backpack: "COG.slot.backpack",
+    quiver: "COG.slot.quiver"
 };
 
-COC.itemTypes = {
-    "profile": "COC.category.profile",
-    "capacity": "COC.category.capacity",
-    "path": "COC.category.path",
-    "trait": "COC.category.trait",
-    "item": "COC.category.item",
-    "encounterWeapon": "COC.category.encounterWeapon"
+COG.itemTypes = {
+    "profile": "COG.category.profile",
+    "capacity": "COG.category.capacity",
+    "path": "COG.category.path",
+    "trait": "COG.category.trait",
+    "item": "COG.category.item",
+    "encounterWeapon": "COG.category.encounterWeapon"
 };
 
-COC.itemCategories = {
-    "armor": "COC.category.armor",
-    "shield": "COC.category.shield",
-    "melee": "COC.category.melee",
-    "ranged": "COC.category.ranged",
-    "spell": "COC.category.spell",
-    "currency": "COC.category.currency",
-    "jewel": "COC.category.jewel",
-    "ammunition": "COC.category.ammunition",
-    "consumable": "COC.category.consumable",
-    "container": "COC.category.container",
-    "mount": "COC.category.mount",
-    "vehicle": "COC.category.vehicle",
-    "trapping": "COC.category.trapping",
-    "other": "COC.category.other"
+COG.itemCategories = {
+    "armor": "COG.category.armor",
+    "shield": "COG.category.shield",
+    "melee": "COG.category.melee",
+    "ranged": "COG.category.ranged",
+    "spell": "COG.category.spell",
+    "currency": "COG.category.currency",
+    "jewel": "COG.category.jewel",
+    "ammunition": "COG.category.ammunition",
+    "consumable": "COG.category.consumable",
+    "container": "COG.category.container",
+    "mount": "COG.category.mount",
+    "vehicle": "COG.category.vehicle",
+    "trapping": "COG.category.trapping",
+    "other": "COG.category.other"
 }
 
-COC.itemIcons = {
+COG.itemIcons = {
     "item": "icons/svg/tankard.svg",
     "capacity": "icons/svg/wing.svg",
     "profile": "icons/svg/statue.svg",
@@ -136,12 +136,12 @@ COC.itemIcons = {
     "encounterWeapon": "icons/svg/pawprint.svg"
 }
 
-COC.actorIcons = {
+COG.actorIcons = {
     "npc": "icons/svg/angel.svg",
     "encounter": "icons/svg/terror.svg"
 }
 
-COC.actorsAllowedItems = {
+COG.actorsAllowedItems = {
     "character": [
         "item",
         "capacity",
@@ -163,54 +163,54 @@ COC.actorsAllowedItems = {
     ]
 }
 
-COC.debug = false;
+COG.debug = false;
 
 /**
  * Creature sizes.
  * @enum {string}
  */
-COC.actorSizes = {
-    tiny: "COC.encounter.size.tiny",
-    small: "COC.encounter.size.small",
-    short: "COC.encounter.size.short",
-    med: "COC.encounter.size.medium",
-    big: "COC.encounter.size.big",
-    huge: "COC.encounter.size.huge",
-    colossal: "COC.encounter.size.colossal"
+COG.actorSizes = {
+    tiny: "COG.encounter.size.tiny",
+    small: "COG.encounter.size.small",
+    short: "COG.encounter.size.short",
+    med: "COG.encounter.size.medium",
+    big: "COG.encounter.size.big",
+    huge: "COG.encounter.size.huge",
+    colossal: "COG.encounter.size.colossal"
 };
 
 /**
  * Encounter archetype.
  * @enum {string}
  */
-COC.encounterArchetypes = {
-    standard: "COC.encounter.archetype.standard",
-    rapide: "COC.encounter.archetype.rapide",
-    puissant: "COC.encounter.archetype.puissant",
-    inférieur: "COC.encounter.archetype.inférieur"
+COG.encounterArchetypes = {
+    standard: "COG.encounter.archetype.standard",
+    rapide: "COG.encounter.archetype.rapide",
+    puissant: "COG.encounter.archetype.puissant",
+    inférieur: "COG.encounter.archetype.inférieur"
 };
 /**
  * Encounter category.
  * @enum {string}
  */
-COC.encounterCategories = {
-    vivante: "COC.encounter.category.vivante",
-    humanoïde: "COC.encounter.category.humanoïde",
-    "non-vivante": "COC.encounter.category.non-vivante"
+COG.encounterCategories = {
+    vivante: "COG.encounter.category.vivante",
+    humanoïde: "COG.encounter.category.humanoïde",
+    "non-vivante": "COG.encounter.category.non-vivante"
 };
 
 /**
  * Encounter Boss Rank.
  * @enum {string}
  */
-COC.encounterBossRanks = {
-    "1": "COC.encounter.boss.rank.endurci",
-    "2": "COC.encounter.boss.rank.expert",
-    "3": "COC.encounter.boss.rank.elite",
-    "4": "COC.encounter.boss.rank.legendaire"
+COG.encounterBossRanks = {
+    "1": "COG.encounter.boss.rank.endurci",
+    "2": "COG.encounter.boss.rank.expert",
+    "3": "COG.encounter.boss.rank.elite",
+    "4": "COG.encounter.boss.rank.legendaire"
 };
 
-COC.DICE_VALUES = {
+COG.DICE_VALUES = {
     "1d4": "1d4",
     "1d6": "1d6",
     "1d8": "1d8",
@@ -219,51 +219,51 @@ COC.DICE_VALUES = {
     "1d20": "1d20"
 };
 
-COC.DAMAGE_STAT = {
-    "@stats.str.mod": "COC.stats.str.label",
-    "@stats.dex.mod": "COC.stats.dex.label",
-    "@stats.con.mod": "COC.stats.con.label",
-    "@stats.int.mod": "COC.stats.int.label",
-    "@stats.wis.mod": "COC.stats.wis.label",
-    "@stats.cha.mod": "COC.stats.cha.label"
+COG.DAMAGE_STAT = {
+    "@stats.str.mod": "COG.stats.str.label",
+    "@stats.dex.mod": "COG.stats.dex.label",
+    "@stats.con.mod": "COG.stats.con.label",
+    "@stats.int.mod": "COG.stats.int.label",
+    "@stats.wis.mod": "COG.stats.wis.label",
+    "@stats.cha.mod": "COG.stats.cha.label"
 };
 
-COC.SKILL = {
-    "@attacks.melee.mod": "COC.attacks.melee.label",
-    "@attacks.ranged.mod": "COC.attacks.ranged.label",
-    "@attacks.magic.mod": "COC.attacks.magic.label"
+COG.SKILL = {
+    "@attacks.melee.mod": "COG.attacks.melee.label",
+    "@attacks.ranged.mod": "COG.attacks.ranged.label",
+    "@attacks.magic.mod": "COG.attacks.magic.label"
 };
 
-COC.DURATION = {
-    rounds: "COC.ui.rounds",
-    minutes: "COC.ui.minutes",
-    hours: "COC.ui.hours",
-    days: "COC.ui.days"
+COG.DURATION = {
+    rounds: "COG.ui.rounds",
+    minutes: "COG.ui.minutes",
+    hours: "COG.ui.hours",
+    days: "COG.ui.days"
 };
 
-COC.SPELLCASTING = {
-    "@stats.int.mod": "COC.stats.int.label",
-    "@stats.wis.mod": "COC.stats.wis.label",
-    "@stats.cha.mod": "COC.stats.cha.label"
+COG.SPELLCASTING = {
+    "@stats.int.mod": "COG.stats.int.label",
+    "@stats.wis.mod": "COG.stats.wis.label",
+    "@stats.cha.mod": "COG.stats.cha.label"
 };
 
-COC.FAMILY = {
-    "action": "COC.Family.action",
-    "adventure": "COC.Family.adventure",
-    "reflexion": "COC.Family.reflexion"
+COG.FAMILY = {
+    "action": "COG.Family.action",
+    "adventure": "COG.Family.adventure",
+    "reflexion": "COG.Family.reflexion"
 };
 
-COC.SETTING = {
-    "base": "COC.setting.base",
-    "epouvante": "COC.setting.epouvante",
-    "pulp": "COC.setting.pulp",
-    "zombis": "COC.setting.zombis",
-    "espionnage": "COC.setting.espionnage",
-    "surhumains": "COC.setting.surhumains",
-    "cyberpunk": "COC.setting.cyberpunk"
+COG.SETTING = {
+    "base": "COG.setting.base",
+    "epouvante": "COG.setting.epouvante",
+    "pulp": "COG.setting.pulp",
+    "zombis": "COG.setting.zombis",
+    "espionnage": "COG.setting.espionnage",
+    "surhumains": "COG.setting.surhumains",
+    "cyberpunk": "COG.setting.cyberpunk"
 };
 
-COC.RELOAD = {
-    s: "COC.ui.simpleAction",
-    l: "COC.ui.limitedAction"
+COG.RELOAD = {
+    s: "COG.ui.simpleAction",
+    l: "COG.ui.limitedAction"
 };

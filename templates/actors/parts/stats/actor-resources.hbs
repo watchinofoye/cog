@@ -1,18 +1,18 @@
 <div class="flexrow table-header resources-header no-wrap">
     <div class="flex8 center">
-        <div class="field-label ellipsis">{{ localize 'COC.attributes.resources.label' }}</div>
+        <div class="field-label ellipsis">{{ localize 'COG.attributes.resources.label' }}</div>
     </div>
     <div class="flex3 center">
-        <div class="field-label">{{ localize 'COC.ui.base' }}</div>
+        <div class="field-label">{{ localize 'COG.ui.base' }}</div>
     </div>
     <div class="flex3 center">
-        <div class="field-label">{{ localize 'COC.ui.bonus' }}</div>
+        <div class="field-label">{{ localize 'COG.ui.bonus' }}</div>
     </div>
     <div class="flex3 center">
-        <div class="field-label">{{ localize 'COC.ui.max' }}</div>
+        <div class="field-label">{{ localize 'COG.ui.max' }}</div>
     </div>
     <div class="flex3 center">
-        <div class="field-label">{{ localize 'COC.ui.current' }}</div>
+        <div class="field-label">{{ localize 'COG.ui.current' }}</div>
     </div>
 </div>
 {{#if (isEnabled "useFortune")}}
@@ -37,7 +37,7 @@
 {{#if (isEnabled "useMana")}}
 <div class="flexrow no-wrap resources mana">
     <div class="flex8 center cell-header">
-        <span class="field-label ellipsis"><i class="fas fa-hand-sparkles"></i>&nbsp;{{ localize 'COC.attributes.mp.abbrev' }}</span>
+        <span class="field-label ellipsis"><i class="fas fa-hand-sparkles"></i>&nbsp;{{ localize 'COG.attributes.mp.abbrev' }}</span>
     </div>
     <div class="flex3 center cell">
         <input class="field-value" name="system.attributes.mp.base" type="text" value="{{actor.system.attributes.mp.base}}" placeholder="Base" data-dtype="Number"/>

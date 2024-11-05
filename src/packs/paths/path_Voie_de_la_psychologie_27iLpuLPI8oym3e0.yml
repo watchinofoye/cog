@@ -1,7 +1,7 @@
 _id: 27iLpuLPI8oym3e0
 name: Voie de la psychologie
 type: path
-img: systems/coc/ui/icons/Icons8_03.png
+img: systems/cog/ui/icons/Icons8_03.png
 effects: []
 folder: null
 sort: 0
@@ -31,7 +31,7 @@ system:
     </div>
     </div>
     </div>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-voie-de-la-psychologie
   setting: base
   moduleData: {}
@@ -39,28 +39,28 @@ system:
     - name: A l'écoute
       type: capacity
       _id: KAX125HdxHZiuVJb
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.KAX125HdxHZiuVJb
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.KAX125HdxHZiuVJb
     - name: Mental d'acier
       type: capacity
       _id: FXtXP1QaLYcfzTsz
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.FXtXP1QaLYcfzTsz
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.FXtXP1QaLYcfzTsz
     - name: Intervention psychologique
       type: capacity
       _id: XZxjflgQXZp2iM8Y
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.XZxjflgQXZp2iM8Y
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.XZxjflgQXZp2iM8Y
     - name: Examen psychologique
       type: capacity
       _id: yzpnfRsWFlzV2T2T
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.yzpnfRsWFlzV2T2T
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.yzpnfRsWFlzV2T2T
     - name: Intuition héroïque
       type: capacity
       _id: 5UlzP5VDwtaHkymr
-      img: systems/coc/ui/icons/Icon.4_81.png
-      sourceId: Compendium.coc.capacities.5UlzP5VDwtaHkymr
+      img: systems/cog/ui/icons/Icon.4_81.png
+      sourceId: Compendium.cog.capacities.5UlzP5VDwtaHkymr
   properties:
     profile: true
     prestige: false

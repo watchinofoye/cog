@@ -1,5 +1,5 @@
 /**
- * Modifie l'ordre des statuts pour mettre ceux de COC en premier et en vert
+ * Modifie l'ordre des statuts pour mettre ceux de COG en premier et en vert
  */
 export function customizeStatusEffects() {
     /// Parcours des modifications
@@ -26,11 +26,11 @@ export function customizeStatusEffects() {
 }
 
 /**
- * Modificateurs des différents status de COC
+ * Modificateurs des différents status de COG
  */
 export const EffectsModifications = {     
     "prone":{
-        label:"COC.CustomStatus.prone",
+        label:"COG.CustomStatus.prone",
         changes:[
 			{
 				key: "data.attacks.melee.bonus",
@@ -58,7 +58,7 @@ export const EffectsModifications = {
 		]
     },
     "blind":{
-        label:"COC.CustomStatus.blind",
+        label:"COG.CustomStatus.blind",
         changes:[
 			{
 				key: "data.attacks.melee.bonus",
@@ -86,7 +86,7 @@ export const EffectsModifications = {
 		]        
     },
     "stun":{
-        label:"COC.CustomStatus.stun",
+        label:"COG.CustomStatus.stun",
         changes:[
 			{
 				key: "data.attributes.def.bonus",
@@ -96,27 +96,27 @@ export const EffectsModifications = {
 		]        
     },
     "downgrade":{
-        label:"COC.CustomStatus.weak",
+        label:"COG.CustomStatus.weak",
 		changes:[
 			{
-				key: "flags.coc.weakened",
+				key: "flags.cog.weakened",
 				mode: 5,
 				value: "true"
 			}
 		] 
     },
     "restrain":{
-        label:"COC.CustomStatus.restrain",
+        label:"COG.CustomStatus.restrain",
 		changes:[
 			{
-				key: "flags.coc.weakened",
+				key: "flags.cog.weakened",
 				mode: 5,
 				value: "true"
 			}
 		]        
     },
 	"dead":{
-		label:"COC.CustomStatus.dead",
+		label:"COG.CustomStatus.dead",
         changes:[
 			{
 				key: "data.attributes.hp.value",

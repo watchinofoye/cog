@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.jx6vYd2S2QMM2YNG
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -25,7 +25,7 @@ system:
     plus, il obtient un bonus suppl&eacute;mentaire de +5 pour tous les tests en
     rapport avec une forme d&rsquo;art de son choix (litt&eacute;rature,
     sculpture, peinture, musique, chant, danse, etc.)</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-formation-artistique
   setting: base
   moduleData: {}

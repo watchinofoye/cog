@@ -4,7 +4,7 @@ type: item
 flags:
   core:
     sourceId: Item.AGCZw4sLnhg8tcp9
-img: systems/coc/ui/icons/svg/dynamite.svg
+img: systems/cog/ui/icons/svg/dynamite.svg
 effects: []
 _stats:
   coreVersion: '12.324'

@@ -1,26 +1,26 @@
 {{#if isCritical}}
-<h2 class="damage"><i class="fas fa-tint"></i><i class="fas fa-tint"></i>&nbsp;{{localize "COC.roll.criticalDmg"}} !</h2>
+<h2 class="damage"><i class="fas fa-tint"></i><i class="fas fa-tint"></i>&nbsp;{{localize "COG.roll.criticalDmg"}} !</h2>
 {{else}}
-<h2 class="damage"><i class="fas fa-tint"></i>&nbsp;{{localize "COC.roll.dmg"}}</h2>
+<h2 class="damage"><i class="fas fa-tint"></i>&nbsp;{{localize "COG.roll.dmg"}}</h2>
 {{/if}}
 <div class="flexrow">
     <div class="flex1 no-wrap">
         <h3><strong>{{label}}</strong></h3>
     </div>
     <div class="flex1 right no-wrap">
-        <label for="dr" class="dr-checkbox">{{localize "COC.ui.dr.abbrev"}}</label>
+        <label for="dr" class="dr-checkbox">{{localize "COG.ui.dr.abbrev"}}</label>
         <input type="checkbox" id="dr" name="dr" class="dr-checkbox">            
         <a class="btn apply-dmg" data-apply="full">
-            <i class="fas fa-user-minus" title="{{localize "COC.ui.applyDamage"}}"></i>
+            <i class="fas fa-user-minus" title="{{localize "COG.ui.applyDamage"}}"></i>
         </a>
         <a class="btn apply-dmg" data-apply="half">
-            <i class="fas fa-user-shield" title="{{localize "COC.ui.applyHalfDamage"}}"></i>
+            <i class="fas fa-user-shield" title="{{localize "COG.ui.applyHalfDamage"}}"></i>
         </a>
         <a class="btn apply-dmg" data-apply="double">
-            <i class="fas fa-user-injured" title="{{localize "COC.ui.applyDoubleDamage"}}"></i>
+            <i class="fas fa-user-injured" title="{{localize "COG.ui.applyDoubleDamage"}}"></i>
         </a>
         <a class="btn apply-dmg" data-apply="heal">
-            <i class="fas fa-user-plus" title="{{localize "COC.ui.applyHealing"}}"></i>
+            <i class="fas fa-user-plus" title="{{localize "COG.ui.applyHealing"}}"></i>
         </a>
     </div>
 </div>

@@ -3,7 +3,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.72PCJM9WGBbUOk95
-img: systems/coc/ui/icons/Icon.3_37.png
+img: systems/cog/ui/icons/Icon.3_37.png
 effects: []
 _id: V0Wa1A5yLMKdl5LY
 _stats:
@@ -23,7 +23,7 @@ system:
     <p>L&rsquo;&eacute;claireur obtient un bonus de +1 aux tests de
     discr&eacute;tion et de perception par rang atteint dans la voie
     lorsqu&rsquo;il s&rsquo;agit de zombies.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: zombis-radar-a-zombies
   setting: zombis
   moduleData: {}

@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.Fq3PIZJoJqVusZP4
-img: systems/coc/ui/icons/Icon.3_37.png
+img: systems/cog/ui/icons/Icon.3_37.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -25,7 +25,7 @@ system:
     contre ce zombie. De plus, il ne tombe &agrave; court de munition que sur un
     r&eacute;sultat de 1 au d20 lorsqu&rsquo;il tire sur un adversaire au
     contact d&rsquo;un compagnon.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: zombis-loyaute-indefectible
   setting: zombis
   moduleData: {}

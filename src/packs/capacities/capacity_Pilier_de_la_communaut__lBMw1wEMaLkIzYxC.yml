@@ -3,7 +3,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.Wi2lptMzPi2MqNdw
-img: systems/coc/ui/icons/Icon.3_37.png
+img: systems/cog/ui/icons/Icon.3_37.png
 effects: []
 _id: lBMw1wEMaLkIzYxC
 _stats:
@@ -27,7 +27,7 @@ system:
     &agrave; perdre ses propres PV. Les PV temporaires ne peuvent &ecirc;tre
     utilis&eacute;s que pour encaisser des DM provoqu&eacute;s par des
     zombies.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: zombis-pilier-de-la-communaute
   setting: zombis
   moduleData: {}

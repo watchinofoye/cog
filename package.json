@@ -1,7 +1,7 @@
 {
-  "name": "coc",
+  "name": "cog",
   "version": "1.0.0",
-  "description": "CSS compiler for the Chroniques Oubliées Contemporain system",
+  "description": "CSS compiler for the Chroniques Oubliées Galactiques system",
   "scripts": {
     "css": "gulp css",
     "watch": "gulp",
@@ -12,7 +12,7 @@
   "browserslist": [
     "last 3 versions"
   ],
-  "author": "Zigmund",
+  "author": "Watchinofoye",
   "license": "MIT",
   "private": true,
   "dependencies": {

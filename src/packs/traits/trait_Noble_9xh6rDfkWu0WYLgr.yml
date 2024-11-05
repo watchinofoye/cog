@@ -2,7 +2,7 @@ _id: 9xh6rDfkWu0WYLgr
 name: Noble
 type: trait
 flags: {}
-img: systems/coc/ui/icons/Icon.7_20.png
+img: systems/cog/ui/icons/Icon.7_20.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -22,7 +22,7 @@ system:
     poss&egrave;de un titre de noblesse mineur, ou est issu de
     l&rsquo;aristocratie. Il gagne un bonus de +5 aux tests de CHA aupr&egrave;s
     des membres de la haute soci&eacute;t&eacute;.</span></p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: trait-noble
   setting: base
   moduleData: {}

@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.vcGfya3Ynn2PitW4
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -24,7 +24,7 @@ system:
     bat contre plusieurs adversaires. Il obtient un bonus de +2 en attaque et en
     DEF lorsque plusieurs adversaires l&rsquo;attaquent au cours du m&ecirc;me
     tour.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-seul-contre-tous
   setting: base
   moduleData: {}

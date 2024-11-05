@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.41EG3GRY6rlk9mAw
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -29,7 +29,7 @@ system:
     &agrave; son Mod. d&rsquo;INT. Chaque point de tactique peut &ecirc;tre
     d&eacute;pens&eacute; pour relancer un d&eacute; dont le r&eacute;sultat ne
     convient pas au joueur.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-tacticien
   setting: base
   moduleData: {}

@@ -3,7 +3,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.Gyl7Zq7ZeC13KpXa
-img: systems/coc/ui/icons/Icon.3_37.png
+img: systems/cog/ui/icons/Icon.3_37.png
 effects: []
 _id: eHp6NHWZQJfWEGUl
 _stats:
@@ -23,7 +23,7 @@ system:
     <p>L&rsquo;&eacute;claireur obtient un bonus de +1 en DEF par rang contre
     toutes les attaques des zombies. Il obtient la moiti&eacute; de ce bonus
     contre toutes les autres attaques (arrondi au sup&eacute;rieur).</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: zombis-insaisissable
   setting: zombis
   moduleData: {}

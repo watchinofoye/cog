@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.vpHe9NjWG3EKMSbm
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -30,7 +30,7 @@ system:
     th&eacute;ologie, etc. Au rang 4, le personnage fait l&rsquo;acquisition
     d&rsquo;une seconde sp&eacute;cialit&eacute; en rapport avec les aventures
     d&eacute;j&agrave; jou&eacute;es.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-expertise
   setting: base
   moduleData: {}

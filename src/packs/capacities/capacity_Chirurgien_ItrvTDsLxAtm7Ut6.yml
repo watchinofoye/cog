@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.UKTLhztUPsOcwcoV
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -26,7 +26,7 @@ system:
     blessure grave en r&eacute;ussissant un test de DEX de difficult&eacute; 15.
     Si une nouvelle blessure grave survient, elle ne peut plus &ecirc;tre
     trait&eacute;e de la sorte.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-chirurgien
   setting: base
   moduleData: {}

@@ -4,7 +4,7 @@ type: item
 flags:
   core:
     sourceId: Item.0WGi9HHw8EB9NWGV
-img: systems/coc/ui/icons/svg/claw-hammer.svg
+img: systems/cog/ui/icons/svg/claw-hammer.svg
 effects: []
 _stats:
   coreVersion: '12.324'

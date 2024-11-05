@@ -4,7 +4,7 @@ type: capacity
 flags:
   core:
     sourceId: Item.q6sl1dzz2MMYnbOz
-img: systems/coc/ui/icons/Icon.4_81.png
+img: systems/cog/ui/icons/Icon.4_81.png
 effects: []
 _stats:
   coreVersion: '12.324'
@@ -25,7 +25,7 @@ system:
     plus, il ne subit pas de malus en attaque lorsqu&rsquo;il se trouve en
     &eacute;quilibre pr&eacute;caire et r&eacute;duit tous les DM des chutes du
     rang atteint dans cette voie.</p>
-  source: Chroniques Oubliées Contemporain
+  source: Chroniques Oubliées Galactiques
   key: base-acrobate
   setting: base
   moduleData: {}
