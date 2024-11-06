@@ -87,9 +87,6 @@ export class CoGActor extends Actor {
      * @param {*} actorData
      */
     _prepareDerivedCharacterData(actorData) {
-        if (actorData.type === "npc") this.computeNpcMods(actorData);
-        else this.computeMods(actorData);
-
         this.computeAttributes(actorData);
         this.computeAttacks(actorData);
         this.computeDef(actorData);
@@ -149,29 +146,6 @@ export class CoGActor extends Actor {
     getCurrentXP(items) {
         const capacities = items.filter(i => i.type === "capacity");
         return capacities.map(cap => (cap.system.rank > 2) ? 2 : 1).reduce((acc, curr) => acc + curr, 0);
-    }
-
-    /**
-     *
-     * @param {*} actorData
-     */
-    computeMods(actorData) {
-        let stats = actorData.system.stats;
-        for (const stat of Object.values(stats)) {
-            stat.value = stat.base + stat.bonus;
-            stat.mod = Stats.getModFromStatValue(stat.value);
-        }
-    }
-
-    /**
-     *
-     * @param {*} actorData
-     */
-    computeNpcMods(actorData) {
-        let stats = actorData.system.stats;
-        for (const stat of Object.values(stats)) {
-            stat.value = Stats.getStatValueFromMod(stat.mod);
-        }
     }
 
     /**
