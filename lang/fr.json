@@ -2,7 +2,7 @@
   "ACTOR.TypeCharacter": "Personnage",
   "ACTOR.TypeNpc": "PNJ",
   "ACTOR.TypeEncounter": "Rencontre",
-  "ACTOR.TypeLoot": "Vendeur/COCfre",
+  "ACTOR.TypeLoot": "Vendeur/COGfre",
   "ACTOR.TypeVehicle": "Véhicule",
 
   "ITEM.TypeItem": "Objet",
@@ -17,7 +17,7 @@
       "character": "Personnage",
       "npc": "PNJ",
       "encounter": "Rencontre",
-      "loot": "Vendeur/COCfre",
+      "loot": "Vendeur/COGfre",
       "vehicle": "Véhicule"
     },
     "Item": {

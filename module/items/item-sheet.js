@@ -6,7 +6,7 @@ import { Capacity } from "../controllers/capacity.js";
 import { Path } from "../controllers/path.js";
 import { ArrayUtils } from "../utils/array-utils.js";
 
-export class CoCItemSheet extends ItemSheet {
+export class CoGItemSheet extends ItemSheet {
 
     /** @override */
     static get defaultOptions() {

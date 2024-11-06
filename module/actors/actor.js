@@ -6,7 +6,7 @@ import { Stats } from "../system/stats.js";
 import { COG } from "../system/config.js";
 import { Macros } from "../system/macros.js";
 
-export class CoCActor extends Actor {
+export class CoGActor extends Actor {
 
     /* -------------------------------------------- */
     /*  Constructor                                 */
@@ -524,7 +524,7 @@ export class CoCActor extends Actor {
      * @public
      *
      * @param {Int} charismeMod Modificateur de charisme
-     * @param {CocItem} profile Item de type profile
+     * @param {CogItem} profile Item de type profile
      *
      */
     computeBaseFP(charismeMod, profile) {

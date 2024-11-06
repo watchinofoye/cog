@@ -1,9 +1,9 @@
 import { CharacterGeneration } from "../system/chargen.js";
 import { SkillRoll } from "./skill-roll.js";
 import { DamageRoll } from "./dmg-roll.js";
-import { CocHealingRoll } from "./healing-roll.js";
+import { CogHealingRoll } from "./healing-roll.js";
 
-export class CoCRoll {
+export class CoGRoll {
     static options() {
         return { classes: ["cog", "dialog"] };
     }

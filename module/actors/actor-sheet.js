@@ -2,10 +2,10 @@
  * Extend the basic ActorSheet with some very simple modifications
  * @extends {ActorSheet}
  */
-import { CoCBaseSheet } from "./base-sheet.js";
+import { CoGBaseSheet } from "./base-sheet.js";
 import { COG } from "../system/config.js";
 
-export class CoCActorSheet extends CoCBaseSheet {
+export class CoGActorSheet extends CoGBaseSheet {
 
     /** @override */
     static get defaultOptions() {

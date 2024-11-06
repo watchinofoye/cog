@@ -1,4 +1,4 @@
-export default class CocCombat extends Combat {
+export default class CogCombat extends Combat {
   constructor(data, context) {
     super(data, context);
   }

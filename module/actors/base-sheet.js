@@ -2,14 +2,14 @@
  * Extend the basic ActorSheet with some very simple modifications
  * @extends {ActorSheet}
  */
-import { CoCRoll } from "../controllers/roll.js";
+import { CoGRoll } from "../controllers/roll.js";
 import { Capacity } from "../controllers/capacity.js";
 import { Path } from "../controllers/path.js";
 import { Profile } from "../controllers/profile.js";
 import { ArrayUtils } from "../utils/array-utils.js";
 import { COG } from "../system/config.js";
 
-export class CoCBaseSheet extends ActorSheet {
+export class CoGBaseSheet extends ActorSheet {
   /** @override */
   activateListeners(html) {
     super.activateListeners(html);
@@ -411,26 +411,26 @@ export class CoCBaseSheet extends ActorSheet {
       switch (rolltype) {
         // Spend recovery point without getting hit points
         case "recovery":
-          return CoCRoll.rollRecoveryUse(data.data, this.actor, false);
+          return CoGRoll.rollRecoveryUse(data.data, this.actor, false);
       }
     }
     switch (rolltype) {
       case "skillcheck":
-        return CoCRoll.skillCheck(data.data, this.actor, event);
+        return CoGRoll.skillCheck(data.data, this.actor, event);
       case "weapon":
-        return CoCRoll.rollWeapon(data.data, this.actor, event);
+        return CoGRoll.rollWeapon(data.data, this.actor, event);
       case "damage":
-        return CoCRoll.rollDamage(data.data, this.actor, event);
+        return CoGRoll.rollDamage(data.data, this.actor, event);
       case "encounter-weapon":
-        return CoCRoll.rollEncounterWeapon(data.data, this.actor, event);
+        return CoGRoll.rollEncounterWeapon(data.data, this.actor, event);
       case "encounter-damage":
-        return CoCRoll.rollEncounterDamage(data.data, this.actor, event);
+        return CoGRoll.rollEncounterDamage(data.data, this.actor, event);
       case "hp":
-        return CoCRoll.rollHitPoints(data.data, this.actor, event);
+        return CoGRoll.rollHitPoints(data.data, this.actor, event);
       case "attributes":
-        return CoCRoll.rollAttributes(data.data, this.actor, event);
+        return CoGRoll.rollAttributes(data.data, this.actor, event);
       case "recovery":
-        return CoCRoll.rollRecoveryUse(data.data, this.actor, true);
+        return CoGRoll.rollRecoveryUse(data.data, this.actor, true);
     }
   }
 

@@ -1,6 +1,6 @@
 import { CharacterGeneration } from "./chargen.js";
 import { Hitpoints } from "../controllers/hitpoints.js";
-import { CoCActor } from "../actors/actor.js";
+import { CoGActor } from "../actors/actor.js";
 import { Macros } from "./macros.js";
 
 export default function registerHooks() {
@@ -76,7 +76,7 @@ export default function registerHooks() {
 
 Hooks.on("hotbarDrop", (bar, data, slot) => {
   if (["Actor", "Item", "JournalEntry"].includes(data.type)) {
-    Macros.createCocMacro(data, slot);
+    Macros.createCogMacro(data, slot);
     return false;
   }
 });
@@ -154,7 +154,7 @@ Hooks.on("renderChatMessage", (message, html, data) => {
  */
 Hooks.on("createActiveEffect", (activeEffect) => {
   // Si l'effet ne s'applique pas à un actor, on quitte en laissant l'effet se créer normalement
-  if (!activeEffect.parent instanceof CoCActor) return;
+  if (!activeEffect.parent instanceof CoGActor) return;
 
   let origin = activeEffect.origin;
   // Si l'effet ne provient pas d'un item, on quitte en laissant l'effet se créer normalement

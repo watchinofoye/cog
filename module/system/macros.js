@@ -1,9 +1,9 @@
-import { CoCRoll } from "../controllers/roll.js";
-import { CocHealingRoll } from "../controllers/healing-roll.js";
+import { CoGRoll } from "../controllers/roll.js";
+import { CogHealingRoll } from "../controllers/healing-roll.js";
 import { SkillRoll } from "../controllers/skill-roll.js";
 import { DamageRoll } from "../controllers/dmg-roll.js";
 export class Macros {
-  static createCocMacro = async function (dropData, slot) {
+  static createCogMacro = async function (dropData, slot) {
     // Create item macro if rollable item - weapon, spell, prayer, trait, or skill
     if (dropData.type == "Item") {
       const item = await fromUuid(dropData.uuid);
@@ -153,7 +153,7 @@ export class Macros {
     }
 
     if (dialog) {
-      CoCRoll.skillRollDialog(actor, label && label.length > 0 ? label : game.i18n.localize(statObj.label), mod, bonus, malus, "20", statObj.superior, onEnter, description, actor.isWeakened);
+      CoGRoll.skillRollDialog(actor, label && label.length > 0 ? label : game.i18n.localize(statObj.label), mod, bonus, malus, "20", statObj.superior, onEnter, description, actor.isWeakened);
     } else {
       return new SkillRoll(label && label.length > 0 ? label : game.i18n.localize(statObj.label), dice, "+" + +mod, bonus, malus, difficulty, "20", description).roll();
     }
@@ -209,8 +209,8 @@ export class Macros {
         let dmg = actor.computeDm(itemDmgBase, itemDmgStat, itemDmgBonus);
 
         if (dialog) {
-          if (dmgOnly) CoCRoll.rollDamageDialog(actor, label, dmg, 0, false, "submit", dmgDescr);
-          else CoCRoll.rollWeaponDialog(actor, label, mod, bonus, malus, critrange, dmg, dmgBonus, "submit", skillDescr, dmgDescr);
+          if (dmgOnly) CoGRoll.rollDamageDialog(actor, label, dmg, 0, false, "submit", dmgDescr);
+          else CoGRoll.rollWeaponDialog(actor, label, mod, bonus, malus, critrange, dmg, dmgBonus, "submit", skillDescr, dmgDescr);
         } else {
           let formula = dmgBonus ? dmg + "+" + dmgBonus : dmg;
           if (dmgOnly) new DamageRoll(label, formula, false, dmgDescr).roll();
@@ -225,7 +225,7 @@ export class Macros {
         }
       }
       if (itemData.system.properties.heal) {
-        new CocHealingRoll(itemData.name, itemData.system.effects.heal.formula, false).roll(actor);
+        new CogHealingRoll(itemData.name, itemData.system.effects.heal.formula, false).roll(actor);
       }
     } else {
       return item.sheet.render(true);
@@ -239,7 +239,7 @@ export class Macros {
     // No token selected
     if (actor === undefined) return ui.notifications.error(game.i18n.localize("COG.notification.MacroNoTokenSelected"));
 
-    new CocHealingRoll(label, healFormula, isCritical).roll(actor);
+    new CogHealingRoll(label, healFormula, isCritical).roll(actor);
   };
 
   static rollSkillMacro = async function (label, mod, bonus, malus, critRange, isSuperior = false, description) {
@@ -252,7 +252,7 @@ export class Macros {
 
     let crit = parseInt(critRange);
     crit = !isNaN(crit) ? crit : 20;
-    CoCRoll.skillRollDialog(actor, label, mod, bonus, malus, crit, isSuperior, "submit", description);
+    CoGRoll.skillRollDialog(actor, label, mod, bonus, malus, crit, isSuperior, "submit", description);
   };
 
   static rollDamageMacro = async function (label, dmgFormula, dmgBonus, isCritical, dmgDescr) {
@@ -263,6 +263,6 @@ export class Macros {
     // Aucun acteur cible
     if (actor === undefined) return ui.notifications.error(game.i18n.localize("COG.notification.MacroNoActorAvailable"));
 
-    CoCRoll.rollDamageDialog(actor, label, dmgFormula, dmgBonus, isCritical, "submit", dmgDescr);
+    CoGRoll.rollDamageDialog(actor, label, dmgFormula, dmgBonus, isCritical, "submit", dmgDescr);
   };
 }

@@ -1,7 +1,7 @@
-import { CoCBaseSheet } from "./base-sheet.js";
+import { CoGBaseSheet } from "./base-sheet.js";
 import { COG } from "../system/config.js";
 
-export class CoCNpcSheet extends CoCBaseSheet {
+export class CoGNpcSheet extends CoGBaseSheet {
 
     /** @override */
     static get defaultOptions() {

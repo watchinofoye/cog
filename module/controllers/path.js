@@ -1,5 +1,5 @@
 import { EntitySummary } from "./entity-summary.js";
-import { CoCItem } from "../items/item.js";
+import { CoGItem } from "../items/item.js";
 
 export class Path {
 
@@ -13,7 +13,7 @@ export class Path {
         let items = [];
         pathsData = pathsData instanceof Array ? pathsData : [pathsData];
         pathsData.forEach(p => {
-            let path = p instanceof CoCItem ? p.toObject() : p;
+            let path = p instanceof CoGItem ? p.toObject() : p;
             if (p.system.profile != null) {
                 const profile = p.system.profile;
                 path.system.profile = profile;

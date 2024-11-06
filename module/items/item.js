@@ -2,9 +2,9 @@
  * Extend the basic ItemSheet with some very simple modifications
  * @extends {ItemSheet}
  */
-import { CocHealingRoll } from "../controllers/healing-roll.js";
+import { CogHealingRoll } from "../controllers/healing-roll.js";
 import { COG } from "../system/config.js";
-export class CoCItem extends Item {
+export class CoGItem extends Item {
 
     /* -------------------------------------------- */
     /*  Constructor                                 */
@@ -67,7 +67,7 @@ export class CoCItem extends Item {
 
         if(itemData.system.properties.heal){
             const heal = itemData.system.effects.heal;
-            const r = new CocHealingRoll(itemData.name, heal.formula, false);
+            const r = new CogHealingRoll(itemData.name, heal.formula, false);
             r.roll(actor);
         }
     }

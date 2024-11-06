@@ -1,13 +1,13 @@
 // Import Modules
-import {CoCActor} from "./actors/actor.js";
-import {CoCItem} from "./items/item.js";
+import {CoGActor} from "./actors/actor.js";
+import {CoGItem} from "./items/item.js";
 
-import CocCombat from "./controllers/combat.js";
+import CogCombat from "./controllers/combat.js";
 
-import {CoCActorSheet} from "./actors/actor-sheet.js";
-import {CoCNpcSheet} from "./actors/npc-sheet.js";
-import {CoCEncounterSheet} from "./actors/encounter-sheet.js";
-import {CoCItemSheet} from "./items/item-sheet.js";
+import {CoGActorSheet} from "./actors/actor-sheet.js";
+import {CoGNpcSheet} from "./actors/npc-sheet.js";
+import {CoGEncounterSheet} from "./actors/encounter-sheet.js";
+import {CoGItemSheet} from "./items/item-sheet.js";
 
 import { registerSystemSettings } from "./system/settings.js";
 import {preloadHandlebarsTemplates} from "./system/templates.js";
@@ -47,11 +47,11 @@ Hooks.once("init", function () {
     CONFIG.COG = COG;
 
     // Define custom Entity classes
-    CONFIG.Actor.documentClass = CoCActor;
-    CONFIG.Item.documentClass = CoCItem;
+    CONFIG.Actor.documentClass = CoGActor;
+    CONFIG.Item.documentClass = CoGItem;
 
     // Custom combat for Initiative
-    CONFIG.Combat.documentClass = CocCombat;
+    CONFIG.Combat.documentClass = CogCombat;
 
     // Create a namespace within the game global
     game.cog = {
@@ -64,12 +64,12 @@ Hooks.once("init", function () {
     Items.unregisterSheet("core", ItemSheet, { makeDefault: true });
 
     // Register actor sheets
-    Actors.registerSheet("cog", CoCActorSheet, {types: ["character"], makeDefault: false, label: "COG.sheet.actor"});
-    Actors.registerSheet("cog", CoCNpcSheet, {types: ["npc"], makeDefault: false, label: "COG.sheet.npc"});
-    Actors.registerSheet("cog", CoCEncounterSheet, {types: ["encounter"], makeDefault: false, label: "COG.sheet.encounter"});
+    Actors.registerSheet("cog", CoGActorSheet, {types: ["character"], makeDefault: false, label: "COG.sheet.actor"});
+    Actors.registerSheet("cog", CoGNpcSheet, {types: ["npc"], makeDefault: false, label: "COG.sheet.npc"});
+    Actors.registerSheet("cog", CoGEncounterSheet, {types: ["encounter"], makeDefault: false, label: "COG.sheet.encounter"});
 
     // Register item sheets
-    Items.registerSheet("cog", CoCItemSheet, {types: ["item", "trait", "capacity", "profile", "path", "encounterWeapon"], makeDefault: false, label: "COG.sheet.item"});
+    Items.registerSheet("cog", CoGItemSheet, {types: ["item", "trait", "capacity", "profile", "path", "encounterWeapon"], makeDefault: false, label: "COG.sheet.item"});
 
     // Preload Handlebars Templates
     preloadHandlebarsTemplates();

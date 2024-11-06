@@ -39,8 +39,8 @@ export class Profile {
      * @description Supprime le profil et ses voies de l'acteur en paramètre
      * @public @static
      *
-     * @param {CocActor} actor l'acteur sur lequel supprimer le profil
-     * @param {CocItem} profile l'item profil à supprimer
+     * @param {CogActor} actor l'acteur sur lequel supprimer le profil
+     * @param {CogItem} profile l'item profil à supprimer
      * @returns
      */
     static removeFromActor(actor, profile) {

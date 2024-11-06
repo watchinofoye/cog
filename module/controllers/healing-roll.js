@@ -1,4 +1,4 @@
-export class CocHealingRoll {
+export class CogHealingRoll {
     constructor(label, formula, isCritical, title, showButtons=true){
         this._label = label;
         this._formula = formula;
